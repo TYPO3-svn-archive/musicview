@@ -1,0 +1,192 @@
+page.includeLibs.error = EXT:musicview/userFunc/class.error.php
+
+page.includeLibs.userGetEvents = EXT:musicview/userFunc/class.user_getEvents.php
+page.includeLibs.userGetFriends = EXT:musicview/userFunc/class.user_getFriends.php
+page.includeLibs.userGetLovedTracks = EXT:musicview/userFunc/class.user_getLovedTracks.php
+page.includeLibs.userGetRecentTracks = EXT:musicview/userFunc/class.user_getRecentTracks.php
+page.includeLibs.userGetTopAlbums = EXT:musicview/userFunc/class.user_getTopAlbums.php
+page.includeLibs.userGetTopArtists = EXT:musicview/userFunc/class.user_getTopArtists.php
+page.includeLibs.userGetTopTracks = EXT:musicview/userFunc/class.user_getTopTracks.php
+page.includeLibs.userGetPlaylists = EXT:musicview/userFunc/class.user_getPlaylists.php
+page.includeLibs.userGetWeeklyAlbumChart = EXT:musicview/userFunc/class.user_getWeeklyAlbumChart.php
+page.includeLibs.userGetWeeklyArtistChart = EXT:musicview/userFunc/class.user_getWeeklyArtistChart.php
+page.includeLibs.userGetNeighbours = EXT:musicview/userFunc/class.user_getNeighbours.php
+page.includeLibs.userGetPastEvents = EXT:musicview/userFunc/class.user_getPastEvents.php
+page.includeLibs.userGetWeeklyTrackChart = EXT:musicview/userFunc/class.user_getWeeklyTrackChart.php
+page.includeLibs.userGetTopTags = EXT:musicview/userFunc/class.user_getTopTags.php
+page.includeLibs.userGetWeeklyChartList = EXT:musicview/userFunc/class.user_getWeeklyChartList.php
+
+page.includeLibs.groupGetWeeklyChartList = EXT:musicview/userFunc/class.group_getWeeklyAlbumChart.php
+page.includeLibs.groupGetWeeklyArtistChart = EXT:musicview/userFunc/class.group_getWeeklyArtistChart.php
+page.includeLibs.groupGetWeeklyChartList = EXT:musicview/userFunc/class.group_getWeeklyChartList.php
+page.includeLibs.groupGetWeeklyTrackChart = EXT:musicview/userFunc/class.group_getWeeklyTrackChart.php
+
+plugin.tx_musicview_pi1 {
+
+	error {
+		userFunc = error->userFuncIniTest
+		templateFile = EXT:musicview/res/error.tmpl
+	}
+	
+	user {
+		getEvents {
+			userFunc = user_getEvents->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getEvents.tmpl
+			image {
+				size = medium
+			}
+		}
+		getFriends {
+			userFunc = user_getFriends->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getFriends.tmpl
+			
+			limit = 5
+			random = 1
+			
+			image {
+				size = small
+			}
+		}
+		getLovedTracks {
+			userFunc = user_getLovedTracks->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getLovedTracks.tmpl
+		}
+		getNeighbours {
+			userFunc = user_getNeighbours->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getNeighbours.tmpl
+		}
+		getPastEvents {
+			userFunc = user_getPastEvents->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getPastEvents.tmpl
+			image {
+				size = large
+			}
+		}
+		getPlaylists {
+			userFunc = user_getPlaylists->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getPlaylists.tmpl
+		}
+		getRecentTracks {
+			userFunc = user_getRecentTracks->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getRecentTracks.tmpl
+			
+			image {
+				size = small
+			}
+		}
+		getTopAlbums {
+			userFunc = user_getTopAlbums->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getTopAlbums.tmpl
+			
+			image {
+				size = small
+			}
+		}
+		getTopArtists {
+			userFunc = user_getTopArtists->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getTopArtists.tmpl
+			
+			image {
+				size = small
+			}
+		}
+		getTopTags {
+			userFunc = user_getTopTags->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getTopTags.tmpl
+			
+			classes {
+				1 = user_getTopTags-TABLE-TR-light
+				2 = user_getTopTags-TABLE-TR-lighter
+			}
+		}
+		getTopTracks {
+			userFunc = user_getTopTracks->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getTopTracks.tmpl
+			
+			image {
+				size = small
+			}
+		}
+		getWeeklyAlbumChart {
+			userFunc = user_getWeeklyAlbumChart->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getWeeklyAlbumChart.tmpl
+			
+			cut = 1
+			percentage = 30
+			
+			classes {
+				1 = user_getWeeklyAlbumChart-TABLE-TR-light
+				2 = user_getWeeklyAlbumChart-TABLE-TR-lighter
+			}
+		}
+		getWeeklyArtistChart {
+			userFunc = user_getWeeklyArtistChart->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getWeeklyArtistChart.tmpl
+			
+			cut = 1
+			percentage = 10
+			classes {
+				1 = user_getWeeklyArtistChart-TABLE-TR-light
+				2 = user_getWeeklyArtistChart-TABLE-TR-lighter
+			}
+		}
+		getWeeklyChartList {
+			userFunc = user_getWeeklyChartList->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getWeeklyChartList.tmpl
+		}
+		getWeeklyTrackChart {
+			userFunc = user_getWeeklyTrackChart->userFuncIniTest
+			templateFile = EXT:musicview/res/user.getWeeklyTrackChart.tmpl
+			
+			cut = 1
+			percentage = 10
+			
+			classes {
+				1 = user_getWeeklyTrackChart-TABLE-TR-light
+				2 = user_getWeeklyTrackChart-TABLE-TR-lighter
+			}
+		}
+	}
+	
+	group {
+		getWeeklyAlbumChart {
+			userFunc = group_getWeeklyAlbumChart->userFuncIniTest
+			templateFile = EXT:musicview/res/group.getWeeklyAlbumChart.tmpl
+			
+			cut = 1
+			percentage = 30
+			
+			classes {
+				1 = group_getWeeklyAlbumChart-TABLE-TR-light
+				2 = group_getWeeklyAlbumChart-TABLE-TR-lighter
+			}
+		}
+		getWeeklyArtistChart {
+			userFunc = group_getWeeklyArtistChart->userFuncIniTest
+			templateFile = EXT:musicview/res/group.getWeeklyArtistChart.tmpl
+			
+			cut = 1
+			percentage = 10
+			classes {
+				1 = group_getWeeklyArtistChart-TABLE-TR-light
+				2 = group_getWeeklyArtistChart-TABLE-TR-lighter
+			}
+		}
+		getWeeklyChartList {
+			userFunc = group_getWeeklyChartList->userFuncIniTest
+			templateFile = EXT:musicview/res/group.getWeeklyChartList.tmpl
+		}
+		getWeeklyTrackChart {
+			userFunc = group_getWeeklyTrackChart->userFuncIniTest
+			templateFile = EXT:musicview/res/group.getWeeklyTrackChart.tmpl
+			
+			cut = 1
+			percentage = 10
+			
+			classes {
+				1 = group_getWeeklyTrackChart-TABLE-TR-light
+				2 = group_getWeeklyTrackChart-TABLE-TR-lighter
+			}
+		}
+	}
+}

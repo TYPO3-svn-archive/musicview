@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'musicview'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">Music Overview from Last.fm</label>
+
+			<!-- ###GENERAL_SHEET### begin -->
+			<label index="tt_content.pi_flexform.sheet_general">Account Settings</label>
+			<label index="tt_content.pi_flexform.sheet_general_username">Username (user.*)</label>
+			<label index="tt_content.pi_flexform.sheet_general_password">Password</label>
+			<label index="tt_content.pi_flexform.sheet_general_apikey">API-key (*.*)</label>
+			<label index="tt_content.pi_flexform.sheet_general_apifunc">Select what should be displayed</label>
+			<label index="tt_content.pi_flexform.sheet_general_group">Group name (group.*)</label>
+			<!-- ###GENERAL_SHEET### end -->
+
+			<!-- ###USERAPI_SHEET### begin -->
+			<label index="tt_content.pi_flexform.sheet_user_api">User API</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getEvents">user.getEvents</label>
+
+			<!-- ###user.getFriends### begin -->
+			<!-- old api ?
+			<label index="tt_content.pi_flexform.sheet_user_api_getFriends">user.getFriends: Whether or not to include information about friends' recent listening in the response</label>
+			-->
+			<label index="tt_content.pi_flexform.sheet_user_api_getFriends_recenttracks">user.getFriends: Whether or not to include information about friends' recent listening in the response.</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getFriends_limit">user.getFriends: An integer used to limit the number of friends returned.</label>
+			<!-- ###user.getFriends### end -->
+
+			<label index="tt_content.pi_flexform.sheet_user_api_user.getInfo">user.getInfo: A Last.fm method signature. See authentication for more information.</label>
+
+			<label index="tt_content.pi_flexform.sheet_user_api_getLovedTracks">user.getLovedTracks</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getNeighbours">user.getNeighbours: An integer used to limit the number of neighbours returned</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getPastEvents_page">user.getPastEvents: The page number to scan to</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getPastEvents_limit">user.getPastEvents: The number of events to return per page</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getPlaylists">user.getPlaylists</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getRecentTracks">user.getRecentTracks: An integer used to limit the number of tracks returned</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getTopAlbums">user.getTopAlbums: The time period over which to retrieve top albums for</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getTopArtists">user.getTopArtists: The time period over which to retrieve top artists for</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getTopTags">user.getTopTags: Limit the number of tags returned</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getTopTracks">user.getTopTracks: The time period over which to retrieve top tracks for</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getWeeklyAlbumChart_from">user.getWeeklyAlbumChart: The date at which the chart should start from</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getWeeklyAlbumChart_to">user.getWeeklyAlbumChart: The date at which the chart should end on</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getWeeklyArtistChart_from">user.getWeeklyArtistChart: The date at which the chart should start from</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getWeeklyArtistChart_to">user.getWeeklyArtistChart: The date at which the chart should end on</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getWeeklyChartList">user.getWeeklyChartList</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getWeeklyTrackChart_from">user.getWeeklyTrackChart: The date at which the chart should start from</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_getWeeklyTrackChart_to">user.getWeeklyTrackChart: The date at which the chart should end on</label>
+			<!-- ###USERAPI_SHEET### end -->
+			
+			<!-- ###GROUPAPI_SHEET### begin -->
+			<label index="tt_content.pi_flexform.sheet_group_api">Group API</label>
+			<label index="tt_content.pi_flexform.sheet_group_api_getWeeklyAlbumChart_from">group.getWeeklyAlbumChart: The date at which the chart should start from</label>
+			<label index="tt_content.pi_flexform.sheet_group_api_getWeeklyAlbumChart_to">group.getWeeklyAlbumChart: The date at which the chart should end on</label>
+			<label index="tt_content.pi_flexform.sheet_group_api_getWeeklyArtistChart_from">group.getWeeklyArtistChart: The date at which the chart should start from</label>
+			<label index="tt_content.pi_flexform.sheet_group_api_getWeeklyArtistChart_to">group.getWeeklyArtistChart: The date at which the chart should end on</label>
+			<label index="tt_content.pi_flexform.sheet_group_api_getWeeklyChartList">group.getWeeklyChartList</label>
+			<label index="tt_content.pi_flexform.sheet_group_api_getWeeklyTrackChart_from">group.getWeeklyTrackChart: The date at which the chart should start from</label>
+			<label index="tt_content.pi_flexform.sheet_group_api_getWeeklyTrackChart_to">group.getWeeklyTrackChart: The date at which the chart should end on</label>
+			<!-- ###GROUPAPI_SHEET### end -->
+
+
+			<label index="tt_content.pi_flexform.sheet_display">Display Settings</label>
+			<label index="tt_content.pi_flexform.sheet_error">Error Handling Settings</label>
+			<label index="tt_content.pi_flexform.disable_rte">Disable the Rich Text Editor</label>
+			<label index="tt_content.pi_flexform.show_errors">Show Errors</label>
+			<label index="tt_content.pi_flexform.prepend_text">Text to prepend errors with</label>
+		</languageKey>
+	</data>
+</T3locallang>

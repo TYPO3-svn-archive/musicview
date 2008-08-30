@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_musicview_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index='tx_musicview_pi1_tmpl_error_title'>Error Code:</label>
+			<label index='tx_musicview_pi1_template_not_found'>Error: template file not found</label>
+			<label index='tx_musicview_pi1_conf_not_found'>Error: configuration not found</label>
+			<label index='tx_musicview_pi1_no_userfunc'>No userFunc set</label>
+			
+			<label index='tx_musicview_pi1_tmpl_event_marker_date'>Date: </label>
+			<label index='tx_musicview_pi1_tmpl_event_marker_description'>Description:</label>
+			<label index='tx_musicview_pi1_tmpl_event_marker_artists'>Artists:</label>
+			<label index='tx_musicview_pi1_tmpl_event_marker_headliner'>Headliner:</label>
+
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_lastfmapi_user.getWeeklyAlbumChart'>Weekly album chart</label>
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_lastfmapi_user.getWeeklyArtistChart'>Weekly artist chart</label>
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_lastfmapi_user.getWeeklyTrackChart'>Weekly track chart</label>
+			
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_lastfmapi_group.getWeeklyAlbumChart'>Weekly album chart</label>
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_lastfmapi_group.getWeeklyArtistChart'>Weekly artist chart</label>
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_lastfmapi_group.getWeeklyTrackChart'>Weekly track chart</label>
+
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_form_action_url'></label>
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_form_title'>Chart List Requestor</label>
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_submit'>Update</label>
+			<label index='tx_musicview_pi1_tmpl_weeklychartlist_no_result'>Nothing selected</label>
+		</languageKey>
+	</data>
+</T3locallang>

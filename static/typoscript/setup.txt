@@ -1,0 +1,7 @@
+plugin.tx_musicview_pi1 {
+            _CSS_DEFAULT_STYLE (
+                        tx-musicview-pi1-DIV-box {
+                                    background-color: green;
+                        }
+            )
+}

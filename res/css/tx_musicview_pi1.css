@@ -1,0 +1,702 @@
+/* ###error### begin */
+div.error-DIV-boxed {
+	background-color:#FECB31;
+	border-color:#db3b34;
+	border-style:solid;
+	border-width:3px;
+	width:100%;
+}
+
+div.error-DIV-boxed div.error-DIV-head {
+	border-bottom-color:#db3b34;
+	border-bottom-style:solid;
+	border-bottom-width:3px;
+	height: 20px;
+	padding-left:10px;
+	padding-top:6px;
+	vertical-align:middle;
+}
+
+div.error-DIV-boxed div.error-DIV-text {
+	height:70px;
+	margin-top: 25px;
+	margin-left:30px;
+	vertical-align:middle;
+}
+
+div.error-DIV-boxed div.error-DIV-text div.error-DIV-text-icon {
+	background-image:url(../img/error.png);
+	background-repeat:no-repeat;
+	float:left;
+	height:50px;
+	margin-top:-10px;
+	padding-right:10px;
+	width:50px;
+}
+
+div.error-DIV-clear-float {
+	clear:both;
+}
+/* ###error### end */
+
+/* ###user.getWeeklyTrackChart### begin */
+table.user_getWeeklyTrackChart-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.user_getWeeklyTrackChart-TABLE-TR-light {
+	background-color:#FFF4D3;
+}
+
+tr.user_getWeeklyTrackChart-TABLE-TR-lighter {
+	background-color:#FFEAA8;
+}
+
+tr.user_getWeeklyTrackChart-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+div.user_getWeeklyTrackChart-DIV-chart {
+	background: url(../img/chart_yellow.png) no-repeat right top;
+	overflow: hidden;
+}
+
+div.user_getWeeklyTrackChart-DIV-chart span {
+	background:#FECB31; 
+	color:#FFFFFF;
+	display: block; 
+	height: 17px;
+	margin: 0 3px 0 0;
+	overflow:hidden;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0;
+}
+
+div.user_getWeeklyTrackChart-DIV-chart-text {
+	margin-top:-15px;
+	padding-left:4px;
+}
+/* ###user.getWeeklyTrackChart### end */
+
+/* ###user.getNeighbours### begin */
+table.user_getNeighbours-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.user_getNeighbours-TR-CLASS {
+	height: 50px;
+}
+
+tr.user_getNeighbours-TR-CLASS td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+div.user_getNeighbours-DIV-chart {
+	background: url(../img/chart_yellow.png) no-repeat right top;
+	overflow: hidden;
+}
+
+div.user_getNeighbours-DIV-chart span {
+	background:#FECB31; 
+	color:#FFFFFF;
+	display: block; 
+	height: 17px;
+	margin: 0 3px 0 0;
+	overflow:hidden;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0;
+}
+
+div.user_getNeighbours-DIV-chart-text {
+	margin-top: -15px;
+	padding-left:4px;
+}
+
+/* ###user.getNeighbours### end */
+
+/* ###user.getTopTracks### begin */
+table.user_getLovedTracks-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.user_getLovedTracks-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.user_getLovedTracks-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.user_getLovedTracks-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###user.getTopTracks### end */
+
+/* ###user.getTopTracks### begin */
+table.user_getTopTracks-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.user_getTopTracks-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.user_getTopTracks-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.user_getTopTracks-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###user.getTopTracks### end */
+
+/* ###user.getTopArtists### begin */
+table.user_getTopArtists-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.user_getTopArtists-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.user_getTopArtists-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.user_getTopArtists-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+/* ###user.getTopArtists### end */
+
+/* ###user.getTopAlbums### begin */
+table.user_getTopAlbums-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.user_getTopAlbums-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.user_getTopAlbums-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.user_getTopAlbums-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+/* ###user.getTopAlbums### end */
+
+/* ###user.getRecentTracks### begin */
+table.user_getRecentTracks-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.user_getRecentTracks_TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.user_getRecentTracks_TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.user_getRecentTracks_TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+/* ###user.getRecentTracks### end */
+
+/* ###user.getWeeklyAlbumChart### begin */
+table.user_getWeeklyAlbumChart-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.user_getWeeklyAlbumChart-TABLE-TR-light {
+	background-color:#FFF4D3;
+}
+
+tr.user_getWeeklyAlbumChart-TABLE-TR-lighter {
+	background-color:#FFEAA8;
+}
+
+tr.user_getWeeklyAlbumChart_TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+div.user_getWeeklyAlbumChart-DIV-chart {
+	background: url(../img/chart_yellow.png) no-repeat right top;
+	overflow: hidden;
+}
+
+div.user_getWeeklyAlbumChart-DIV-chart span {
+	background:#FECB31; 
+	color:#FFFFFF;
+	display: block; 
+	height: 17px;
+	margin: 0 3px 0 0;
+	overflow:hidden;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0;
+}
+
+div.user_getWeeklyAlbumChart-DIV-chart-text {
+	margin-top: -15px;
+	padding-left:4px;
+}
+/* ###user.getWeeklyAlbumChart### end */
+
+/* ###user.getWeeklyArtistChart### begin */
+table.user_getWeeklyArtistChart-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.user_getWeeklyArtistChart-TABLE-TR-light {
+	background-color:#FFF4D3;
+}
+
+tr.user_getWeeklyArtistChart-TABLE-TR-lighter {
+	background-color:#FFEAA8;
+}
+
+tr.user_getWeeklyArtistChart_TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+div.user_getWeeklyArtistChart-DIV-chart {
+	background: url(../img/chart_yellow.png) no-repeat right top;
+	overflow: hidden;
+}
+
+div.user_getWeeklyArtistChart-DIV-chart span {
+	background:#FECB31; 
+	color:#FFFFFF;
+	display: block; 
+	height: 17px;
+	margin: 0 3px 0 0;
+	overflow:hidden;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0;
+}
+
+div.user_getWeeklyArtistChart-DIV-chart-text {
+	margin-top: -15px;
+	padding-left:4px;
+}
+/* ###user.getWeeklyArtistChart### end */
+
+/* ###user.getEvents### begin */
+DIV.user_getEvents-DIV {
+	margin-bottom:5px;
+	padding:2px 2px 2px 2px;
+}
+
+
+TABLE.user_getEvents-TABLE {
+	border-color:#D3D3D3;
+	border-style:solid;
+	border-width:1px;
+	width:100%;
+}
+
+span.user_getEvents-SPAN-title {
+	font-size:medium;
+	font-weight:bolder;
+}
+
+td.user_getEvents-TD-image {
+	text-align:center;
+}
+
+span.user_getEvents-SPAN-headliner {
+	font-style:italic;
+	font-size:12px;
+}
+
+div.user_getEvent-DIV-line {
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	height:10px;
+	margin-bottom:10px;
+}
+
+td.user_getEvents-TD-artists {
+	vertical-align:top;
+}
+div.user_getEvent-DIV-venue {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+}
+/* ###user.getEvents### end */
+
+/* ###user.getPastEvents### begin */
+DIV.user_getPastEvents-DIV {
+	margin-bottom:5px;
+	padding:2px 2px 2px 2px;
+}
+
+
+TABLE.user_getPastEvents-TABLE {
+	border-color:#D3D3D3;
+	border-style:solid;
+	border-width:1px;
+	width:100%;
+}
+
+span.user_getPastEvents-SPAN-title {
+	font-size:medium;
+	font-weight:bolder;
+}
+
+td.user_getPastEvents-TD-image {
+	text-align:center;
+}
+
+span.user_getPastEvents-SPAN-headliner {
+	font-style:italic;
+	font-size:12px;
+}
+
+div.user_getPastEvents-DIV-line {
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	height:10px;
+	margin-bottom:10px;
+}
+
+td.user_getPastEvents-TD-artists {
+	vertical-align:top;
+}
+div.user_getPastEvents-DIV-venue {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+}
+/* ###user.getPastEvents### end */
+
+/* ###user.getPlaylists### begin */
+table.user_getPlaylists-TABLE {
+	background-color:#FFF4D3;
+	border-color:#000000;
+	border-style:solid;
+	border-width:2px;
+	margin-bottom:5px;
+	padding:5px 5px 5px 5px;
+	width: 280px;
+}
+/* ###user.getPlaylists### end */
+
+/* ###user.getTopTags### begin */
+table.user_getTopTags-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.user_getTopTags-TABLE-TR-light {
+	background-color:#FFF4D3;
+}
+
+tr.user_getTopTags-TABLE-TR-lighter {
+	background-color:#FFEAA8;
+}
+
+tr.user_getTopTags-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+div.user_getTopTags-DIV-chart {
+	background: url(../img/chart_yellow.png) no-repeat right top;
+	overflow: hidden;
+}
+
+div.user_getTopTags-DIV-chart span {
+	background:#FECB31; 
+	color:#FFFFFF;
+	display: block; 
+	height: 17px;
+	margin: 0 3px 0 0;
+	overflow:hidden;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0;
+}
+
+div.user_getTopTags-DIV-chart-text {
+	margin-top:-15px;
+	padding-left:4px;
+}
+/* ###user.getTopTags### end */
+
+/* ###user.getFriends### begin */
+div.tx-musicview-pi1-DIV-boxed {
+	border-color:#D72820;
+	border-style:solid;
+	border-width:1px;
+	width: 110px;
+	padding: 5px 5px 5px 5px;
+}
+
+div.tx-musicview-pi1-DIV-user-box {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	height:105px;
+	margin:auto;
+	margin-bottom:4px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+div.tx-musicview-pi1-DIV-user-box h1 {
+	font-size: 11px;
+}
+
+div.tx-musicview-pi1-DIV-user-box h1 a {
+	color:#000000;
+	text-decoration:none;
+}
+
+div.tx-musicview-pi1-DIV-user-image {
+	padding-bottom:3px;
+	padding-left:15px;
+	padding-top:3px;
+}
+
+div.tx-musicview-pi1-DIV-recenttrack {
+	text-align:left;
+}
+/* ###user.getFriends### end */
+
+/* ###user.getWeeklyChartList### begin */
+table.user_getWeeklyChartList-TABLE-overview {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	width: 100%;
+}
+
+select.user_getWeeklyChartList-SELECT-date {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	font-size:11px;
+}
+
+select.user_getWeeklyChartList-SELECT-method {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	font-size:11px;
+}
+
+input.user_getWeeklyChartList-INPUT-submit {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	font-size:11px;
+}
+
+div.user_getWeeklyChartList-DIV-method-result {
+}
+/* ###user.getWeeklyChartList### end */
+
+/* ###group.getWeeklyAlbumChart### begin */
+table.group_getWeeklyAlbumChart-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.group_getWeeklyAlbumChart-TABLE-TR-light {
+	background-color:#FFF4D3;
+}
+
+tr.group_getWeeklyAlbumChart-TABLE-TR-lighter {
+	background-color:#FFEAA8;
+}
+
+tr.group_getWeeklyAlbumChart_TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+div.group_getWeeklyAlbumChart-DIV-chart {
+	background: url(../img/chart_yellow.png) no-repeat right top;
+	overflow: hidden;
+}
+
+div.group_getWeeklyAlbumChart-DIV-chart span {
+	background:#FECB31; 
+	color:#FFFFFF;
+	display: block; 
+	height: 17px;
+	margin: 0 3px 0 0;
+	overflow:hidden;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0;
+}
+
+div.group_getWeeklyAlbumChart-DIV-chart-text {
+	margin-top: -15px;
+	padding-left:4px;
+}
+/* ###group.getWeeklyAlbumChart### end */
+
+/* ###group.getWeeklyArtistChart### begin */
+table.group_getWeeklyArtistChart-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.group_getWeeklyArtistChart-TABLE-TR-light {
+	background-color:#FFF4D3;
+}
+
+tr.group_getWeeklyArtistChart-TABLE-TR-lighter {
+	background-color:#FFEAA8;
+}
+
+tr.group_getWeeklyArtistChart_TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+div.group_getWeeklyArtistChart-DIV-chart {
+	background: url(../img/chart_yellow.png) no-repeat right top;
+	overflow: hidden;
+}
+
+div.group_getWeeklyArtistChart-DIV-chart span {
+	background:#FECB31; 
+	color:#FFFFFF;
+	display: block; 
+	height: 17px;
+	margin: 0 3px 0 0;
+	overflow:hidden;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0;
+}
+
+div.group_getWeeklyArtistChart-DIV-chart-text {
+	margin-top: -15px;
+	padding-left:4px;
+}
+/* ###group.getWeeklyArtistChart### end */
+
+/* ###group.getWeeklyTrackChart### begin */
+table.group_getWeeklyTrackChart-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.group_getWeeklyTrackChart-TABLE-TR-light {
+	background-color:#FFF4D3;
+}
+
+tr.group_getWeeklyTrackChart-TABLE-TR-lighter {
+	background-color:#FFEAA8;
+}
+
+tr.group_getWeeklyTrackChart-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+div.group_getWeeklyTrackChart-DIV-chart {
+	background: url(../img/chart_yellow.png) no-repeat right top;
+	overflow: hidden;
+}
+
+div.group_getWeeklyTrackChart-DIV-chart span {
+	background:#FECB31; 
+	color:#FFFFFF;
+	display: block; 
+	height: 17px;
+	margin: 0 3px 0 0;
+	overflow:hidden;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0;
+}
+
+div.group_getWeeklyTrackChart-DIV-chart-text {
+	margin-top:-15px;
+	padding-left:4px;
+}
+/* ###group.getWeeklyTrackChart### end */
+
+/* ###group.getWeeklyChartList### begin */
+table.group_getWeeklyChartList-TABLE-overview {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	width: 100%;
+}
+
+select.group_getWeeklyChartList-SELECT-date {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	font-size:11px;
+}
+
+select.group_getWeeklyChartList-SELECT-method {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	font-size:11px;
+}
+
+input.group_getWeeklyChartList-INPUT-submit {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	font-size:11px;
+}
+
+div.group_getWeeklyChartList-DIV-method-result {
+}
+/* ###group.getWeeklyChartList### end */
+
