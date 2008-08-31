@@ -88,14 +88,35 @@ class user_getWeeklyChartList extends musicview_userfunc_base {
 			list($from, $to) = explode('-', $fullDate);
 			$params = array('from' => $from, 'to' => $to);
 			
-			/*DomDocument*/$dom = $this->tx_musicview_pi1->doRequest($method, $params);
-			return $this->tx_musicview_pi1->workOnRequestResult($dom, $method);
+			if ($this->tx_musicview_pi1->checkMethodParams($method, $params) &&
+				$this->checkDate($params['from']) &&
+				$this->checkDate($params['to'])) {
+				/*DomDocument*/$dom = $this->tx_musicview_pi1->doRequest($method, $params);
+				return $this->tx_musicview_pi1->workOnRequestResult($dom, $method);
+			}
 		} else {
 			$markerArray = $this->tx_musicview_pi1->getTemplateMarker();
 			
 			return $this->substituteMarkerArrayCached($template, $markerArray);
 		}
-		return 'err';
+		return $this->tx_musicview_pi1->pi_getLL('tx_musicview_pi1_tmpl_weeklychartlist_lastfmapi_method_not_found');
+	}
+	
+	/**
+	 * TODO: rewrite
+	 * 
+	 * Check if the timestamp is valid.
+	 * 
+	 * @param 	string	$timestamp: The timestamp to check
+	 * @return 	If the timestamp is valid
+	 */
+	protected function checkDate($timestamp) {
+		$now = time();
+		
+		if ($timestamp > 0 && $timestamp < $now) {
+			return true;
+		}
+		return false;
 	}
 }
 

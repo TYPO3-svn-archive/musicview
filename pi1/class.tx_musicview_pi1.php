@@ -43,7 +43,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 	var $piFlexForm;
 
 	protected $last_fm_req_base = 'http://ws.audioscrobbler.com/2.0/';
-	protected $last_fm_api = array(
+	public $last_fm_api = array(
 		'_DEFAULT' => array(
 			/* ###user.*### begin */
 			'user' => array(
@@ -268,7 +268,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 		$reqLink = $this->createRequestLink($method, $param);
 		#t3lib_div::debug($reqLink);
 		#return $reqLink;
-		#$reqLink = 'http://walnut-walnut/xml/'.$method . '.xml';
+		$reqLink = 'http://walnut-walnut/xml/'.$method . '.xml';
 
 		$dom = new DomDocument('1.0', 'utf-8');
 		$dom->load($reqLink);
@@ -374,10 +374,51 @@ class tx_musicview_pi1 extends tslib_pibase {
 		);
 		return $markerArray;
 	}
+	
+	/**
+	 * Check if the parameters for the method are valid.
+	 * 
+	 * @param	string	$method: The method to check
+	 * @param 	array	$params: The parameters to check
+	 * @return If method and parameters match an entry in the $last_fm_api array
+	 */
+	public function checkMethodParams($method, $params) {
+		$m_params = $this->getMethodParams($method);
+		if (!is_null($m_params)) {
+			
+			foreach ($params as $key => $value) {
+				if (!array_key_exists($key, $m_params) || is_null($value) || strlen($value) == 0) {
+					return false; 
+				}
+			}
+			return true;
+		}
+		return false;
+	}
+	
 	/************************* ###USERFUNC_HELP### end ****************************/
 	
 	/************************* ###USERFUNC### begin *******************************/
 
+	/**
+	 * Get the parameters for the method.
+	 * 
+	 * @param 	string	$method: The name of the method to build
+	 * @return 	The parameters for the request url
+	 */
+	private function getMethodParams($method) {
+		if (array_key_exists($method, $this->last_fm_api)) {
+			$req_params_keys = $this->getDefaultConfByMethod($method);
+			$req_params = $this->getParamArray($req_params_keys);
+			
+			$opt_params = $this->getParamArray($this->last_fm_api[$method]);
+			$req_params = array_merge($req_params, $opt_params);
+			
+			return $req_params;
+		}
+		return NULL;
+	}
+	
 	/**
 	 * Create the request url to get the information from last.fm.
 	 *
@@ -386,24 +427,17 @@ class tx_musicview_pi1 extends tslib_pibase {
 	 * @return	The request url
 	 */
 	private function createRequestLink($method, $params) {
-		$req_params_keys = $this->getDefaultConfByMethod($method);
-		$req_params = $this->getParamArray($req_params_keys);
-
-		if (array_key_exists($method, $this->last_fm_api)) {
-			$opt_params = $this->getParamArray($this->last_fm_api[$method]);
-			$opt_params = $this->overwriteParams($opt_params, $params);
-
-			$req_params = array_merge($req_params, $opt_params);
+		if (!is_null($req_params)) {
+			$req_params = $this->overwriteParams($req_params, $params);
+			
+			$url = $this->last_fm_req_base . '?method=' . $method;
+			foreach ($req_params as $key => $values) {
+				$value = $values['val'];
+				$url .= '&' . $key . '=' . $value;
+			}
+			return $url;
 		}
-
-		// we don't use the typo's link function here because if the user selects simulate static
-		// or uses real url the generated url doesn't work anymore
-		$url = $this->last_fm_req_base . '?method=' . $method;
-		foreach ($req_params as $key => $values) {
-			$value = $values['val'];
-			$url .= '&' . $key . '=' . $value;
-		}
-		return $url;
+		return NULL;
 	}
 	
 	/**
