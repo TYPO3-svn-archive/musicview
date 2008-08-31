@@ -74,8 +74,19 @@ class tx_musicview_pi1 extends tslib_pibase {
 				),
 			),
 			/* ###group.*### end */
+			
+			/* ###geo.*### begin */
+			'geo' => array(
+				'api_key' => array(
+					'sheet' => 'sDEF',
+					'key' => 'apikey_settings',
+					'req' => 1,
+				),
+			),
+			/* ###geo.*### end */
 		),
 
+		/* ###user.*### begin */
 		'user.getEvents' => array(
 		),
 		'user.getFriends' => array(
@@ -193,6 +204,9 @@ class tx_musicview_pi1 extends tslib_pibase {
 				'req' => 0,
 			),
 		),
+		/* ###user.*### end */
+			
+		/* ###group.*### begin */
 		'group.getWeeklyAlbumChart' => array(
 			'from' => array(
 				'sheet' => 'sheet_group_api',
@@ -231,6 +245,58 @@ class tx_musicview_pi1 extends tslib_pibase {
 				'req' => 0,
 			),
 		),
+		/* ###group.*### end */
+		
+		/* ###geo.*### begin */
+		'geo.getEvents' => array(
+			'location' => array(
+				'sheet' => 'sheet_geo_api',
+				'key' => 'geo.getEvents_location',
+				'req' => 0,
+			),
+			'lat' => array(
+				'sheet' => 'sheet_geo_api',
+				'key' => 'geo.getEvents_lat',
+				'req' => 0,
+			),
+			'long' => array(
+				'sheet' => 'sheet_geo_api',
+				'key' => 'geo.getEvents_long',
+				'req' => 0,
+			),
+			'page' => array(
+				'sheet' => 'sheet_geo_api',
+				'key' => 'geo.getEvents_page',
+				'req' => 0,
+			),
+			'distance' => array(
+				'sheet' => 'sheet_geo_api',
+				'key' => 'geo.getEvents_distance',
+				'req' => 0,
+			),
+		),
+		'geo.getTopArtists' => array(
+			'country' => array(
+				'sheet' => 'sheet_geo_api',
+				'key' => 'geo.getTopArtists',
+				'req' => 1,
+			),
+		),
+		'geo.getTopTracks' => array(
+			'country' => array(
+				'sheet' => 'sheet_geo_api',
+				'key' => 'geo.getTopTracks_country',
+				'req' => 1,
+			),
+			'location' => array(
+				'location' => array(
+				'sheet' => 'sheet_geo_api',
+				'key' => 'geo.getTopTracks_location',
+				'req' => 0,
+				),
+			),
+		),
+		/* ###geo.*### end */
 	);
 	
 	/**
@@ -299,6 +365,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 				$childKeys = $xmlel_lfm->getChildKeys();
 				foreach ($childKeys as $childKey) {
 					$childArr = $xmlel_lfm->getChild($childKey);
+					
 					foreach ($childArr as $childObj) {
 						$userFuncContent = $this->callUserFunc($lConf, $childObj);
 						$content .= $this->pi_wrapInBaseClass($userFuncContent);

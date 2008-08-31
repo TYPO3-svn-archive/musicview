@@ -52,6 +52,7 @@ class xmlel_event extends xmlel_base {
 		$typolink_conf['parameter'] = $this->getValue('url');
 		$typolink_conf['extTarget'] = '_blank';
 		$markerArray['###EVENT_LINKTITLE###'] = $cObj->typolink($this->getValue('title'), $typolink_conf);
+		$markerArray['###EVENT_URLTITLE###'] = $cObj->typolink($this->getValue('title'), $typolink_conf);
 
 		$markerArray['###EVENT_IMAGE###'] = $this->filterImage($conf);
 

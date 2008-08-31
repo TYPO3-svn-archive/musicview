@@ -700,3 +700,19 @@ div.group_getWeeklyChartList-DIV-method-result {
 }
 /* ###group.getWeeklyChartList### end */
 
+/* ###geo.getEvents### begin */
+TD.geo_getEvents-TD-title-borderline {
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+	border-bottom-width:1px; 
+	padding-left: 10px;
+}
+
+/* ###geo.getEvents### end */
+
+/* ###geo.getTopArtists### begin */
+/* ###geo.getTopArtists### end */
+
+/* ###geo.getTopTracks### begin */
+/* ###geo.getTopTracks### end */
+

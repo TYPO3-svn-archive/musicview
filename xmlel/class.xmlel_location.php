@@ -21,6 +21,7 @@ class xmlel_location extends xmlel_base {
 			'country',
 			'street',
 			'postalcode',
+			'timezone',
 		),
 	);
 

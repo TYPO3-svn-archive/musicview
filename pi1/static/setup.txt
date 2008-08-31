@@ -21,6 +21,10 @@ page.includeLibs.groupGetWeeklyArtistChart = EXT:musicview/userFunc/class.group_
 page.includeLibs.groupGetWeeklyChartList = EXT:musicview/userFunc/class.group_getWeeklyChartList.php
 page.includeLibs.groupGetWeeklyTrackChart = EXT:musicview/userFunc/class.group_getWeeklyTrackChart.php
 
+page.includeLibs.geoGetEvents = EXT:musicview/userFunc/class.geo_getEvents.php
+page.includeLibs.geoGetTopArtists = EXT:musicview/userFunc/class.geo_getTopArtists.php
+page.includeLibs.geoGetTopTracks = EXT:musicview/userFunc/class.geo_getTopTracks.php
+
 plugin.tx_musicview_pi1 {
 
 	error {
@@ -187,6 +191,25 @@ plugin.tx_musicview_pi1 {
 				1 = group_getWeeklyTrackChart-TABLE-TR-light
 				2 = group_getWeeklyTrackChart-TABLE-TR-lighter
 			}
+		}
+	}
+	
+	geo {
+		getEvents {
+			userFunc = geo_getEvents->userFuncIniTest
+			templateFile = EXT:musicview/res/geo.getEvents.html
+			
+			image {
+				size = medium
+			}
+		}
+		getTopArtists {
+			userFunc = geo_getTopArtists->userFuncIniTest
+			templateFile = EXT:musicview/res/geo.getTopArtists.html
+		}
+		getTopTracks {
+			userFunc = geo_getTopTracks->userFuncIniTest
+			templateFile = EXT:musicview/res/geo.getTopTracks.html
 		}
 	}
 }
