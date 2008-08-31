@@ -16,7 +16,7 @@ page.includeLibs.userGetWeeklyTrackChart = EXT:musicview/userFunc/class.user_get
 page.includeLibs.userGetTopTags = EXT:musicview/userFunc/class.user_getTopTags.php
 page.includeLibs.userGetWeeklyChartList = EXT:musicview/userFunc/class.user_getWeeklyChartList.php
 
-page.includeLibs.groupGetWeeklyChartList = EXT:musicview/userFunc/class.group_getWeeklyAlbumChart.php
+page.includeLibs.groupGetWeeklyAlbumChart = EXT:musicview/userFunc/class.group_getWeeklyAlbumChart.php
 page.includeLibs.groupGetWeeklyArtistChart = EXT:musicview/userFunc/class.group_getWeeklyArtistChart.php
 page.includeLibs.groupGetWeeklyChartList = EXT:musicview/userFunc/class.group_getWeeklyChartList.php
 page.includeLibs.groupGetWeeklyTrackChart = EXT:musicview/userFunc/class.group_getWeeklyTrackChart.php
