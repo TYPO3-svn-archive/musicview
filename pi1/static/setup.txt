@@ -206,10 +206,18 @@ plugin.tx_musicview_pi1 {
 		getTopArtists {
 			userFunc = geo_getTopArtists->userFuncIniTest
 			templateFile = EXT:musicview/res/geo.getTopArtists.html
+			
+			image {
+				size = small
+			}
 		}
 		getTopTracks {
 			userFunc = geo_getTopTracks->userFuncIniTest
 			templateFile = EXT:musicview/res/geo.getTopTracks.html
+			
+			image {
+				size = small
+			}
 		}
 	}
 }

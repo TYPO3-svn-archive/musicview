@@ -711,8 +711,44 @@ TD.geo_getEvents-TD-title-borderline {
 /* ###geo.getEvents### end */
 
 /* ###geo.getTopArtists### begin */
+table.geo_getTopArtists-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.geo_getTopArtists-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.geo_getTopArtists-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.geo_getTopArtists-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
 /* ###geo.getTopArtists### end */
 
 /* ###geo.getTopTracks### begin */
+table.geo_getTopTracks-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.geo_getTopTracks-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.geo_getTopTracks-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.geo_getTopTracks-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
 /* ###geo.getTopTracks### end */
 
