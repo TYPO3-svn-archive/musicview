@@ -29,9 +29,10 @@ class user_getLovedTracks extends musicview_userfunc_base {
 	protected function fillTemplate() {
 		$content = '';
 		$template = $this->getTemplateParts('###TEMPLATE###', array($this->subTemplateName));
+		$objects = $this->xmlel_obj->getChild($this->xmlelSubobjectName);
 
 		$markerArray = $this->xmlel_obj->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
-		$subpartArray[$this->subTemplateName] = $this->displaySubpart($template['item0'], $this->xmlel_obj->getChild($this->xmlelSubobjectName));
+		$subpartArray[$this->subTemplateName] = $this->displaySubpart($template['item0'], $objects);
 
 		return $this->substituteMarkerArrayCached($template['total'], $markerArray, $subpartArray);
 	}

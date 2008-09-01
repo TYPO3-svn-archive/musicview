@@ -167,6 +167,21 @@
 										<numIndex index="1">geo.getTopTracks</numIndex>
 									</numIndex>
 									<!-- ###geo.*### end -->
+									
+									<!-- ###library.*### begin -->
+									<numIndex index="23" type="array">
+										<numIndex index="0">library.getAlbums</numIndex>
+										<numIndex index="1">library.getAlbums</numIndex>
+									</numIndex>
+									<numIndex index="24" type="array">
+										<numIndex index="0">library.getArtists</numIndex>
+										<numIndex index="1">library.getArtists</numIndex>
+									</numIndex>
+									<numIndex index="25" type="array">
+										<numIndex index="0">library.getTracks</numIndex>
+										<numIndex index="1">library.getTracks</numIndex>
+									</numIndex>
+									<!-- ###library.*### begin -->
 								</items>
 								
 								<minitems>0</minitems>
@@ -797,6 +812,77 @@
 				</el>
 			</ROOT>
 		</sheet_geo_api>
+		
+		<sheet_library_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<library.getAlbums_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getAlbums_limit</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getAlbums_limit>
+					
+					<library.getAlbums_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getAlbums_page</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getAlbums_page>
+					
+					<library.getArtists_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getArtists_limit</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getArtists_limit>
+					
+					<library.getArtists_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getArtists_page</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getArtists_page>
+					
+					<library.getTracks_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getTracks_limit</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getTracks_limit>
+					
+					<library.getTracks_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getTracks_page</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getTracks_page>
+				</el>
+			</ROOT>
+		</sheet_library_api>
 		
 	</sheets>
 </T3DataStructure>

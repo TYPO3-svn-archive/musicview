@@ -16,7 +16,6 @@ class xmlel_artists extends xmlel_base {
 	 */
 	private $tagStruct = array(
 		'artists' => array(
-/*			'artist', */
 			array('tag' => 'artist'),
 			'headliner',
 		),

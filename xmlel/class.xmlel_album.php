@@ -17,6 +17,7 @@ class xmlel_album extends xmlel_base {
 	private $tagStruct = array(
 		'album' => array(
 			array('tag' => 'artist'),
+			array('tag' => 'image'),
 			'name',
 			'mbid',
 			'playcount',

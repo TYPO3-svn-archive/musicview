@@ -21,6 +21,8 @@ class xmlel_artist extends xmlel_base {
 			'mbid',
 			'playcount',
 			'url',
+			'tagcount',
+			'streamable',
 		),
 	);
 

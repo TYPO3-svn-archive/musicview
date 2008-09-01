@@ -15,6 +15,7 @@ require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_location.php
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_venue.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_lfm.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_image.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_albums.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_album.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_track.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_tag.php');
@@ -26,6 +27,7 @@ require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_lovedtracks.
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_topalbums.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_topartists.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_toptracks.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_tracks.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_recenttracks.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_weeklyalbumchart.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_weeklyartistchart.php');

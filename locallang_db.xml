@@ -68,11 +68,20 @@
 			<label index="tt_content.pi_flexform.sheet_geo_api_getEvents_long">geo.getEvents: Specifies a longitude value to retrieve events for</label>
 			<label index="tt_content.pi_flexform.sheet_geo_api_getEvents_page">geo.getEvents: Display more results by pagination</label>
 			<label index="tt_content.pi_flexform.sheet_geo_api_getEvents_distance">geo.getEvents: Find events within a specified distance</label>
-			<label index="tt_content.pi_flexform.sheet_geo_api_getTopArtists">A country name, as defined by the ISO 3166-1 country names standard</label>
-			<label index="tt_content.pi_flexform.sheet_geo_api_getTopTracks_country">A country name, as defined by the ISO 3166-1 country names standard</label>
-			<label index="tt_content.pi_flexform.sheet_geo_api_getTopTracks_location">A metro name, to fetch the charts for (must be within the country specified)</label>
+			<label index="tt_content.pi_flexform.sheet_geo_api_getTopArtists">getTopArtists: A country name, as defined by the ISO 3166-1 country names standard</label>
+			<label index="tt_content.pi_flexform.sheet_geo_api_getTopTracks_country">getTopTracks: A country name, as defined by the ISO 3166-1 country names standard</label>
+			<label index="tt_content.pi_flexform.sheet_geo_api_getTopTracks_location">getTopTracks: A metro name, to fetch the charts for (must be within the country specified)</label>
 			<!-- ###GEOAPI_SHEET### end -->
 
+			<!-- ###LIBRARYAPI_SHEET### begin -->
+			<label index="tt_content.pi_flexform.sheet_library_api">Library API</label>
+			<label index="tt_content.pi_flexform.sheet_library_api_getAlbums_limit">getAlbums: Limit the amount of albums returned (maximum/default is 50)</label>
+			<label index="tt_content.pi_flexform.sheet_library_api_getAlbums_page">getAlbums: The page number you wish to scan to</label>
+			<label index="tt_content.pi_flexform.sheet_library_api_getArtists_limit">getArtists: Limit the amount of albums returned (maximum/default is 50)</label>
+			<label index="tt_content.pi_flexform.sheet_library_api_getArtists_page">getArtists: The page number you wish to scan to</label>
+			<label index="tt_content.pi_flexform.sheet_library_api_getTracks_limit">getTracks: Limit the amount of albums returned (maximum/default is 50)</label>
+			<label index="tt_content.pi_flexform.sheet_library_api_getTracks_page">getTracks: The page number you wish to scan to</label>
+			<!-- ###LIBRARYAPI_SHEET### end -->
 
 			<label index="tt_content.pi_flexform.sheet_display">Display Settings</label>
 			<label index="tt_content.pi_flexform.sheet_error">Error Handling Settings</label>

@@ -183,7 +183,6 @@ tr.user_getTopArtists-TR_CLASS-effect td {
 tr.user_getTopArtists-TR_CLASS-effect:hover {
 	background-color:#FF3300;
 }
-
 /* ###user.getTopArtists### end */
 
 /* ###user.getTopAlbums### begin */
@@ -205,7 +204,6 @@ tr.user_getTopAlbums-TR_CLASS-effect td {
 tr.user_getTopAlbums-TR_CLASS-effect:hover {
 	background-color:#FF3300;
 }
-
 /* ###user.getTopAlbums### end */
 
 /* ###user.getRecentTracks### begin */
@@ -751,4 +749,70 @@ tr.geo_getTopTracks-TR_CLASS-effect:hover {
 	background-color:#FF3300;
 }
 /* ###geo.getTopTracks### end */
+
+/* ###library.getAlbums### begin */
+
+
+
+table.library_getAlbums-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.library_getAlbums-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.library_getAlbums-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.library_getAlbums-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###library.getAlbums### end */
+
+/* ###library.getArtists### begin */
+table.library_getArtists-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.library_getArtists-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.library_getArtists-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.library_getArtists-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###library.getArtists### end */
+
+/* ###library.getTracks### begin */
+table.library_getTracks-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.library_getTracks-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.library_getTracks-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.library_getTracks-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###library.getTracks### end */
 

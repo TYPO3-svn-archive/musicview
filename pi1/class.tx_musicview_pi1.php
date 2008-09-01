@@ -84,6 +84,21 @@ class tx_musicview_pi1 extends tslib_pibase {
 				),
 			),
 			/* ###geo.*### end */
+			
+			/* ###library.*### begin */
+			'library' => array(
+				'user' => array(
+					'sheet' => 'sDEF',
+					'key' => 'username_settings',
+					'req' => 1,
+				),
+				'api_key' => array(
+					'sheet' => 'sDEF',
+					'key' => 'apikey_settings',
+					'req' => 1,
+				),
+			),
+			/* ###library.*### end */
 		),
 
 		/* ###user.*### begin */
@@ -289,14 +304,51 @@ class tx_musicview_pi1 extends tslib_pibase {
 				'req' => 1,
 			),
 			'location' => array(
-				'location' => array(
 				'sheet' => 'sheet_geo_api',
 				'key' => 'geo.getTopTracks_location',
 				'req' => 0,
-				),
 			),
 		),
 		/* ###geo.*### end */
+		
+		/* ###library.*### begin */
+		'library.getAlbums' => array(
+			'limit' => array(
+				'sheet' => 'sheet_library_api',
+				'key' => 'library.getAlbums_limit',
+				'req' => 0,
+			),
+			'page' => array(
+				'sheet' => 'sheet_library_api',
+				'key' => 'library.getAlbums_page',
+				'req' => 0,
+			),
+		),
+		'library.getArtists' => array(
+			'limit' => array(
+				'sheet' => 'sheet_library_api',
+				'key' => 'library.getArtists_limit',
+				'req' => 0,
+			),
+			'page' => array(
+				'sheet' => 'sheet_library_api',
+				'key' => 'library.getArtists_page',
+				'req' => 0,
+			),
+		),
+		'library.getTracks' =>  array(
+			'limit' => array(
+				'sheet' => 'sheet_library_api',
+				'key' => 'library.getTracks_limit',
+				'req' => 0,
+			),
+			'page' => array(
+				'sheet' => 'sheet_library_api',
+				'key' => 'library.getTracks_page',
+				'req' => 0,
+			),
+		),
+		/* ###library.*### end */
 	);
 	
 	/**
@@ -335,10 +387,9 @@ class tx_musicview_pi1 extends tslib_pibase {
 		#t3lib_div::debug($reqLink);
 		#return $reqLink;
 		$reqLink = 'http://walnut-walnut/xml/'.$method . '.xml';
-
 		$dom = new DomDocument('1.0', 'utf-8');
 		$dom->load($reqLink);
-		
+
 		return $dom;
 	}
 	

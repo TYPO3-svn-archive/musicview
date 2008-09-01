@@ -25,6 +25,11 @@ page.includeLibs.geoGetEvents = EXT:musicview/userFunc/class.geo_getEvents.php
 page.includeLibs.geoGetTopArtists = EXT:musicview/userFunc/class.geo_getTopArtists.php
 page.includeLibs.geoGetTopTracks = EXT:musicview/userFunc/class.geo_getTopTracks.php
 
+page.includeLibs.libraryGetAlbums = EXT:musicview/userFunc/class.library_getAlbums.php
+page.includeLibs.libraryGetArtists = EXT:musicview/userFunc/class.library_getArtists.php
+page.includeLibs.libraryGetTracks = EXT:musicview/userFunc/class.library_getTracks.php
+
+
 plugin.tx_musicview_pi1 {
 
 	error {
@@ -214,6 +219,33 @@ plugin.tx_musicview_pi1 {
 		getTopTracks {
 			userFunc = geo_getTopTracks->userFuncIniTest
 			templateFile = EXT:musicview/res/geo.getTopTracks.html
+			
+			image {
+				size = small
+			}
+		}
+	}
+	
+	library {
+		getAlbums {
+			userFunc = library_getAlbums->userFuncIniTest
+			templateFile = EXT:musicview/res/library.getAlbums.html
+			
+			image {
+				size = small
+			}
+		}
+		getArtists {
+			userFunc = library_getArtists->userFuncIniTest
+			templateFile = EXT:musicview/res/library.getArtists.html
+			
+			image {
+				size = small
+			}
+		}
+		getTracks {
+			userFunc = library_getTracks->userFuncIniTest
+			templateFile = EXT:musicview/res/library.getTracks.html
 			
 			image {
 				size = small

@@ -40,6 +40,10 @@ class xmlel_lfm extends xmlel_base {
 			array('tag' => 'playlists'),
 			array('tag' => 'toptags'),
 			array('tag' => 'weeklychartlist'),
+			
+			array('tag' => 'albums'),
+			array('tag' => 'artists'),
+			array('tag' => 'tracks'),
 
 			array('tag' => 'error'), /* error class -> status != ok */
 		),
