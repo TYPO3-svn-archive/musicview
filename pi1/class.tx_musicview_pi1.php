@@ -386,7 +386,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 		$reqLink = $this->createRequestLink($method, $param);
 		#t3lib_div::debug($reqLink);
 		#return $reqLink;
-		$reqLink = 'http://walnut-walnut/xml/'.$method . '.xml';
+		#$reqLink = 'http://walnut-walnut/xml/'.$method . '.xml';
 		$dom = new DomDocument('1.0', 'utf-8');
 		$dom->load($reqLink);
 
@@ -545,6 +545,8 @@ class tx_musicview_pi1 extends tslib_pibase {
 	 * @return	The request url
 	 */
 	private function createRequestLink($method, $params) {
+		$req_params = $this->getMethodParams($method);
+		
 		if (!is_null($req_params)) {
 			$req_params = $this->overwriteParams($req_params, $params);
 			
