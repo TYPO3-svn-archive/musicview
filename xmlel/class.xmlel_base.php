@@ -34,6 +34,7 @@ require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_weeklyartist
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_neighbours.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_weeklytrackchart.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_playlists.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_similartags.php');
 
 /**
  * Plugin 'musicview' for the 'musicview' extension.

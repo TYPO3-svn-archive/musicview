@@ -99,6 +99,16 @@ class tx_musicview_pi1 extends tslib_pibase {
 				),
 			),
 			/* ###library.*### end */
+			
+			/* ###tag.*### begin */
+			'tag' => array(
+				'api_key' => array(
+					'sheet' => 'sDEF',
+					'key' => 'apikey_settings',
+					'req' => 1,
+				),
+			),
+			/* ###tag.*### end */
 		),
 
 		/* ###user.*### begin */
@@ -349,6 +359,57 @@ class tx_musicview_pi1 extends tslib_pibase {
 			),
 		),
 		/* ###library.*### end */
+		
+		/* ###tag.*### begin */
+		'tag.getSimilar' => array(
+			'tag' => array(
+				'sheet' => 'sheet_tag_api',
+				'key' => 'tag.req_tag',
+				'req' => 1,
+			),
+		),
+		'tag.getTopAlbums' => array(
+			'tag' => array(
+				'sheet' => 'sheet_tag_api',
+				'key' => 'tag.req_tag',
+				'req' => 1,
+			),
+		),
+		'tag.getTopArtists' => array(
+			'tag' => array(
+				'sheet' => 'sheet_tag_api',
+				'key' => 'tag.req_tag',
+				'req' => 1,
+			),
+		),
+		'tag.getTopTags' => array(
+		),
+		'tag.getTopTracks' => array(
+			'tag' => array(
+				'sheet' => 'sheet_tag_api',
+				'key' => 'tag.req_tag',
+				'req' => 1,
+			),
+		),
+		'tag.search' => array(
+			'tag' => array(
+				'sheet' => 'sheet_tag_api',
+				'key' => 'tag.req_tag',
+				'req' => 1,
+			),
+			'limit' => array(
+				'sheet' => 'sheet_tag_api',
+				'key' => 'tag.search_limit',
+				'req' => 0,
+			),
+			'page' => array(
+				'sheet' => 'sheet_tag_api',
+				'key' => 'tag.search_page',
+				'req' => 0,
+			),
+		),
+		/* ###tag.*### begin */
+
 	);
 	
 	/**
@@ -386,7 +447,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 		$reqLink = $this->createRequestLink($method, $param);
 		#t3lib_div::debug($reqLink);
 		#return $reqLink;
-		#$reqLink = 'http://walnut-walnut/xml/'.$method . '.xml';
+		$reqLink = 'http://walnut-walnut/xml/'.$method.'.xml';
 		$dom = new DomDocument('1.0', 'utf-8');
 		$dom->load($reqLink);
 
@@ -416,7 +477,6 @@ class tx_musicview_pi1 extends tslib_pibase {
 				$childKeys = $xmlel_lfm->getChildKeys();
 				foreach ($childKeys as $childKey) {
 					$childArr = $xmlel_lfm->getChild($childKey);
-					
 					foreach ($childArr as $childObj) {
 						$userFuncContent = $this->callUserFunc($lConf, $childObj);
 						$content .= $this->pi_wrapInBaseClass($userFuncContent);
@@ -489,6 +549,9 @@ class tx_musicview_pi1 extends tslib_pibase {
 			'###TEMPLATE_WEEKLYCHARTLIST-FORM-TITLE###' => $this->pi_getLL('tx_musicview_pi1_tmpl_weeklychartlist_form_title'),
 			'###TEMPLATE_WEEKLYCHARTLIST-FORM-ACTION-URL###' => $this->pi_getLL('tx_musicview_pi1_tmpl_weeklychartlist_form_action_url'),
 			'###TMPL_WEEKLYCHARTLIST_NO_RESULT###' => $this->pi_getLL('tx_musicview_pi1_tmpl_weeklychartlist_no_result'),
+			'###TMPL_CURRENTPAGE-FORM-ACTION-URL###' => '', // TODO
+			'###TMPL_TAG_GETSIMILAR-SUBMIT###' => $this->pi_getLL('tx_musicview_pi1_tmpl_tag_getsimilar-submit'),
+			'###TMPL_TAG_GETSIMILAR-FORM-TITLE###' => $this->pi_getLL('tx_musicview_pi1_tmpl_tag_getsimilar-form-title'),
 		);
 		return $markerArray;
 	}

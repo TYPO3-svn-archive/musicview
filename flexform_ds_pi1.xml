@@ -182,6 +182,33 @@
 										<numIndex index="1">library.getTracks</numIndex>
 									</numIndex>
 									<!-- ###library.*### begin -->
+									
+									<!-- ###tag.*### begin -->
+									<numIndex index="26" type="array">
+										<numIndex index="0">tag.getSimilar</numIndex>
+										<numIndex index="1">tag.getSimilar</numIndex>
+									</numIndex>
+									<numIndex index="27" type="array">
+										<numIndex index="0">tag.getTopAlbums</numIndex>
+										<numIndex index="1">tag.getTopAlbums</numIndex>
+									</numIndex>
+									<numIndex index="28" type="array">
+										<numIndex index="0">tag.getTopArtists</numIndex>
+										<numIndex index="1">tag.getTopArtists</numIndex>
+									</numIndex>
+									<numIndex index="29" type="array">
+										<numIndex index="0">tag.getTopTags</numIndex>
+										<numIndex index="1">tag.getTopTags</numIndex>
+									</numIndex>
+									<numIndex index="30" type="array">
+										<numIndex index="0">tag.getTopTracks</numIndex>
+										<numIndex index="1">tag.getTopTracks</numIndex>
+									</numIndex>
+									<numIndex index="31" type="array">
+										<numIndex index="0">tag.search</numIndex>
+										<numIndex index="1">tag.search</numIndex>
+									</numIndex>
+									<!-- ###tag.*### end -->
 								</items>
 								
 								<minitems>0</minitems>
@@ -883,6 +910,49 @@
 				</el>
 			</ROOT>
 		</sheet_library_api>
+		
+		<sheet_tag_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<tag.req_tag>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api_tag_req</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</tag.req_tag>
+				
+					<tag.search_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api_search_limit</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</tag.search_limit>
+					
+					<tag.search_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api_search_page</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</tag.search_page>
+				</el>
+			</ROOT>
+		</sheet_tag_api>
 		
 	</sheets>
 </T3DataStructure>

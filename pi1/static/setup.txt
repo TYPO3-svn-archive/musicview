@@ -29,6 +29,13 @@ page.includeLibs.libraryGetAlbums = EXT:musicview/userFunc/class.library_getAlbu
 page.includeLibs.libraryGetArtists = EXT:musicview/userFunc/class.library_getArtists.php
 page.includeLibs.libraryGetTracks = EXT:musicview/userFunc/class.library_getTracks.php
 
+page.includeLibs.tagGetSimilar = EXT:musicview/userFunc/class.tag_getSimilar.php
+page.includeLibs.tagGetTopAlbums = EXT:musicview/userFunc/class.tag_getTopAlbums.php
+page.includeLibs.tagGetTopArtists = EXT:musicview/userFunc/class.tag_getTopArtists.php
+page.includeLibs.tagGetTopTags = EXT:musicview/userFunc/class.tag_getTopTags.php
+page.includeLibs.tagGetTopTracks = EXT:musicview/userFunc/class.tag_getTopTracks.php
+page.includeLibs.tagSearch = EXT:musicview/userFunc/class.tag_search.php
+
 
 plugin.tx_musicview_pi1 {
 
@@ -250,6 +257,33 @@ plugin.tx_musicview_pi1 {
 			image {
 				size = small
 			}
+		}
+	}
+	
+	tag {
+		getSimilar {
+			userFunc = tag_getSimilar->userFuncIniTest
+			templateFile = EXT:musicview/res/tag.getSimilar.html
+		}
+		getTopAlbums {
+			userFunc = tag_getTopAlbums->userFuncIniTest
+			templateFile = EXT:musicview/res/tag.getTopAlbums.html
+		}
+		getTopArtists {
+			userFunc = tag_getTopArtists->userFuncIniTest
+			templateFile = EXT:musicview/res/tag.getTopArtists.html
+		}
+		getTopTags {
+			userFunc = tag_getTopTags->userFuncIniTest
+			templateFile = EXT:musicview/res/tag.getTopTags.html
+		}
+		getTopTracks {
+			userFunc = tag_getTopTracks->userFuncIniTest
+			templateFile = EXT:musicview/res/tag.getTopTracks.html
+		}
+		search {
+			userFunc = tag_search->userFuncIniTest
+			templateFile = EXT:musicview/res/tag.search.html
 		}
 	}
 }

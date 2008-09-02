@@ -29,6 +29,9 @@
 			<label index='tx_musicview_pi1_tmpl_weeklychartlist_form_title'>Chart List Requestor</label>
 			<label index='tx_musicview_pi1_tmpl_weeklychartlist_submit'>Update</label>
 			<label index='tx_musicview_pi1_tmpl_weeklychartlist_no_result'>Nothing selected</label>
+			
+			<label index='tx_musicview_pi1_tmpl_tag_getsimilar-submit'>Search tags</label>
+			<label index='tx_musicview_pi1_tmpl_tag_getsimilar-form-title'>tag.getSimilar search form</label>
 		</languageKey>
 	</data>
 </T3locallang>
