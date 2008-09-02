@@ -1,7 +1,25 @@
-###TEMPLATE###
+###TEMPLATE_SEARCH###
 	<br />
 	<form action="###TMPL_CURRENTPAGE-FORM-ACTION-URL###" method="get" title="###TMPL_TAG_GETSIMILAR-FORM-TITLE###">
-		<input type="text" name="tag.getSimilar-INPUT-TAGNAME" value="###TAG_TAG.REQ_TAG###" size="30" />
-		<input type="submit" name="tag.getSimilar-FORM-SUBMIT" value="###TMPL_TAG_GETSIMILAR-SUBMIT###" />
+		<input class="tag_getSimilar-INPUT-CLASS-value" type="text" name="tx_musicview_pi1[tag.getSimilar-INPUT-TAGNAME]" value="###TAG_TAG.REQ_TAG###" size="30" />
+		<input class="tag_getSimilar-INPUT-CLASS-submit" type="submit" name="tx_musicview_pi1[tag.getSimilar-FORM-SUBMIT]" value="###TMPL_TAG_GETSIMILAR-SUBMIT###" />
 	</form>
+###TEMPLATE_SEARCH###
+
 ###TEMPLATE###
+	<br />
+	<b>###SIMILARTAGS_ATTR_TAG###</b>:
+
+	<table width="400px">
+		<tbody>
+			<!-- ###TEMPLATE_TAG### begin -->
+			<tr class="tag_getSimilar-TR-CLASS-tagurlname">
+				<td class="tag_getSimilar-TD-CLASS-tagurlname">
+					###TAG_URLNAME###
+				</td>
+			</tr>
+			<!-- ###TEMPLATE_TAG### end -->
+		</tbody>
+	</table>
+###TEMPLATE###
+

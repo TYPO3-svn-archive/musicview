@@ -817,5 +817,30 @@ tr.library_getTracks-TR_CLASS-effect:hover {
 /* ###library.getTracks### end */
 
 /* ###tag.getSimilar### begin */
+input.tag_getSimilar-INPUT-CLASS-value {
+	border-color:#000000;
+	border-style:solid;
+	border-width:thin;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
 
+input.tag_getSimilar-INPUT-CLASS-submit {
+	border-color:#000000;
+	border-style:solid;
+	border-width:thin;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+tr.tag_getSimilar-TR-CLASS-tagurlname {
+	height:30px;
+}
+
+td.tag_getSimilar-TD-CLASS-tagurlname {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+}
 /* ###tag.getSimilar### end */
+

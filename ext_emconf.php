@@ -32,7 +32,10 @@ $EM_CONF[$_EXTKEY] = array(
 	'version' => '0.0.0',
 	'constraints' => array(
 		'depends' => array(
-			'cms' => '',
+			'php' => '5.0.0-0.0.0',
+			'cms' => '4.2.0',
+			/* 'jsmanager' => '1.0.0',
+			'extjs' => '2.0.0', */
 		),
 		'conflicts' => array(
 		),

@@ -36,8 +36,21 @@ abstract class musicview_userfunc_base {
 	protected function setConf() {
 		$className = $this->getClassName();
 		$method = str_replace('_', '.', $className);
+		$method = $this->getMethodName();
 
 		$this->conf = $this->getConf($method);
+	}
+
+	/**
+	 * Get the name of the method that this userFunc method implements.
+	 *
+	 * @return	The name of the method represented by this class
+	 */
+	protected function getMethodName() {
+		$className = $this->getClassName();
+		$method = str_replace('_', '.', $className);
+
+		return $method;
 	}
 
 	/**

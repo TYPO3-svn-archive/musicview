@@ -48,7 +48,7 @@ abstract class xmlel_base {
 	/**
 	 * Children array
 	 */
-	protected $children;
+	public $children;
 	/**
 	 * Value array
 	 */

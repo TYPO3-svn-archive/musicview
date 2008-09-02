@@ -448,6 +448,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 		#t3lib_div::debug($reqLink);
 		#return $reqLink;
 		$reqLink = 'http://walnut-walnut/xml/'.$method.'.xml';
+		#t3lib_div::debug($reqLink);
 		$dom = new DomDocument('1.0', 'utf-8');
 		$dom->load($reqLink);
 
@@ -671,6 +672,24 @@ class tx_musicview_pi1 extends tslib_pibase {
 			}
 		}
 		return $result;
+	}
+
+	/**
+	 * Get a flexform value depending on the method and it's key.
+	 * If the method or the key can't be found the method returns null.
+	 *
+	 * @param	string	$method: The method to search
+	 * @param	string	$key: The key of the value api configuration
+	 * @return	The value identified by the key
+	 */
+	public function getFlexValue($method, $key) {
+		if (isset($this->last_fm_api[$method]) &&
+			isset($this->last_fm_api[$method][$key])) {
+
+			$arr = $this->last_fm_api[$method][$key];
+			return $this->getFlexFormValue($arr['sheet'], $arr['key']);
+		}
+		return NULL;
 	}
 
 	/**
