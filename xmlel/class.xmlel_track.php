@@ -22,6 +22,7 @@ class xmlel_track extends xmlel_base {
 			'name',
 			'streamable',
 			'playcount',
+			'tagcount',
 			'mbid',
 			'url',
 			'date',

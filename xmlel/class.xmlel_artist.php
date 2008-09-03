@@ -20,6 +20,7 @@ class xmlel_artist extends xmlel_base {
 			'name',
 			'mbid',
 			'playcount',
+			'tagcount',
 			'url',
 			'tagcount',
 			'streamable',

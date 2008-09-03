@@ -268,10 +268,18 @@ plugin.tx_musicview_pi1 {
 		getTopAlbums {
 			userFunc = tag_getTopAlbums->userFuncIniTest
 			templateFile = EXT:musicview/res/tag.getTopAlbums.html
+			
+			image {
+				size = small
+			}
 		}
 		getTopArtists {
 			userFunc = tag_getTopArtists->userFuncIniTest
 			templateFile = EXT:musicview/res/tag.getTopArtists.html
+			
+			image {
+				size = small
+			}
 		}
 		getTopTags {
 			userFunc = tag_getTopTags->userFuncIniTest
@@ -280,6 +288,10 @@ plugin.tx_musicview_pi1 {
 		getTopTracks {
 			userFunc = tag_getTopTracks->userFuncIniTest
 			templateFile = EXT:musicview/res/tag.getTopTracks.html
+			
+			image {
+				size = small
+			}
 		}
 		search {
 			userFunc = tag_search->userFuncIniTest

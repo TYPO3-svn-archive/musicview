@@ -21,6 +21,7 @@ class xmlel_album extends xmlel_base {
 			'name',
 			'mbid',
 			'playcount',
+			'tagcount',
 			'url',
 		),
 	);

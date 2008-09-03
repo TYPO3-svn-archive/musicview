@@ -844,3 +844,107 @@ td.tag_getSimilar-TD-CLASS-tagurlname {
 }
 /* ###tag.getSimilar### end */
 
+/* ###tag.getTopArtists### begin */
+table.tag_getTopArtists-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.tag_getTopArtists-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.tag_getTopArtists-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.tag_getTopArtists-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###tag.getTopArtists### end */
+
+/* ###tag.getTopAlbums### begin */
+table.tag_getTopAlbums-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.tag_getTopAlbums-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.tag_getTopAlbums-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.tag_getTopAlbums-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###tag.getTopAlbums### end */
+
+/* ###tag.getTopTags### begin */
+table.tag_getTopTags-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.tag_getTopTags-TABLE-TR-light {
+	background-color:#FFF4D3;
+}
+
+tr.tag_getTopTags-TABLE-TR-lighter {
+	background-color:#FFEAA8;
+}
+
+tr.tag_getTopTags-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+
+div.tag_getTopTags-DIV-chart {
+	background: url(../img/chart_yellow.png) no-repeat right top;
+	overflow: hidden;
+}
+
+div.tag_getTopTags-DIV-chart span {
+	background:#FECB31; 
+	color:#FFFFFF;
+	display: block; 
+	height: 17px;
+	margin: 0 3px 0 0;
+	overflow:hidden;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0;
+}
+
+div.tag_getTopTags-DIV-chart-text {
+	margin-top:-15px;
+	padding-left:4px;
+}
+/* ###tag.getTopTags### end */
+
+/* ###tag.getTopTracks### begin */
+table.tag_getLovedTracks-TABLE {
+	text-align:left;
+	width: 300px;
+}
+
+tr.tag_getLovedTracks-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.tag_getLovedTracks-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.tag_getLovedTracks-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###tag.getTopTracks### end */
