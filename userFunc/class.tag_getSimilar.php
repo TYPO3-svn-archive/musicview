@@ -23,41 +23,23 @@ class tag_getSimilar extends musicview_userfunc_base {
 	 * @return 	The content of the xmlel_obj from the 'musicview_userfunc_base' class
 	 */
 	protected function fillTemplate() {
-		$template = $this->getTemplateParts('###TEMPLATE_SEARCH###', array());
-		$tagValue = $this->getTagForInput();
-
+		$method = $this->getMethodName();
+		$tagValue = $this->getTagForInput($method);
+		
+		/* $template = $this->getTemplateParts('###TEMPLATE_SEARCH###', array());
 		$markerArray = $this->xmlel_obj->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
 		$markerArray['###TAG_TAG.REQ_TAG###'] = $tagValue;
+		$markerArray['###TMPL_TAG_GETSIMILAR_PATH-tslib###'] = PATH_tslib;
 		$tmplMarkerArray = $this->tx_musicview_pi1->getTemplateMarker();
 
-		$part1 = $this->substituteMarkerArrayCached($template['total'], array_merge($markerArray, $tmplMarkerArray));
+		$part1 = $this->substituteMarkerArrayCached($template['total'], array_merge($markerArray, $tmplMarkerArray)); */
+		$part2 = $this->displaySimilarTags($tagValue, $method);
 
-		$part2 = $this->displaySimilarTags($tagValue, $this->getMethodName());
-
-		return $part1 . $part2;  
-	}
-	
-	/**
-	 * Get the value for the search field.
-	 * 
-	 * @return 	The value for the search field
-	 */
-	private function getTagForInput() {
-		$params = t3lib_div::_GET('tx_musicview_pi1');
-		
-		if (is_array($params) && isset($params[$this->input])) {
-			$value = $params[$this->input];
-
-			if (!is_null($value) && strlen($value) > 0) {
-				return $value;
-			}
-		}
-		$value = $this->tx_musicview_pi1->getFlexValue($this->getMethodName(), 'tag');
-		return $value; 
+		return /* $part1 . */ $part2;  
 	}
 
 	protected function displaySimilarTags($tagname, $method) {
-		/*DomDocument*/$dom = $this->tx_musicview_pi1->doRequest($method, array('tag' => $tagname));
+		/*DomDocument*$dom = $this->tx_musicview_pi1->doRequest($method, array('tag' => $tagname));
 		$domNodeList = $dom->getElementsByTagName(xmlel_lfm::XMLEL_NAME);
 		
 		if ($domNodeList->length == 1) {
@@ -76,7 +58,8 @@ class tag_getSimilar extends musicview_userfunc_base {
 				return $content;
 			}
 		}
-		return NULL;
+		return NULL; */
+		return $this->displayObject($this->xmlel_obj);
 	}
 	
 	protected function displayObject($xmlel_obj) {
@@ -95,6 +78,33 @@ class tag_getSimilar extends musicview_userfunc_base {
 			$content .= $this->substituteMarkerArrayCached($template, $markerArray);
 		}
 		return $content;
+	}
+	
+	/**
+	 * Get the value for the search field.
+	 * 
+	 * @return 	The value for the search field
+	 */
+	private function getTagForInput($method) {
+		if ($this->isMethodParamSet()) {
+			$params = t3lib_div::_GET('tx_musicview_pi1');
+			$value = $params[$this->input];
+
+			if (!is_null($value) && strlen($value) > 0) {
+				return $value;
+			}
+		}
+		$value = $this->tx_musicview_pi1->getFlexValue($method, 'tag');
+		return $value; 
+	}
+	
+	private function isMethodParamSet() {
+		$params = t3lib_div::_GP('tx_musicview_pi1');
+		
+		if (is_array($params) && isset($params[$this->input])) {
+			return true;
+		}
+		return false;
 	}
 }
 
