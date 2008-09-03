@@ -261,7 +261,7 @@ plugin.tx_musicview_pi1 {
 	}
 	
 	tag {
-		getSimilar {
+		getSimilar { // TODO: Feature 1457
 			userFunc = tag_getSimilar->userFuncIniTest
 			templateFile = EXT:musicview/res/tag.getSimilar.html
 		}
@@ -293,7 +293,7 @@ plugin.tx_musicview_pi1 {
 				size = small
 			}
 		}
-		search {
+		search { // TODO: implement
 			userFunc = tag_search->userFuncIniTest
 			templateFile = EXT:musicview/res/tag.search.html
 		}
