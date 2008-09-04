@@ -89,6 +89,20 @@
 			<label index="tt_content.pi_flexform.sheet_tag_api_search_limit">tag.search: Limit the number of tags returned at one time. Default (maximum) is 30</label>
 			<label index="tt_content.pi_flexform.sheet_tag_api_search_page">tag.search: Scan into the results by specifying a page number. Defaults to first page</label>
 			<!-- ###TAGAPI_SHEET### end -->
+			
+			<!-- ###ALBUMAPI_SHEET### begin -->
+			<label index="tt_content.pi_flexform.sheet_album_api">Album API</label>
+			<label index="tt_content.pi_flexform.sheet_album_api_album.getInfo_artist">album.getInfo: The artist name in question</label>
+			<label index="tt_content.pi_flexform.sheet_album_api_album.getInfo_album">album.getInfo: The album name in question</label>
+			<label index="tt_content.pi_flexform.sheet_album_api_album.getInfo_mbid">album.getInfo: The musicbrainz id for the album</label>
+			<!-- ###ALBUMAPI_SHEET### end -->
+			
+			<!-- ###TRACKAPI_SHEET### begin -->
+			<label index="tt_content.pi_flexform.sheet_track_api">Track API</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_track">track.[getTopTags|getTopFans|getSimilar]: The track name in question*</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_artist">track.[getTopTags|getTopFans|getSimilar]: The artist name in question*</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_mbid">track.[getTopTags|getTopFans|getSimilar]: The musicbrainz id for the track</label>
+			<!-- ###TRACKAPI_SHEET### end -->
 
 			<label index="tt_content.pi_flexform.sheet_display">Display Settings</label>
 			<label index="tt_content.pi_flexform.sheet_error">Error Handling Settings</label>

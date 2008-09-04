@@ -948,3 +948,25 @@ tr.tag_getTopTracks-TR_CLASS-effect:hover {
 	background-color:#FF3300;
 }
 /* ###tag.getTopTracks### end */
+
+/* ###album.getInfo### begin */
+table.album_getInfo-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.album_getInfo-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.album_getInfo-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.album_getInfo-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###album.getInfo### begin */
+

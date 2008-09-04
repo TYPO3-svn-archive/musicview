@@ -209,6 +209,28 @@
 										<numIndex index="1">tag.search</numIndex>
 									</numIndex>
 									<!-- ###tag.*### end -->
+									
+									<!-- ###album.*### begin -->
+									<numIndex index="32" type="array">
+										<numIndex index="0">album.getInfo</numIndex>
+										<numIndex index="1">album.getInfo</numIndex>
+									</numIndex>
+									<!-- ###album.*### end -->
+									
+									<!-- ###track.*### begin -->
+									<numIndex index="33" type="array">
+										<numIndex index="0">track.getSimilar</numIndex>
+										<numIndex index="1">track.getSimilar</numIndex>
+									</numIndex>
+									<numIndex index="34" type="array">
+										<numIndex index="0">track.getTopFans</numIndex>
+										<numIndex index="1">track.getTopFans</numIndex>
+									</numIndex>
+									<numIndex index="35" type="array">
+										<numIndex index="0">track.getTopTags</numIndex>
+										<numIndex index="1">track.getTopTags</numIndex>
+									</numIndex>
+									<!-- ###track.*### end -->
 								</items>
 								
 								<minitems>0</minitems>
@@ -953,6 +975,88 @@
 				</el>
 			</ROOT>
 		</sheet_tag_api>
+		
+		<sheet_tag_album>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<album.getInfo_artist>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api_album.getInfo_artist</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</album.getInfo_artist>
+					
+					<album.getInfo_album>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api_album.getInfo_album</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</album.getInfo_album>
+					
+					<album.getInfo_mbid>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api_album.getInfo_mbid</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</album.getInfo_mbid>
+				</el>
+			</ROOT>
+		</sheet_tag_album>
+			
+		<sheet_track_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<track.getTopTags-getTopFans-getSimilar_track>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_track</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</track.getTopTags-getTopFans-getSimilar_track>
+					
+					<track.getTopTags-getTopFans-getSimilar_artist>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_artist</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</track.getTopTags-getTopFans-getSimilar_artist>
+					
+					<track.getTopTags-getTopFans-getSimilar_mbid>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_mbid</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</track.getTopTags-getTopFans-getSimilar_mbid>
+				</el>
+			</ROOT>
+		</sheet_track_api>
 		
 	</sheets>
 </T3DataStructure>

@@ -18,9 +18,13 @@ class xmlel_album extends xmlel_base {
 		'album' => array(
 			array('tag' => 'artist'),
 			array('tag' => 'image'),
+			array('tag' => 'toptags'),
+			'id',
 			'name',
 			'mbid',
+			'releasedate',
 			'playcount',
+			'listeners',
 			'tagcount',
 			'url',
 		),
