@@ -169,6 +169,13 @@ class tx_musicview_pi1 extends tslib_pibase {
 		/* ###artist.*### begin */
 		'artist.getEvents' => array(
 		),
+		'artist.getInfo' => array(
+			'mbid' => array(
+				'sheet' => 'sheet_artist_api',
+				'key' => 'artist.getInfo_mbid',
+				'req' => 0,
+			),
+		),
 		/* ###artist.*### end */
 
 		/* ###track.*### begin */
@@ -559,7 +566,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 	 */
 	public function doRequest($method, $param = array()) {
 		$reqLink = $this->createRequestLink($method, $param);
-		t3lib_div::debug($reqLink);
+		#t3lib_div::debug($reqLink);
 		#return $reqLink;
 		$reqLink = 'http://walnutstreet.walnut.moe/xml/'.$method.'.xml';
 		#t3lib_div::debug($reqLink);
@@ -594,7 +601,6 @@ class tx_musicview_pi1 extends tslib_pibase {
 				foreach ($childKeys as $childKey) {
 					$childArr = $xmlel_lfm->getChild($childKey);
 					foreach ($childArr as $childObj) {
-						#t3lib_div::debug($lConf);
 						$userFuncContent = $this->callUserFunc($lConf, $childObj);
 						$content .= $this->pi_wrapInBaseClass($userFuncContent);
 					}

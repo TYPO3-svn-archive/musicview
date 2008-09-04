@@ -76,6 +76,10 @@
 										<numIndex index="0">artist.getEvents</numIndex>
 										<numIndex index="1">artist.getEvents</numIndex>
 									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">artist.getInfo</numIndex>
+										<numIndex index="1">artist.getInfo</numIndex>
+									</numIndex>
 									<!-- ###artist.*### end -->
 								
 									<!-- ###auth.*### begin -->
@@ -87,49 +91,49 @@
 									<!-- ###event.*### end -->
 								
 									<!-- ###geo.*### begin -->
-									<numIndex index="2" type="array">
+									<numIndex index="3" type="array">
 										<numIndex index="0">geo.getEvents</numIndex>
 										<numIndex index="1">geo.getEvents</numIndex>
 									</numIndex>
-									<numIndex index="3" type="array">
+									<numIndex index="4" type="array">
 										<numIndex index="0">geo.getTopArtists</numIndex>
 										<numIndex index="1">geo.getTopArtists</numIndex>
 									</numIndex>
-									<numIndex index="4" type="array">
+									<numIndex index="5" type="array">
 										<numIndex index="0">geo.getTopTracks</numIndex>
 										<numIndex index="1">geo.getTopTracks</numIndex>
 									</numIndex>
 									<!-- ###geo.*### end -->
 									
 									<!-- ###group.*### begin -->
-									<numIndex index="5" type="array">
+									<numIndex index="6" type="array">
 										<numIndex index="0">group.getWeeklyAlbumChart</numIndex>
 										<numIndex index="1">group.getWeeklyAlbumChart</numIndex>
 									</numIndex>
-									<numIndex index="6" type="array">
+									<numIndex index="7" type="array">
 										<numIndex index="0">group.getWeeklyArtistChart</numIndex>
 										<numIndex index="1">group.getWeeklyArtistChart</numIndex>
 									</numIndex>
-									<numIndex index="" type="array">
+									<numIndex index="8" type="array">
 										<numIndex index="0">group.getWeeklyChartList</numIndex>
 										<numIndex index="1">group.getWeeklyChartList</numIndex>
 									</numIndex>
-									<numIndex index="8" type="array">
+									<numIndex index="9" type="array">
 										<numIndex index="0">group.getWeeklyTrackChart</numIndex>
 										<numIndex index="1">group.getWeeklyTrackChart</numIndex>
 									</numIndex>
 									<!-- ###group.*### end -->
 									
 									<!-- ###library.*### begin -->
-									<numIndex index="9" type="array">
+									<numIndex index="10" type="array">
 										<numIndex index="0">library.getAlbums</numIndex>
 										<numIndex index="1">library.getAlbums</numIndex>
 									</numIndex>
-									<numIndex index="10" type="array">
+									<numIndex index="11" type="array">
 										<numIndex index="0">library.getArtists</numIndex>
 										<numIndex index="1">library.getArtists</numIndex>
 									</numIndex>
-									<numIndex index="11" type="array">
+									<numIndex index="12" type="array">
 										<numIndex index="0">library.getTracks</numIndex>
 										<numIndex index="1">library.getTracks</numIndex>
 									</numIndex>
@@ -140,27 +144,27 @@
 									<!-- ###playlist.*### end -->
 								
 									<!-- ###tag.*### begin -->
-									<numIndex index="12" type="array">
+									<numIndex index="13" type="array">
 										<numIndex index="0">tag.getSimilar</numIndex>
 										<numIndex index="1">tag.getSimilar</numIndex>
 									</numIndex>
-									<numIndex index="13" type="array">
+									<numIndex index="14" type="array">
 										<numIndex index="0">tag.getTopAlbums</numIndex>
 										<numIndex index="1">tag.getTopAlbums</numIndex>
 									</numIndex>
-									<numIndex index="14" type="array">
+									<numIndex index="15" type="array">
 										<numIndex index="0">tag.getTopArtists</numIndex>
 										<numIndex index="1">tag.getTopArtists</numIndex>
 									</numIndex>
-									<numIndex index="15" type="array">
+									<numIndex index="16" type="array">
 										<numIndex index="0">tag.getTopTags</numIndex>
 										<numIndex index="1">tag.getTopTags</numIndex>
 									</numIndex>
-									<numIndex index="16" type="array">
+									<numIndex index="17" type="array">
 										<numIndex index="0">tag.getTopTracks</numIndex>
 										<numIndex index="1">tag.getTopTracks</numIndex>
 									</numIndex>
-									<numIndex index="17" type="array">
+									<numIndex index="18" type="array">
 										<numIndex index="0">tag.search</numIndex>
 										<numIndex index="1">tag.search</numIndex>
 									</numIndex>
@@ -171,26 +175,26 @@
 									<!-- ###tasteometer.*### end -->
 								
 									<!-- ###track.*### begin -->
-									<numIndex index="18" type="array">
+									<numIndex index="19" type="array">
 										<numIndex index="0">track.getSimilar</numIndex>
 										<numIndex index="1">track.getSimilar</numIndex>
 									</numIndex>
-									<numIndex index="19" type="array">
+									<numIndex index="20" type="array">
 										<numIndex index="0">track.getTopFans</numIndex>
 										<numIndex index="1">track.getTopFans</numIndex>
 									</numIndex>
-									<numIndex index="20" type="array">
+									<numIndex index="21" type="array">
 										<numIndex index="0">track.getTopTags</numIndex>
 										<numIndex index="1">track.getTopTags</numIndex>
 									</numIndex>
 									<!-- ###track.*### end -->
 								
 									<!-- ###user.*### begin -->
-									<numIndex index="21" type="array">
+									<numIndex index="22" type="array">
 										<numIndex index="0">user.getEvents</numIndex>
 										<numIndex index="1">user.getEvents</numIndex>
 									</numIndex>
-									<numIndex index="22" type="array">
+									<numIndex index="23" type="array">
 										<numIndex index="0">user.getFriends</numIndex>
 										<numIndex index="1">user.getFriends</numIndex>
 									</numIndex>
@@ -199,55 +203,55 @@
 										<numIndex index="0">user.getInfo</numIndex>
 										<numIndex index="1">user.getInfo</numIndex>
 									</numIndex> -->
-									<numIndex index="23" type="array">
+									<numIndex index="24" type="array">
 										<numIndex index="0">user.getLovedTracks</numIndex>
 										<numIndex index="1">user.getLovedTracks</numIndex>
 									</numIndex>
-									<numIndex index="24" type="array">
+									<numIndex index="25" type="array">
 										<numIndex index="0">user.getNeighbours</numIndex>
 										<numIndex index="1">user.getNeighbours</numIndex>
 									</numIndex>
-									<numIndex index="25" type="array">
+									<numIndex index="26" type="array">
 										<numIndex index="0">user.getPastEvents</numIndex>
 										<numIndex index="1">user.getPastEvents</numIndex>
 									</numIndex>
-									<numIndex index="26" type="array">
+									<numIndex index="27" type="array">
 										<numIndex index="0">user.getPlaylists</numIndex>
 										<numIndex index="1">user.getPlaylists</numIndex>
 									</numIndex>
-									<numIndex index="27" type="array">
+									<numIndex index="28" type="array">
 										<numIndex index="0">user.getRecentTracks</numIndex>
 										<numIndex index="1">user.getRecentTracks</numIndex>
 									</numIndex>
-									<numIndex index="28" type="array">
+									<numIndex index="29" type="array">
 										<numIndex index="0">user.getTopAlbums</numIndex>
 										<numIndex index="1">user.getTopAlbums</numIndex>
 									</numIndex>
-									<numIndex index="29" type="array">
+									<numIndex index="30" type="array">
 										<numIndex index="0">user.getTopArtists</numIndex>
 										<numIndex index="1">user.getTopArtists</numIndex>
 									</numIndex>
-									<numIndex index="30" type="array">
+									<numIndex index="31" type="array">
 										<numIndex index="0">user.getTopTags</numIndex>
 										<numIndex index="1">user.getTopTags</numIndex>
 									</numIndex>
-									<numIndex index="31" type="array">
+									<numIndex index="32" type="array">
 										<numIndex index="0">user.getTopTracks</numIndex>
 										<numIndex index="1">user.getTopTracks</numIndex>
 									</numIndex>
-									<numIndex index="32" type="array">
+									<numIndex index="33" type="array">
 										<numIndex index="0">user.getWeeklyAlbumChart</numIndex>
 										<numIndex index="1">user.getWeeklyAlbumChart</numIndex>
 									</numIndex>
-									<numIndex index="33" type="array">
+									<numIndex index="34" type="array">
 										<numIndex index="0">user.getWeeklyArtistChart</numIndex>
 										<numIndex index="1">user.getWeeklyArtistChart</numIndex>
 									</numIndex>
-									<numIndex index="34" type="array">
+									<numIndex index="35" type="array">
 										<numIndex index="0">user.getWeeklyChartList</numIndex>
 										<numIndex index="1">user.getWeeklyChartList</numIndex>
 									</numIndex>
-									<numIndex index="35" type="array">
+									<numIndex index="36" type="array">
 										<numIndex index="0">user.getWeeklyTrackChart</numIndex>
 										<numIndex index="1">user.getWeeklyTrackChart</numIndex>
 									</numIndex>
@@ -323,6 +327,16 @@
 							</config>
 						</TCEforms>
 					</artist.common>
+					
+					<artist.getInfo_mbid>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_artist_api_getInfo_mbid</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</artist.getInfo_mbid>
 				</el>
 			</ROOT>
 		</sheet_artist_api>

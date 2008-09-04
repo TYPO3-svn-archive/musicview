@@ -17,6 +17,9 @@ class xmlel_artist extends xmlel_base {
 	private $tagStruct = array(
 		'artist' => array(
 			array('tag' => 'image'),
+			array('tag' => 'stats'),
+			array('tag' => 'bio'),
+			array('tag' => 'similar'),
 			'name',
 			'mbid',
 			'playcount',

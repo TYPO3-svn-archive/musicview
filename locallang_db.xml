@@ -22,6 +22,7 @@
 			<!-- ###ARTISTAPI_SHEET### begin--> 
 			<label index="tt_content.pi_flexform.sheet_artist_api">Artist API</label>
 			<label index="tt_content.pi_flexform.sheet_artist_api_common">artist.*: The artist name in question*</label>
+			<label index="tt_content.pi_flexform.sheet_artist_api_getInfo_mbid">artist.getInfo: The musicbrainz id for the artist</label>
 			<!-- ###ARTISTAPI_SHEET### end-->
 			
 

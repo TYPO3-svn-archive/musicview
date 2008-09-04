@@ -1,0 +1,69 @@
+###TEMPLATE###
+	<table class="artist_getINFO-TABLE" cellspacing="0px" cellpadding="2px">
+		<tr>
+			<td align="left" colspan="2">
+				<b>###ARTIST_URLNAME###</b>
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" valign="top">
+				###ARTIST_IMAGE###
+			</td>
+			<td valign="top">
+				<!-- ###TEMPLATE_BIO-SUMMARY### begin -->
+					###BIO_SUMMARY###
+				<!-- ###TEMPLATE_BIO-SUMMARY### end -->
+			</td>
+		</tr>
+		<!-- ###TEMPLATE_BIO-CONTENT### begin -->
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<b>Biography:</b><br />
+					###BIO_CONTENT###
+				</td>
+			</tr>
+		<!-- ###TEMPLATE_BIO-CONTENT### end -->
+	</table>
+	
+	<!-- ###TEMPLATE_STATS### begin -->
+	<br />
+	<table class="artist_getINFO-TABLE" cellspacing="0px" cellpadding="2px">
+		<tr>
+			<td width="10%">
+				Listeners:
+			</td>
+			<td>
+				<b>###STATS_LISTENERS###</b>
+			</td>
+			<td width="10%">
+				Playcount:
+			</td>
+			<td>
+				<b>###STATS_PLAYCOUNT###</b>
+			</td>
+		</tr>
+	</table>
+	<!-- ###TEMPLATE_STATS### end -->
+	
+	<!-- ###TEMPLATE_SIMILAR### begin -->
+		<br />
+		<b>Similar artists</b>:
+		<table class="artist_getINFO-TABLE" cellspacing="0px" cellpadding="2px">
+			<!-- ###TEMPLATE_ARTIST### begin -->
+				<tr>
+					<td width="10%">
+						###ARTIST_IMAGE###
+					</td>
+					<td>
+						###ARTIST_URLNAME###
+					</td>
+				</tr>
+			<!-- ###TEMPLATE_ARTIST### end -->
+		</table>
+	<!-- ###TEMPLATE_SIMILAR### end -->
+###TEMPLATE###
