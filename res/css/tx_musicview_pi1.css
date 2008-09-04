@@ -1016,3 +1016,53 @@ tr.track_getTopTags-TR_CLASS-effect:hover {
 	background-color:#FF3300;
 }
 /* ###track.getTopTags### end */
+
+/* ###artist.getEvents### begin */
+div.artist_getEvents-DIV {
+	margin-bottom:5px;
+	padding:2px 2px 2px 2px;
+}
+
+
+TABLE.artist_getEvents-TABLE {
+	border-color:#D3D3D3;
+	border-style:solid;
+	border-width:1px;
+	width:100%;
+}
+
+span.artist_getEvents-SPAN-title {
+	font-size:medium;
+	font-weight:bolder;
+}
+
+td.artist_getEvents-TD-image {
+	text-align:center;
+}
+
+span.artist_getEvents-SPAN-headliner {
+	font-style:italic;
+	font-size:12px;
+}
+
+div.artist_getEvents-DIV-line {
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	height:10px;
+	margin-bottom:10px;
+}
+
+td.artist_getEvents-TD-artists {
+	vertical-align:top;
+}
+div.artist_getEvents-DIV-venue {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+}
+/* ###artist.getEvents### end */

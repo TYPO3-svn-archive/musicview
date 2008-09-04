@@ -16,6 +16,14 @@
 			<label index="tt_content.pi_flexform.sheet_general_apifunc">Select what should be displayed</label>
 			<label index="tt_content.pi_flexform.sheet_general_group">Group name (group.*)</label>
 			<!-- ###GENERAL_SHEET### end -->
+			
+			
+			
+			<!-- ###ARTISTAPI_SHEET### begin--> 
+			<label index="tt_content.pi_flexform.sheet_artist_api">Artist API</label>
+			<label index="tt_content.pi_flexform.sheet_artist_api_common">artist.*: The artist name in question*</label>
+			<!-- ###ARTISTAPI_SHEET### end-->
+			
 
 			<!-- ###USERAPI_SHEET### begin -->
 			<label index="tt_content.pi_flexform.sheet_user_api">User API</label>

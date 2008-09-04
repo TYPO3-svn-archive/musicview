@@ -42,6 +42,8 @@ page.includeLibs.trackGetTopTags = EXT:musicview/userFunc/class.track_getTopTags
 page.includeLibs.trackGetTopFans = EXT:musicview/userFunc/class.track_getTopFans.php
 page.includeLibs.trackGetSimilar = EXT:musicview/userFunc/class.track_getSimilar.php
 
+page.includeLibs.artistGetEvents = EXT:musicview/userFunc/class.artist_getEvents.php
+
 
 
 plugin.tx_musicview_pi1 {
@@ -51,10 +53,22 @@ plugin.tx_musicview_pi1 {
 		templateFile = EXT:musicview/res/error.tmpl
 	}
 	
+	artist {
+		getEvents {
+			userFunc = artist_getEvents->userFuncIniTest
+			templateFile = EXT:musicview/res/artist.getEvents.html
+			
+			image {
+				size = medium
+			}
+		}
+	}
+	
 	user {
 		getEvents {
 			userFunc = user_getEvents->userFuncIniTest
 			templateFile = EXT:musicview/res/user.getEvents.tmpl
+			
 			image {
 				size = medium
 			}

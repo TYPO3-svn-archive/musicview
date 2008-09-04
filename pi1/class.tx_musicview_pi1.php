@@ -55,6 +55,21 @@ class tx_musicview_pi1 extends tslib_pibase {
 			),
 			/* ###album.*### end */
 
+			/* ###artist.*### begin */
+			'artist' => array(
+				'artist' => array(
+					'sheet' => 'sheet_artist_api',
+					'key' => 'artist.common',
+					'req' => 1,
+				),
+				'api_key' => array(
+					'sheet' => 'sDEF',
+					'key' => 'apikey_settings',
+					'req' => 1,
+				),
+			),
+			/* ###artist.*### end */
+			
 			/* ###user.*### begin */
 			'user' => array(
 				'user' => array(
@@ -150,6 +165,11 @@ class tx_musicview_pi1 extends tslib_pibase {
 			),
 		),
 		/* ###album.*### end */
+		
+		/* ###artist.*### begin */
+		'artist.getEvents' => array(
+		),
+		/* ###artist.*### end */
 
 		/* ###track.*### begin */
 		'track.getTopTags' => array(
@@ -570,9 +590,11 @@ class tx_musicview_pi1 extends tslib_pibase {
 			if ($xmlel_lfm->checkStatus()) { // ok
 				$lConf = $this->getRequestConf($method);
 				$childKeys = $xmlel_lfm->getChildKeys();
+				
 				foreach ($childKeys as $childKey) {
 					$childArr = $xmlel_lfm->getChild($childKey);
 					foreach ($childArr as $childObj) {
+						#t3lib_div::debug($lConf);
 						$userFuncContent = $this->callUserFunc($lConf, $childObj);
 						$content .= $this->pi_wrapInBaseClass($userFuncContent);
 					}

@@ -31,7 +31,6 @@
 								<type>input</type>
 								<size>30</size>
 								<eval>password</eval>
-<!--								<eval>required,md5,password</eval> -->
 							</config>
 						</TCEforms>
 					</password_settings>
@@ -65,12 +64,133 @@
 							<config>
 								<type>select</type>
 								<items type="array">
-									<!-- ###user.*### begin -->
+									<!-- ###album.*### begin -->
 									<numIndex index="0" type="array">
+										<numIndex index="0">album.getInfo</numIndex>
+										<numIndex index="1">album.getInfo</numIndex>
+									</numIndex>
+									<!-- ###album.*### end -->
+								
+									<!-- ###artist.*### begin -->
+									<numIndex index="1" type="array">
+										<numIndex index="0">artist.getEvents</numIndex>
+										<numIndex index="1">artist.getEvents</numIndex>
+									</numIndex>
+									<!-- ###artist.*### end -->
+								
+									<!-- ###auth.*### begin -->
+									<!-- TODO -->
+									<!-- ###auth.*### end -->
+									
+									<!-- ###event.*### begin -->
+									<!-- TODO -->
+									<!-- ###event.*### end -->
+								
+									<!-- ###geo.*### begin -->
+									<numIndex index="2" type="array">
+										<numIndex index="0">geo.getEvents</numIndex>
+										<numIndex index="1">geo.getEvents</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">geo.getTopArtists</numIndex>
+										<numIndex index="1">geo.getTopArtists</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">geo.getTopTracks</numIndex>
+										<numIndex index="1">geo.getTopTracks</numIndex>
+									</numIndex>
+									<!-- ###geo.*### end -->
+									
+									<!-- ###group.*### begin -->
+									<numIndex index="5" type="array">
+										<numIndex index="0">group.getWeeklyAlbumChart</numIndex>
+										<numIndex index="1">group.getWeeklyAlbumChart</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">group.getWeeklyArtistChart</numIndex>
+										<numIndex index="1">group.getWeeklyArtistChart</numIndex>
+									</numIndex>
+									<numIndex index="" type="array">
+										<numIndex index="0">group.getWeeklyChartList</numIndex>
+										<numIndex index="1">group.getWeeklyChartList</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">group.getWeeklyTrackChart</numIndex>
+										<numIndex index="1">group.getWeeklyTrackChart</numIndex>
+									</numIndex>
+									<!-- ###group.*### end -->
+									
+									<!-- ###library.*### begin -->
+									<numIndex index="9" type="array">
+										<numIndex index="0">library.getAlbums</numIndex>
+										<numIndex index="1">library.getAlbums</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">library.getArtists</numIndex>
+										<numIndex index="1">library.getArtists</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">library.getTracks</numIndex>
+										<numIndex index="1">library.getTracks</numIndex>
+									</numIndex>
+									<!-- ###library.*### begin -->
+									
+									<!-- ###playlist.*### begin -->
+									<!-- TODO -->
+									<!-- ###playlist.*### end -->
+								
+									<!-- ###tag.*### begin -->
+									<numIndex index="12" type="array">
+										<numIndex index="0">tag.getSimilar</numIndex>
+										<numIndex index="1">tag.getSimilar</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">tag.getTopAlbums</numIndex>
+										<numIndex index="1">tag.getTopAlbums</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">tag.getTopArtists</numIndex>
+										<numIndex index="1">tag.getTopArtists</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">tag.getTopTags</numIndex>
+										<numIndex index="1">tag.getTopTags</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">tag.getTopTracks</numIndex>
+										<numIndex index="1">tag.getTopTracks</numIndex>
+									</numIndex>
+									<numIndex index="17" type="array">
+										<numIndex index="0">tag.search</numIndex>
+										<numIndex index="1">tag.search</numIndex>
+									</numIndex>
+									<!-- ###tag.*### end -->
+								
+									<!-- ###tasteometer.*### begin -->
+									<!-- TODO -->
+									<!-- ###tasteometer.*### end -->
+								
+									<!-- ###track.*### begin -->
+									<numIndex index="18" type="array">
+										<numIndex index="0">track.getSimilar</numIndex>
+										<numIndex index="1">track.getSimilar</numIndex>
+									</numIndex>
+									<numIndex index="19" type="array">
+										<numIndex index="0">track.getTopFans</numIndex>
+										<numIndex index="1">track.getTopFans</numIndex>
+									</numIndex>
+									<numIndex index="20" type="array">
+										<numIndex index="0">track.getTopTags</numIndex>
+										<numIndex index="1">track.getTopTags</numIndex>
+									</numIndex>
+									<!-- ###track.*### end -->
+								
+									<!-- ###user.*### begin -->
+									<numIndex index="21" type="array">
 										<numIndex index="0">user.getEvents</numIndex>
 										<numIndex index="1">user.getEvents</numIndex>
 									</numIndex>
-									<numIndex index="1" type="array">
+									<numIndex index="22" type="array">
 										<numIndex index="0">user.getFriends</numIndex>
 										<numIndex index="1">user.getFriends</numIndex>
 									</numIndex>
@@ -78,159 +198,60 @@
 									<numIndex index="2" type="array">
 										<numIndex index="0">user.getInfo</numIndex>
 										<numIndex index="1">user.getInfo</numIndex>
-									</numIndex>
-									###user.getInfo### end -->
-									<numIndex index="3" type="array">
+									</numIndex> -->
+									<numIndex index="23" type="array">
 										<numIndex index="0">user.getLovedTracks</numIndex>
 										<numIndex index="1">user.getLovedTracks</numIndex>
 									</numIndex>
-									<numIndex index="4" type="array">
+									<numIndex index="24" type="array">
 										<numIndex index="0">user.getNeighbours</numIndex>
 										<numIndex index="1">user.getNeighbours</numIndex>
 									</numIndex>
-									<numIndex index="5" type="array">
+									<numIndex index="25" type="array">
 										<numIndex index="0">user.getPastEvents</numIndex>
 										<numIndex index="1">user.getPastEvents</numIndex>
 									</numIndex>
-									<numIndex index="6" type="array">
+									<numIndex index="26" type="array">
 										<numIndex index="0">user.getPlaylists</numIndex>
 										<numIndex index="1">user.getPlaylists</numIndex>
 									</numIndex>
-									<numIndex index="7" type="array">
+									<numIndex index="27" type="array">
 										<numIndex index="0">user.getRecentTracks</numIndex>
 										<numIndex index="1">user.getRecentTracks</numIndex>
 									</numIndex>
-									<numIndex index="8" type="array">
+									<numIndex index="28" type="array">
 										<numIndex index="0">user.getTopAlbums</numIndex>
 										<numIndex index="1">user.getTopAlbums</numIndex>
 									</numIndex>
-									<numIndex index="9" type="array">
+									<numIndex index="29" type="array">
 										<numIndex index="0">user.getTopArtists</numIndex>
 										<numIndex index="1">user.getTopArtists</numIndex>
 									</numIndex>
-									<numIndex index="10" type="array">
+									<numIndex index="30" type="array">
 										<numIndex index="0">user.getTopTags</numIndex>
 										<numIndex index="1">user.getTopTags</numIndex>
 									</numIndex>
-									<numIndex index="11" type="array">
+									<numIndex index="31" type="array">
 										<numIndex index="0">user.getTopTracks</numIndex>
 										<numIndex index="1">user.getTopTracks</numIndex>
 									</numIndex>
-									<numIndex index="12" type="array">
+									<numIndex index="32" type="array">
 										<numIndex index="0">user.getWeeklyAlbumChart</numIndex>
 										<numIndex index="1">user.getWeeklyAlbumChart</numIndex>
 									</numIndex>
-									<numIndex index="13" type="array">
+									<numIndex index="33" type="array">
 										<numIndex index="0">user.getWeeklyArtistChart</numIndex>
 										<numIndex index="1">user.getWeeklyArtistChart</numIndex>
 									</numIndex>
-									<numIndex index="14" type="array">
+									<numIndex index="34" type="array">
 										<numIndex index="0">user.getWeeklyChartList</numIndex>
 										<numIndex index="1">user.getWeeklyChartList</numIndex>
 									</numIndex>
-									<numIndex index="15" type="array">
+									<numIndex index="35" type="array">
 										<numIndex index="0">user.getWeeklyTrackChart</numIndex>
 										<numIndex index="1">user.getWeeklyTrackChart</numIndex>
 									</numIndex>
 									<!-- ###user.*### end -->
-									
-									<!-- ###group.*### begin -->
-									<numIndex index="16" type="array">
-										<numIndex index="0">group.getWeeklyAlbumChart</numIndex>
-										<numIndex index="1">group.getWeeklyAlbumChart</numIndex>
-									</numIndex>
-									<numIndex index="17" type="array">
-										<numIndex index="0">group.getWeeklyArtistChart</numIndex>
-										<numIndex index="1">group.getWeeklyArtistChart</numIndex>
-									</numIndex>
-									<numIndex index="18" type="array">
-										<numIndex index="0">group.getWeeklyChartList</numIndex>
-										<numIndex index="1">group.getWeeklyChartList</numIndex>
-									</numIndex>
-									<numIndex index="19" type="array">
-										<numIndex index="0">group.getWeeklyTrackChart</numIndex>
-										<numIndex index="1">group.getWeeklyTrackChart</numIndex>
-									</numIndex>
-									<!-- ###group.*### end -->
-									
-									<!-- ###geo.*### begin -->
-									<numIndex index="20" type="array">
-										<numIndex index="0">geo.getEvents</numIndex>
-										<numIndex index="1">geo.getEvents</numIndex>
-									</numIndex>
-									<numIndex index="21" type="array">
-										<numIndex index="0">geo.getTopArtists</numIndex>
-										<numIndex index="1">geo.getTopArtists</numIndex>
-									</numIndex>
-									<numIndex index="22" type="array">
-										<numIndex index="0">geo.getTopTracks</numIndex>
-										<numIndex index="1">geo.getTopTracks</numIndex>
-									</numIndex>
-									<!-- ###geo.*### end -->
-									
-									<!-- ###library.*### begin -->
-									<numIndex index="23" type="array">
-										<numIndex index="0">library.getAlbums</numIndex>
-										<numIndex index="1">library.getAlbums</numIndex>
-									</numIndex>
-									<numIndex index="24" type="array">
-										<numIndex index="0">library.getArtists</numIndex>
-										<numIndex index="1">library.getArtists</numIndex>
-									</numIndex>
-									<numIndex index="25" type="array">
-										<numIndex index="0">library.getTracks</numIndex>
-										<numIndex index="1">library.getTracks</numIndex>
-									</numIndex>
-									<!-- ###library.*### begin -->
-									
-									<!-- ###tag.*### begin -->
-									<numIndex index="26" type="array">
-										<numIndex index="0">tag.getSimilar</numIndex>
-										<numIndex index="1">tag.getSimilar</numIndex>
-									</numIndex>
-									<numIndex index="27" type="array">
-										<numIndex index="0">tag.getTopAlbums</numIndex>
-										<numIndex index="1">tag.getTopAlbums</numIndex>
-									</numIndex>
-									<numIndex index="28" type="array">
-										<numIndex index="0">tag.getTopArtists</numIndex>
-										<numIndex index="1">tag.getTopArtists</numIndex>
-									</numIndex>
-									<numIndex index="29" type="array">
-										<numIndex index="0">tag.getTopTags</numIndex>
-										<numIndex index="1">tag.getTopTags</numIndex>
-									</numIndex>
-									<numIndex index="30" type="array">
-										<numIndex index="0">tag.getTopTracks</numIndex>
-										<numIndex index="1">tag.getTopTracks</numIndex>
-									</numIndex>
-									<numIndex index="31" type="array">
-										<numIndex index="0">tag.search</numIndex>
-										<numIndex index="1">tag.search</numIndex>
-									</numIndex>
-									<!-- ###tag.*### end -->
-									
-									<!-- ###album.*### begin -->
-									<numIndex index="32" type="array">
-										<numIndex index="0">album.getInfo</numIndex>
-										<numIndex index="1">album.getInfo</numIndex>
-									</numIndex>
-									<!-- ###album.*### end -->
-									
-									<!-- ###track.*### begin -->
-									<numIndex index="33" type="array">
-										<numIndex index="0">track.getSimilar</numIndex>
-										<numIndex index="1">track.getSimilar</numIndex>
-									</numIndex>
-									<numIndex index="34" type="array">
-										<numIndex index="0">track.getTopFans</numIndex>
-										<numIndex index="1">track.getTopFans</numIndex>
-									</numIndex>
-									<numIndex index="35" type="array">
-										<numIndex index="0">track.getTopTags</numIndex>
-										<numIndex index="1">track.getTopTags</numIndex>
-									</numIndex>
-									<!-- ###track.*### end -->
 								</items>
 								
 								<minitems>0</minitems>
@@ -242,6 +263,423 @@
 				</el>
 			</ROOT>
 		</sDEF>
+
+		<sheet_album_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<album.getInfo_artist>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api_album.getInfo_artist</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</album.getInfo_artist>
+					
+					<album.getInfo_album>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api_album.getInfo_album</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</album.getInfo_album>
+					
+					<album.getInfo_mbid>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api_album.getInfo_mbid</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</album.getInfo_mbid>
+				</el>
+			</ROOT>
+		</sheet_album_api>
+
+
+		<sheet_artist_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_artist_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<artist.common>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_artist_api_common</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</artist.common>
+				</el>
+			</ROOT>
+		</sheet_artist_api>
+
+<!-- TODO:
+		<sheet_auth_api>
+		</sheet_auth_api>
+ -->
+
+<!-- TODO:
+		<sheet_event_api>
+		</sheet_event_api>
+ -->
+
+		<sheet_geo_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<geo.getEvents_location>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_location</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</geo.getEvents_location>
+					
+					<geo.getEvents_lat>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_lat</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</geo.getEvents_lat>
+					
+					<geo.getEvents_long>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_long</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</geo.getEvents_long>
+
+					<geo.getEvents_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_page</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</geo.getEvents_page>
+					
+					<geo.getEvents_distance>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_distance</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</geo.getEvents_distance>
+
+					<geo.getTopArtists>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getTopArtists</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</geo.getTopArtists>
+					
+					<geo.getTopTracks_country>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getTopTracks_country</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</geo.getTopTracks_country>
+					
+					<geo.getTopTracks_location>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getTopTracks_location</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</geo.getTopTracks_location>
+				</el>
+			</ROOT>
+		</sheet_geo_api>
+
+		<sheet_group_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<group.getWeeklyAlbumChart_from>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyAlbumChart_from</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<eval>date</eval>
+							</config>
+						</TCEforms>
+					</group.getWeeklyAlbumChart_from>
+					
+					<group.getWeeklyAlbumChart_to>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyAlbumChart_to</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<eval>date</eval>
+							</config>
+						</TCEforms>
+					</group.getWeeklyAlbumChart_to>
+					
+					<group.getWeeklyArtistChart_from>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyArtistChart_from</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<eval>date</eval>
+							</config>
+						</TCEforms>
+					</group.getWeeklyArtistChart_from>
+					
+					<group.getWeeklyArtistChart_to>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyArtistChart_to</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<eval>date</eval>
+							</config>
+						</TCEforms>
+					</group.getWeeklyArtistChart_to>
+
+					<!-- no optional attribute for this function
+					<group.getWeeklyChartList>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyChartList</label>
+							<config>
+								...
+							</config>
+						</TCEforms>
+					</group.getWeeklyChartList>
+					-->
+
+					<group.getWeeklyTrackChart_from>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyTrackChart_from</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<eval>date</eval>
+							</config>
+						</TCEforms>
+					</group.getWeeklyTrackChart_from>
+					
+					<group.getWeeklyTrackChart_to>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyTrackChart_to</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<eval>date</eval>
+							</config>
+						</TCEforms>
+					</group.getWeeklyTrackChart_to>
+				</el>
+			</ROOT>
+		</sheet_group_api>
+
+		<sheet_library_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<library.getAlbums_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getAlbums_limit</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getAlbums_limit>
+					
+					<library.getAlbums_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getAlbums_page</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getAlbums_page>
+					
+					<library.getArtists_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getArtists_limit</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getArtists_limit>
+					
+					<library.getArtists_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getArtists_page</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getArtists_page>
+					
+					<library.getTracks_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getTracks_limit</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getTracks_limit>
+					
+					<library.getTracks_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getTracks_page</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</library.getTracks_page>
+				</el>
+			</ROOT>
+		</sheet_library_api>
+
+<!-- TODO:
+		<sheet_playlist_api>
+		</sheet_playlist_api>
+ -->
+
+		<sheet_tag_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<tag.req_tag>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api_tag_req</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</tag.req_tag>
+				
+					<tag.search_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api_search_limit</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</tag.search_limit>
+					
+					<tag.search_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api_search_page</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</tag.search_page>
+				</el>
+			</ROOT>
+		</sheet_tag_api>
+
+<!-- TODO:
+		<sheet_tastemeter_api>
+		</sheet_tastemeter_api>
+ -->
+
+		<sheet_track_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<track.getTopTags-getTopFans-getSimilar_track>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_track</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</track.getTopTags-getTopFans-getSimilar_track>
+					
+					<track.getTopTags-getTopFans-getSimilar_artist>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_artist</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</track.getTopTags-getTopFans-getSimilar_artist>
+					
+					<track.getTopTags-getTopFans-getSimilar_mbid>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_mbid</label>
+							<config>
+								<type>input</type>
+								<size>10</size>
+							</config>
+						</TCEforms>
+					</track.getTopTags-getTopFans-getSimilar_mbid>
+				</el>
+			</ROOT>
+		</sheet_track_api>
 
 		<sheet_user_api>
 			<ROOT>
@@ -682,381 +1120,6 @@
 
 			</ROOT>
 		</sheet_user_api>
-		
-		<sheet_group_api>
-			<ROOT>
-				<TCEforms>
-					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api</sheetTitle>
-				</TCEforms>
-				
-				<type>array</type>
-				<el>
-					<group.getWeeklyAlbumChart_from>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyAlbumChart_from</label>
-							<config>
-								<type>input</type>
-								<size>6</size>
-								<eval>date</eval>
-							</config>
-						</TCEforms>
-					</group.getWeeklyAlbumChart_from>
-					
-					<group.getWeeklyAlbumChart_to>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyAlbumChart_to</label>
-							<config>
-								<type>input</type>
-								<size>6</size>
-								<eval>date</eval>
-							</config>
-						</TCEforms>
-					</group.getWeeklyAlbumChart_to>
-					
-					<group.getWeeklyArtistChart_from>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyArtistChart_from</label>
-							<config>
-								<type>input</type>
-								<size>6</size>
-								<eval>date</eval>
-							</config>
-						</TCEforms>
-					</group.getWeeklyArtistChart_from>
-					
-					<group.getWeeklyArtistChart_to>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyArtistChart_to</label>
-							<config>
-								<type>input</type>
-								<size>6</size>
-								<eval>date</eval>
-							</config>
-						</TCEforms>
-					</group.getWeeklyArtistChart_to>
-
-					<!-- no optional attribute for this function
-					<group.getWeeklyChartList>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyChartList</label>
-							<config>
-								...
-							</config>
-						</TCEforms>
-					</group.getWeeklyChartList>
-					-->
-
-					<group.getWeeklyTrackChart_from>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyTrackChart_from</label>
-							<config>
-								<type>input</type>
-								<size>6</size>
-								<eval>date</eval>
-							</config>
-						</TCEforms>
-					</group.getWeeklyTrackChart_from>
-					
-					<group.getWeeklyTrackChart_to>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyTrackChart_to</label>
-							<config>
-								<type>input</type>
-								<size>6</size>
-								<eval>date</eval>
-							</config>
-						</TCEforms>
-					</group.getWeeklyTrackChart_to>
-				</el>
-			</ROOT>
-		</sheet_group_api>
-		
-		<sheet_geo_api>
-			<ROOT>
-				<TCEforms>
-					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api</sheetTitle>
-				</TCEforms>
-				
-				<type>array</type>
-				<el>
-					<geo.getEvents_location>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_location</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</geo.getEvents_location >
-					
-					<geo.getEvents_lat>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_lat</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</geo.getEvents_lat>
-					
-					<geo.getEvents_long>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_long</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</geo.getEvents_long>
-
-					<geo.getEvents_page>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_page</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</geo.getEvents_page>
-					
-					<geo.getEvents_distance>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getEvents_distance</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</geo.getEvents_distance>
-
-					<geo.getTopArtists>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getTopArtists</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</geo.getTopArtists>
-					
-					<geo.getTopTracks_country>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getTopTracks_country</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</geo.getTopTracks_country>
-					
-					<geo.getTopTracks_location>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_geo_api_getTopTracks_location</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</geo.getTopTracks_location>
-				</el>
-			</ROOT>
-		</sheet_geo_api>
-		
-		<sheet_library_api>
-			<ROOT>
-				<TCEforms>
-					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api</sheetTitle>
-				</TCEforms>
-				
-				<type>array</type>
-				<el>
-					<library.getAlbums_limit>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getAlbums_limit</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</library.getAlbums_limit>
-					
-					<library.getAlbums_page>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getAlbums_page</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</library.getAlbums_page>
-					
-					<library.getArtists_limit>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getArtists_limit</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</library.getArtists_limit>
-					
-					<library.getArtists_page>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getArtists_page</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</library.getArtists_page>
-					
-					<library.getTracks_limit>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getTracks_limit</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</library.getTracks_limit>
-					
-					<library.getTracks_page>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_library_api_getTracks_page</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</library.getTracks_page>
-				</el>
-			</ROOT>
-		</sheet_library_api>
-		
-		<sheet_tag_api>
-			<ROOT>
-				<TCEforms>
-					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api</sheetTitle>
-				</TCEforms>
-				
-				<type>array</type>
-				<el>
-					<tag.req_tag>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api_tag_req</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</tag.req_tag>
-				
-					<tag.search_limit>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api_search_limit</label>
-							<config>
-								<type>input</type>
-								<size>5</size>
-								<eval>int</eval>
-							</config>
-						</TCEforms>
-					</tag.search_limit>
-					
-					<tag.search_page>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tag_api_search_page</label>
-							<config>
-								<type>input</type>
-								<size>5</size>
-								<eval>int</eval>
-							</config>
-						</TCEforms>
-					</tag.search_page>
-				</el>
-			</ROOT>
-		</sheet_tag_api>
-		
-		<sheet_album_api>
-			<ROOT>
-				<TCEforms>
-					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api</sheetTitle>
-				</TCEforms>
-				
-				<type>array</type>
-				<el>
-					<album.getInfo_artist>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api_album.getInfo_artist</label>
-							<config>
-								<type>input</type>
-								<size>10</size>
-							</config>
-						</TCEforms>
-					</album.getInfo_artist>
-					
-					<album.getInfo_album>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api_album.getInfo_album</label>
-							<config>
-								<type>input</type>
-								<size>10</size>
-							</config>
-						</TCEforms>
-					</album.getInfo_album>
-					
-					<album.getInfo_mbid>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api_album.getInfo_mbid</label>
-							<config>
-								<type>input</type>
-								<size>10</size>
-							</config>
-						</TCEforms>
-					</album.getInfo_mbid>
-				</el>
-			</ROOT>
-		</sheet_album_api>
-			
-		<sheet_track_api>
-			<ROOT>
-				<TCEforms>
-					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api</sheetTitle>
-				</TCEforms>
-				
-				<type>array</type>
-				<el>
-					<track.getTopTags-getTopFans-getSimilar_track>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_track</label>
-							<config>
-								<type>input</type>
-								<size>10</size>
-							</config>
-						</TCEforms>
-					</track.getTopTags-getTopFans-getSimilar_track>
-					
-					<track.getTopTags-getTopFans-getSimilar_artist>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_artist</label>
-							<config>
-								<type>input</type>
-								<size>10</size>
-							</config>
-						</TCEforms>
-					</track.getTopTags-getTopFans-getSimilar_artist>
-					
-					<track.getTopTags-getTopFans-getSimilar_mbid>
-						<TCEforms>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_mbid</label>
-							<config>
-								<type>input</type>
-								<size>10</size>
-							</config>
-						</TCEforms>
-					</track.getTopTags-getTopFans-getSimilar_mbid>
-				</el>
-			</ROOT>
-		</sheet_track_api>
 		
 	</sheets>
 </T3DataStructure>

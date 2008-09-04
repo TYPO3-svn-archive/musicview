@@ -1,0 +1,55 @@
+<!-- ###TEMPLATE### begin -->
+<div class="artist_getEvents-DIV">
+	<table class="artist_getEvents-TABLE">
+		<tbody>
+			<tr>
+				<td colspan="3">
+					<span class="artist_getEvents-SPAN-title">
+						###EVENT_LINKTITLE###
+					</span>
+					(###EVENT_STARTDATE###)
+				</td>
+			</tr>
+			<tr>
+				<td class="artist_getEvents-TD-image" width="10%">
+					###EVENT_IMAGE###
+				</td>
+				<td class="artist_getEvents-TD-artists">
+					<!-- ###TEMPLATE_ARTISTS### begin -->
+						<b>###TMPL_EVENT_MARKER_HEADLINER###</b> <br />
+						<span class="artist_getEvents-SPAN-headliner">
+							###ARTISTS_HEADLINER###
+						</span>
+						<br />
+						<div class="artist_getEvents-DIV-line" /></div>
+						<b>###TMPL_EVENT_MARKER_ARTISTS###</b> <br />
+						<!-- ###TEMPLATE_ARTIST### begin -->
+							###ARTIST_CONTENT### <br />
+						<!-- ###TEMPLATE_ARTIST### end -->
+					<!-- ###TEMPLATE_ARTISTS### end -->
+				</td>
+				<td width="150px">
+					<!-- ###TEMPLATE_VENUE### begin -->
+						<div class="artist_getEvents-DIV-venue">
+							<h2>
+								###VENUE_URLNAME###
+							</h2>
+							
+							<!-- ###TEMPLATE_LOCATION### begin -->
+								###LOCATION_STREET### <br />
+								###LOCATION_POSTALCODE### ###LOCATION_CITY### <br />
+								###LOCATION_COUNTRY### <br />
+							<!-- ###TEMPLATE_LOCATION### end -->
+						</div>
+					<!-- ###TEMPLATE_VENUE### end -->
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					###EVENT_DESCRIPTION###
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<!-- ###TEMPLATE### end -->
