@@ -21,6 +21,7 @@ class xmlel_user extends xmlel_base {
 			'name',
 			'url',
 			'match',
+			'weight',
 		),
 	);
 

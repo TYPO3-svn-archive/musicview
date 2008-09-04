@@ -976,7 +976,7 @@
 			</ROOT>
 		</sheet_tag_api>
 		
-		<sheet_tag_album>
+		<sheet_album_api>
 			<ROOT>
 				<TCEforms>
 					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_album_api</sheetTitle>
@@ -1015,7 +1015,7 @@
 					</album.getInfo_mbid>
 				</el>
 			</ROOT>
-		</sheet_tag_album>
+		</sheet_album_api>
 			
 		<sheet_track_api>
 			<ROOT>

@@ -817,22 +817,6 @@ tr.library_getTracks-TR_CLASS-effect:hover {
 /* ###library.getTracks### end */
 
 /* ###tag.getSimilar### begin */
-input.tag_getSimilar-INPUT-CLASS-value {
-	border-color:#000000;
-	border-style:solid;
-	border-width:thin;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:10px;
-}
-
-input.tag_getSimilar-INPUT-CLASS-submit {
-	border-color:#000000;
-	border-style:solid;
-	border-width:thin;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:10px;
-}
-
 tr.tag_getSimilar-TR-CLASS-tagurlname {
 	height:30px;
 }
@@ -970,3 +954,65 @@ tr.album_getInfo-TR_CLASS-effect:hover {
 }
 /* ###album.getInfo### begin */
 
+/* ###track.getSimilar### begin */
+table.track_getSimilar-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.track_getSimilar-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.track_getSimilar-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.track_getSimilar-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###track.getSimilar### end */
+
+/* ###track.getTopFans### begin */
+table.track_getTopFans-TABLE {
+	text-align:left;
+	width: 600px;
+}
+
+tr.track_getTopFans-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.track_getTopFans-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.track_getTopFans-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###track.getTopFans### end */
+
+/* ###track.getTopTags### begin */
+table.track_getTopTags-TABLE {
+	text-align:left;
+	width: 400px;
+}
+
+tr.track_getTopTags-TR_CLASS-effect {
+	height: 50px;
+}
+
+tr.track_getTopTags-TR_CLASS-effect td {
+	border-bottom-width:1px;
+	border-bottom-color:#D3D3D3;
+	border-bottom-style:solid;
+} 
+
+tr.track_getTopTags-TR_CLASS-effect:hover {
+	background-color:#FF3300;
+}
+/* ###track.getTopTags### end */

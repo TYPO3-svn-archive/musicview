@@ -12,9 +12,13 @@ require_once (t3lib_extMgm::extPath('musicview').'userFunc/class.musicview_userf
 class tag_getSimilar extends musicview_userfunc_base {
 
 	/**
-	 * The name of the search field
+	 * The child key for the items to display
 	 */
-	private $input = 'tag.getSimilar-INPUT-TAGNAME';
+	protected $childKey = 'tag';
+	/**
+	 * The name of the subpart in the template file
+	 */
+	protected $templateSubpartName = '###TEMPLATE_TAG###';
 	
 	/**
 	 * Start filling the template. You have to implement this method when
@@ -24,87 +28,29 @@ class tag_getSimilar extends musicview_userfunc_base {
 	 */
 	protected function fillTemplate() {
 		$method = $this->getMethodName();
-		$tagValue = $this->getTagForInput($method);
-		
-		/* $template = $this->getTemplateParts('###TEMPLATE_SEARCH###', array());
+
+		$template = $this->getTemplateParts('###TEMPLATE###', array($this->templateSubpartName));
 		$markerArray = $this->xmlel_obj->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
-		$markerArray['###TAG_TAG.REQ_TAG###'] = $tagValue;
-		$markerArray['###TMPL_TAG_GETSIMILAR_PATH-tslib###'] = PATH_tslib;
-		$tmplMarkerArray = $this->tx_musicview_pi1->getTemplateMarker();
-
-		$part1 = $this->substituteMarkerArrayCached($template['total'], array_merge($markerArray, $tmplMarkerArray)); */
-		$part2 = $this->displaySimilarTags($tagValue, $method);
-
-		return /* $part1 . */ $part2;  
-	}
-
-	protected function displaySimilarTags($tagname, $method) {
-		/*DomDocument*$dom = $this->tx_musicview_pi1->doRequest($method, array('tag' => $tagname));
-		$domNodeList = $dom->getElementsByTagName(xmlel_lfm::XMLEL_NAME);
-		
-		if ($domNodeList->length == 1) {
-			$xmlel_lfm = xmlel_lfm::lfmFactory($domNodeList);
-
-			if ($xmlel_lfm->checkStatus()) { // ok
-				$lConf = $this->tx_musicview_pi1->getRequestConf($method);
-				$xmlel_objArr = $xmlel_lfm->getChild('similartags');
-				$content = '';
-				
-				foreach ($xmlel_objArr as $xmlel_obj) {
-					if ($xmlel_obj instanceof xmlel_similartags) {
-						$content .= $this->displayObject($xmlel_obj);
-					}
-				}
-				return $content;
-			}
-		}
-		return NULL; */
-		return $this->displayObject($this->xmlel_obj);
-	}
-	
-	protected function displayObject($xmlel_obj) {
-		$template = $this->getTemplateParts('###TEMPLATE###', array('###TEMPLATE_TAG###'));
-		$markerArray = $this->xmlel_obj->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
-		$subpartArray['###TEMPLATE_TAG###'] = $this->displayTags($template['item0'], $xmlel_obj->getChild('tag'));
+		$subpartArray[$this->templateSubpartName] = $this->displayTags($template['item0'], $this->xmlel_obj->getChild($this->childKey));
 
 		return $this->substituteMarkerArrayCached($template['total'], $markerArray, $subpartArray);
 	}
 
-	protected function displayTags($template, $tagArr) {
+	/**
+	 * Fill the template with the objects
+	 *
+	 * @param	mixed	$template: The template to fill
+	 * @param	array	$objectArr: The object to fill in the template
+	 * @return	The filled template
+	 */
+	protected function displayTags($template, $objectArr) {
 		$content = '';
 
-		foreach ($tagArr as $tag) {
-			$markerArray = $tag->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
+		foreach ($objectArr as $object) {
+			$markerArray = $object->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
 			$content .= $this->substituteMarkerArrayCached($template, $markerArray);
 		}
 		return $content;
-	}
-	
-	/**
-	 * Get the value for the search field.
-	 * 
-	 * @return 	The value for the search field
-	 */
-	private function getTagForInput($method) {
-		if ($this->isMethodParamSet()) {
-			$params = t3lib_div::_GET('tx_musicview_pi1');
-			$value = $params[$this->input];
-
-			if (!is_null($value) && strlen($value) > 0) {
-				return $value;
-			}
-		}
-		$value = $this->tx_musicview_pi1->getFlexValue($method, 'tag');
-		return $value; 
-	}
-	
-	private function isMethodParamSet() {
-		$params = t3lib_div::_GP('tx_musicview_pi1');
-		
-		if (is_array($params) && isset($params[$this->input])) {
-			return true;
-		}
-		return false;
 	}
 }
 

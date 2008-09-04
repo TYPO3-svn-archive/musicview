@@ -45,6 +45,16 @@ class tx_musicview_pi1 extends tslib_pibase {
 	protected $last_fm_req_base = 'http://ws.audioscrobbler.com/2.0/';
 	public $last_fm_api = array(
 		'_DEFAULT' => array(
+			/* ###album.*### end */
+			'album' => array(
+				'api_key' => array(
+					'sheet' => 'sDEF',
+					'key' => 'apikey_settings',
+					'req' => 1,
+				),
+			),
+			/* ###album.*### end */
+
 			/* ###user.*### begin */
 			'user' => array(
 				'user' => array(
@@ -109,7 +119,91 @@ class tx_musicview_pi1 extends tslib_pibase {
 				),
 			),
 			/* ###tag.*### end */
+
+			/* ###track.*### begin */
+			'track' => array(
+				'api_key' => array(
+					'sheet' => 'sDEF',
+					'key' => 'apikey_settings',
+					'req' => 1,
+				),
+			),
+			/* ###track.*### end */
 		),
+
+		/* ###album.*### begin */
+		'album.getInfo' => array(
+			'artist' => array(
+				'sheet' => 'sheet_album_api',
+				'key' => 'album.getInfo_artist',
+				'req' => 0,
+			),
+			'album' => array(
+				'sheet' => 'sheet_album_api',
+				'key' => 'album.getInfo_album',
+				'req' => 0,
+			),
+			'mbid' => array(
+				'sheet' => 'sheet_album_api',
+				'key' => 'album.getInfo_mbid',
+				'req' => 0,
+			),
+		),
+		/* ###album.*### end */
+
+		/* ###track.*### begin */
+		'track.getTopTags' => array(
+			'track' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_track',
+				'req' => 0,
+			),
+			'artist' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_artist',
+				'req' => 0,
+			),
+			'mbid' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_mbid',
+				'req' => 0,
+			),
+		),
+		'track.getTopFans' => array(
+			'track' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_track',
+				'req' => 0,
+			),
+			'artist' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_artist',
+				'req' => 0,
+			),
+			'mbid' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_mbid',
+				'req' => 0,
+			),
+		),
+		'track.getSimilar' => array(
+			'track' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_track',
+				'req' => 0,
+			),
+			'artist' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_artist',
+				'req' => 0,
+			),
+			'mbid' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_mbid',
+				'req' => 0,
+			),
+		),
+		/* ###track.*### end */
 
 		/* ###user.*### begin */
 		'user.getEvents' => array(
@@ -445,7 +539,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 	 */
 	public function doRequest($method, $param = array()) {
 		$reqLink = $this->createRequestLink($method, $param);
-		#t3lib_div::debug($reqLink);
+		t3lib_div::debug($reqLink);
 		#return $reqLink;
 		$reqLink = 'http://walnutstreet.walnut.moe/xml/'.$method.'.xml';
 		#t3lib_div::debug($reqLink);
@@ -589,6 +683,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 	 * @return 	The parameters for the request url
 	 */
 	private function getMethodParams($method) {
+		
 		if (array_key_exists($method, $this->last_fm_api)) {
 			$req_params_keys = $this->getDefaultConfByMethod($method);
 			$req_params = $this->getParamArray($req_params_keys);
@@ -664,7 +759,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 			$rKey = $values['req'];
 			$vKey = $this->getFlexFormValue($values['sheet'], $values['key']);
 
-			if ($rKey || (!is_null($vKey) && $vKey != 0)) {
+			if ($rKey || (!is_null($vKey) && strlen($vKey) > 0)) { 
 				$result[$key] =  array(
 							'req'	=> $rKey, 
 							'val' 	=> $vKey

@@ -77,12 +77,16 @@ plugin.tx_musicview_pi1 {
 		getNeighbours {
 			userFunc = user_getNeighbours->userFuncIniTest
 			templateFile = EXT:musicview/res/user.getNeighbours.tmpl
+
+			image {
+				size = small
+			}
 		}
 		getPastEvents {
 			userFunc = user_getPastEvents->userFuncIniTest
 			templateFile = EXT:musicview/res/user.getPastEvents.tmpl
 			image {
-				size = large
+				size = medium
 			}
 		}
 		getPlaylists {
@@ -335,7 +339,9 @@ plugin.tx_musicview_pi1 {
 			userFunc = track_getSimilar->userFuncIniTest
 			templateFile = EXT:musicview/res/track.getSimilar.html
 			
-			
+			image {
+				size = small
+			}
 		}
 	}
 }

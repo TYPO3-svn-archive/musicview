@@ -24,6 +24,7 @@ class xmlel_track extends xmlel_base {
 			'playcount',
 			'tagcount',
 			'mbid',
+			'match',
 			'url',
 			'date',
 		),

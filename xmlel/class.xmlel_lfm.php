@@ -48,6 +48,9 @@ class xmlel_lfm extends xmlel_base {
 			array('tag' => 'similartags'),
 			
 			array('tag' => 'album'),
+			
+			array('tag' => 'similartracks'),
+			array('tag' => 'topfans'),
 
 			array('tag' => 'error'), /* error class -> status != ok */
 		),
