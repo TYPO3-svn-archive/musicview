@@ -176,6 +176,17 @@ class tx_musicview_pi1 extends tslib_pibase {
 				'req' => 0,
 			),
 		),
+		'artist.getSimilar' => array(
+			'limit' => array(
+				'sheet' => 'sheet_artist_api',
+				'key' => 'artist.getSimilar_limit',
+				'req' => 0,
+			),
+		),
+		'artist.getTopAlbums' => array(
+		),
+		'artist.getTopFans' => array(
+		),
 		/* ###artist.*### end */
 
 		/* ###track.*### begin */

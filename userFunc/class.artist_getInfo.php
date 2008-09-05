@@ -21,7 +21,6 @@ class artist_getInfo extends user_getEvents {
 		if (!($this->xmlel_obj instanceof xmlel_artist))
 			die;
 			
-		$content = '';
 		$bioArr = $this->xmlel_obj->getChild('bio');
 		$similarArr = $this->xmlel_obj->getChild('similar');
 		$statsArr = $this->xmlel_obj->getChild('stats');
