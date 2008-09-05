@@ -37,7 +37,7 @@ class user_getEvents extends musicview_userfunc_base {
 	 * @param	object 	$obj: The xmlel_event object
 	 * @return 	The filled content
 	 */
-	private function displayEventContent($obj) {
+	protected function displayEventContent($obj) {
 		$template = $this->getTemplateParts('###TEMPLATE###', array('###TEMPLATE_VENUE###', '###TEMPLATE_ARTISTS###'));
 		$eventMarkers = $obj->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
 		$tmplMarkers = $this->tx_musicview_pi1->getTemplateMarker();

@@ -37,17 +37,21 @@ page.includeLibs.tagGetTopTracks = EXT:musicview/userFunc/class.tag_getTopTracks
 page.includeLibs.tagSearch = EXT:musicview/userFunc/class.tag_search.php
 
 page.includeLibs.albumGetInfo = EXT:musicview/userFunc/class.album_getInfo.php
-
+page.includeLibs.artistGetInfo = EXT:musicview/userFunc/class.artist_getInfo.php
 page.includeLibs.trackGetTopTags = EXT:musicview/userFunc/class.track_getTopTags.php
 page.includeLibs.trackGetTopFans = EXT:musicview/userFunc/class.track_getTopFans.php
 page.includeLibs.trackGetSimilar = EXT:musicview/userFunc/class.track_getSimilar.php
+page.includeLibs.trackGetInfo = EXT:musicview/userFunc/class.track_getInfo.php
 
 page.includeLibs.artistGetEvents = EXT:musicview/userFunc/class.artist_getEvents.php
-page.includeLibs.artistGetInfo = EXT:musicview/userFunc/class.artist_getInfo.php
+
 
 page.includeLibs.artistGetSimilar = EXT:musicview/userFunc/class.artist_getSimilar.php
 page.includeLibs.artistGetTopAlbums = EXT:musicview/userFunc/class.artist_getTopAlbums.php
 page.includeLibs.artistGetTopFans = EXT:musicview/userFunc/class.artist_getTopFans.php
+page.includeLibs.artistGetTopTags = EXT:musicview/userFunc/class.artist_getTopTags.php
+page.includeLibs.artistGetTopTracks = EXT:musicview/userFunc/class.artist_getTopTracks.php
+page.includeLibs.eventGetInfo = EXT:musicview/userFunc/class.event_getInfo.php
 
 plugin.tx_musicview_pi1 {
 
@@ -96,6 +100,34 @@ plugin.tx_musicview_pi1 {
 		getTopFans {
 			userFunc = artist_getTopFans->userFuncIniTest
 			templateFile = EXT:musicview/res/artist.getTopFans.html
+			
+			image {
+				size = small
+			}
+		}
+		getTopTags {
+			userFunc = artist_getTopTags->userFuncIniTest
+			templateFile = EXT:musicview/res/artist.getTopTags.html
+
+			classes {
+				1 = artist_getTopTags-TABLE-TR-light
+				2 = artist_getTopTags-TABLE-TR-lighter
+			}
+		}
+		getTopTracks {
+			userFunc = artist_getTopTracks->userFuncIniTest
+			templateFile = EXT:musicview/res/artist.getTopTracks.html
+			
+			image {
+				size = small
+			}
+		}
+	}
+
+	event {
+		getInfo {
+			userFunc = event_getInfo->userFuncIniTest
+			templateFile = EXT:musicview/res/event.getInfo.html
 			
 			image {
 				size = small
@@ -395,6 +427,15 @@ plugin.tx_musicview_pi1 {
 			image {
 				size = small
 			}
+		}
+		getInfo {
+			userFunc = track_getInfo->userFuncIniTest
+			templateFile = EXT:musicview/res/track.getInfo.html
+			
+			image {
+				size = small
+			}
+
 		}
 	}
 }

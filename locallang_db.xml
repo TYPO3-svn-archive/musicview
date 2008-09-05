@@ -25,6 +25,11 @@
 			<label index="tt_content.pi_flexform.sheet_artist_api_getInfo_mbid">artist.getInfo: The musicbrainz id for the artist</label>
 			<label index="tt_content.pi_flexform.sheet_artist_api_getSimilar_limit">artist.getSimilar: Limit the number of similar artists returned</label>
 			<!-- ###ARTISTAPI_SHEET### end-->
+
+			<!-- ###EVENTAPI_SHEET### begin -->
+			<label index="tt_content.pi_flexform.sheet_event_api">Event API</label>
+			<label index="tt_content.pi_flexform.sheet_event_api_common">event.*: The numeric last.fm event id*</label>
+			<!-- ###EVENTAPI_SHEET### end -->
 			
 
 			<!-- ###USERAPI_SHEET### begin -->
@@ -32,9 +37,6 @@
 			<label index="tt_content.pi_flexform.sheet_user_api_getEvents">user.getEvents</label>
 
 			<!-- ###user.getFriends### begin -->
-			<!-- old api ?
-			<label index="tt_content.pi_flexform.sheet_user_api_getFriends">user.getFriends: Whether or not to include information about friends' recent listening in the response</label>
-			-->
 			<label index="tt_content.pi_flexform.sheet_user_api_getFriends_recenttracks">user.getFriends: Whether or not to include information about friends' recent listening in the response.</label>
 			<label index="tt_content.pi_flexform.sheet_user_api_getFriends_limit">user.getFriends: An integer used to limit the number of friends returned.</label>
 			<!-- ###user.getFriends### end -->
@@ -109,9 +111,9 @@
 			
 			<!-- ###TRACKAPI_SHEET### begin -->
 			<label index="tt_content.pi_flexform.sheet_track_api">Track API</label>
-			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_track">track.[getTopTags|getTopFans|getSimilar]: The track name in question*</label>
-			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_artist">track.[getTopTags|getTopFans|getSimilar]: The artist name in question*</label>
-			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_mbid">track.[getTopTags|getTopFans|getSimilar]: The musicbrainz id for the track</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_track">track.[getTopTags|getTopFans|getSimilar|getInfo]: The track name in question*</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_artist">track.[getTopTags|getTopFans|getSimilar|getInfo]: The artist name in question*</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_mbid">track.[getTopTags|getTopFans|getSimilar|getInfo]: The musicbrainz id for the track</label>
 			<!-- ###TRACKAPI_SHEET### end -->
 
 			<label index="tt_content.pi_flexform.sheet_display">Display Settings</label>

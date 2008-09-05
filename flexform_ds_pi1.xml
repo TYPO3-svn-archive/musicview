@@ -92,6 +92,14 @@
 										<numIndex index="0">artist.getTopFans</numIndex>
 										<numIndex index="1">artist.getTopFans</numIndex>
 									</numIndex>
+									<numIndex index="206" type="array">
+										<numIndex index="0">artist.getTopTags</numIndex>
+										<numIndex index="1">artist.getTopTags</numIndex>
+									</numIndex>
+									<numIndex index="207" type="array">
+										<numIndex index="0">artist.getTopTracks</numIndex>
+										<numIndex index="1">artist.getTopTracks</numIndex>
+									</numIndex>
 									<!-- ###artist.*### end -->
 								
 									<!-- ###auth.*### begin -->
@@ -99,7 +107,10 @@
 									<!-- ###auth.*### end -->
 									
 									<!-- ###event.*### begin -->
-									<!-- TODO: 400 -->
+									<numIndex index="400" type="array">
+										<numIndex index="0">event.getInfo</numIndex>
+										<numIndex index="1">event.getInfo</numIndex>
+									</numIndex>
 									<!-- ###event.*### end -->
 								
 									<!-- ###geo.*### begin -->
@@ -198,6 +209,10 @@
 									<numIndex index="1102" type="array">
 										<numIndex index="0">track.getTopTags</numIndex>
 										<numIndex index="1">track.getTopTags</numIndex>
+									</numIndex>
+									<numIndex index="1103" type="array">
+										<numIndex index="0">track.getInfo</numIndex>
+										<numIndex index="1">track.getInfo</numIndex>
 									</numIndex>
 									<!-- ###track.*### end -->
 								
@@ -368,10 +383,27 @@
 		</sheet_auth_api>
  -->
 
-<!-- TODO:
 		<sheet_event_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_event_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<event.common>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_event_api_common</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</event.common>
+				</el>
+			</ROOT>
 		</sheet_event_api>
- -->
 
 		<sheet_geo_api>
 			<ROOT>

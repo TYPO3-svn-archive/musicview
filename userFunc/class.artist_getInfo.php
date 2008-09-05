@@ -34,7 +34,7 @@ class artist_getInfo extends user_getEvents {
 		$markerArray = $this->xmlel_obj->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
 		$subpartArray['###TEMPLATE_BIO-SUMMARY###'] = $this->displayBioSummary($template['item0'], $bioArr);
 		$subpartArray['###TEMPLATE_BIO-CONTENT###'] = $this->displayBioSummary($template['item1'], $bioArr);
-		$subpartArray['###TEMPLATE_SIMILAR###'] = $this->displaySimilar($template['item2'], $similarArr);
+		$subpartArray['###TEMPLATE_SIMILAR###'] = $this->displayArtistArr($template['item2'], $similarArr);
 		$subpartArray['###TEMPLATE_STATS###'] = $this->displayStats($template['item3'], $statsArr);
 		return $this->substituteMarkerArrayCached($template['total'], $markerArray, $subpartArray);
 	}
@@ -64,7 +64,7 @@ class artist_getInfo extends user_getEvents {
 	 * @param	mixed	$template: The template to fill
 	 * @return 	The filled template
 	 */
-	protected function displaySimilar($template, $similarArr) {
+	protected function displayArtistArr($template, $similarArr) {
 		$tmpl = $this->getSubTemplate($template, '###TEMPLATE_ARTIST###');
 		$content = '';
 		
@@ -72,7 +72,7 @@ class artist_getInfo extends user_getEvents {
 			$artistArr = $similar->getChild('artist');
 			
 			$markerArray = $similar->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
-			$subpartArray['###TEMPLATE_ARTIST###'] = $this->displayArtists($tmpl, $similar->getChild('artist'));
+			$subpartArray['###TEMPLATE_ARTIST###'] = $this->displayObjects($tmpl, $similar->getChild('artist'));
 			$content .= $this->substituteMarkerArrayCached($template, $markerArray, $subpartArray);
 		}
 		
@@ -86,7 +86,7 @@ class artist_getInfo extends user_getEvents {
 	 * @param	mixed	$template: The template to fill
 	 * @return 	The filled template
 	 */
-	protected function displayArtists($template, $artistArr) {
+	protected function displayObjects($template, $artistArr) {
 		$content = '';
 	
 		foreach ($artistArr as $artist) {

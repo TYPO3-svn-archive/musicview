@@ -40,10 +40,7 @@ class xmlel_bio extends xmlel_base {
 		$name = strtoupper($this->getName());
 		$name = '###'.$name.'_ALL_CONTENT###';
 
-		$markerArray = array();
-		$markerArray[$name] = $this->getContent();
-
-		return $markerArray;
+		return array($name => $this->getContent());
 	}
 }
 

@@ -69,7 +69,22 @@ class tx_musicview_pi1 extends tslib_pibase {
 				),
 			),
 			/* ###artist.*### end */
-			
+
+			/* ###event.*### begin */
+			'event' => array(
+				'api_key' => array(
+					'sheet' => 'sDEF',
+					'key' => 'apikey_settings',
+					'req' => 1,
+				),
+				'event' => array(
+					'sheet' => 'sheet_event_api',
+					'key' => 'event.common',
+					'req' => 1,
+				),
+			),
+			/* ###event.*### end */
+
 			/* ###user.*### begin */
 			'user' => array(
 				'user' => array(
@@ -187,7 +202,16 @@ class tx_musicview_pi1 extends tslib_pibase {
 		),
 		'artist.getTopFans' => array(
 		),
+		'artist.getTopTags' => array(
+		),
+		'artist.getTopTracks' => array(
+		),
 		/* ###artist.*### end */
+
+		/* ###event.*### begin */
+		'event.getInfo' => array(
+		),
+		/* ###event.*### end */
 
 		/* ###track.*### begin */
 		'track.getTopTags' => array(
@@ -225,6 +249,23 @@ class tx_musicview_pi1 extends tslib_pibase {
 			),
 		),
 		'track.getSimilar' => array(
+			'track' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_track',
+				'req' => 0,
+			),
+			'artist' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_artist',
+				'req' => 0,
+			),
+			'mbid' => array(
+				'sheet' => 'sheet_track_api',
+				'key' => 'track.getTopTags-getTopFans-getSimilar_mbid',
+				'req' => 0,
+			),
+		),
+		'track.getInfo' => array(
 			'track' => array(
 				'sheet' => 'sheet_track_api',
 				'key' => 'track.getTopTags-getTopFans-getSimilar_track',
