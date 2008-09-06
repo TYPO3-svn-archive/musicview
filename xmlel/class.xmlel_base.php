@@ -51,6 +51,11 @@ require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_wiki.php');
  * @subpackage  tx_musicview
  */
 abstract class xmlel_base {
+	
+	/**
+	 * The method set by tx_musicview_pi1 that should by displayed 
+	 */
+	protected $api_method;
 
 	/**
 	 * Children array
@@ -88,6 +93,24 @@ abstract class xmlel_base {
 
 			$this->content = $domNode->nodeValue;
 		}
+	}
+	
+	/**
+	 * Set the method to display by the template class.
+	 *  
+	 * @param 	string	$api_method: The method to display
+	 */
+	public function setApiMethod($api_method) {
+		$this->api_method = $api_method;
+	}
+	
+	/**
+	 * Get the api method to display.
+	 * 
+	 * @return 	The api method to display
+	 */
+	public function getApiMethod() {
+		return $this->api_method;
 	}
 
 	/**

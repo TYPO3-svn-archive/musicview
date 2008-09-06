@@ -602,7 +602,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 
 		$method = $this->getFlexFormValue('sDEF', 'apifunc_setting');
 		$dom = $this->doRequest($method);
-		#return '';
+		
 		return $this->workOnRequestResult($dom, $method);
 	}
 	
@@ -619,7 +619,6 @@ class tx_musicview_pi1 extends tslib_pibase {
 	public function doRequest($method, $param = array()) {
 		$reqLink = $this->createRequestLink($method, $param);
 		#t3lib_div::debug($reqLink);
-		#return $reqLink;
 		$reqLink = 'http://walnutstreet.walnut.moe/xml/'.$method.'.xml';
 		#t3lib_div::debug($reqLink);
 		$dom = new DomDocument('1.0', 'utf-8');
@@ -653,7 +652,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 				foreach ($childKeys as $childKey) {
 					$childArr = $xmlel_lfm->getChild($childKey);
 					foreach ($childArr as $childObj) {
-						$userFuncContent = $this->callUserFunc($lConf, $childObj);
+						$userFuncContent = $this->callUserFunc($lConf, $childObj, $method);
 						$content .= $this->pi_wrapInBaseClass($userFuncContent);
 					}
 				}
@@ -662,7 +661,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 				$errors = $xmlel_lfm->getChild('error');
 
 				foreach ($errors as $error) {
-					$userFuncContent = $this->callUserFunc($lConf, $error);	
+					$userFuncContent = $this->callUserFunc($lConf, $error, 'error');	
 					$content .= $this->pi_wrapInBaseClass($userFuncContent);
 				}
 				#return $this->pi_getLL('tx_musicview_pi1_incorrect_status');
@@ -678,12 +677,14 @@ class tx_musicview_pi1 extends tslib_pibase {
 	 *
 	 * @param	array	$conf: The configuration to get the user function
 	 * @param	object	$xmlel_base: An xmlel_base object to display
+	 * @param	string	$method: The method result to display
 	 * @return	The content of the user function or an error message
 	 */
-	private function callUserFunc($conf, $xmlel_base) {
+	private function callUserFunc($conf, $xmlel_base, $method) {
 		if (isset($conf['userFunc'])) {
 			$userFunc = $conf['userFunc'];
 
+			$xmlel_base->setApiMethod($method);
 			return t3lib_div::callUserFunction($userFunc, $xmlel_base, &$this, '');
 		}
 		return $this->pi_getLL('tx_musicview_pi1_no_userfunc');
@@ -740,7 +741,7 @@ class tx_musicview_pi1 extends tslib_pibase {
 	 */
 	public function checkMethodParams($method, $params) {
 		$m_params = $this->getMethodParams($method);
-		if (!is_null($m_params)) {
+		if (!is_null($m_params) && is_array($params)) {
 			
 			foreach ($params as $key => $value) {
 				if (!array_key_exists($key, $m_params) || is_null($value) || strlen($value) == 0) {

@@ -101,7 +101,7 @@
 										<numIndex index="1">artist.getTopTracks</numIndex>
 									</numIndex>
 									<!-- ###artist.*### end -->
-								
+
 									<!-- ###auth.*### begin -->
 									<!-- TODO: 300 -->
 									<!-- ###auth.*### end -->
@@ -112,7 +112,7 @@
 										<numIndex index="1">event.getInfo</numIndex>
 									</numIndex>
 									<!-- ###event.*### end -->
-								
+
 									<!-- ###geo.*### begin -->
 									<numIndex index="503" type="array">
 										<numIndex index="0">geo.getEvents</numIndex>
@@ -165,7 +165,7 @@
 									<!-- ###playlist.*### begin -->
 									<!-- TODO: 800 -->
 									<!-- ###playlist.*### end -->
-								
+
 									<!-- ###tag.*### begin -->
 									<numIndex index="900" type="array">
 										<numIndex index="0">tag.getSimilar</numIndex>
@@ -187,35 +187,31 @@
 										<numIndex index="0">tag.getTopTracks</numIndex>
 										<numIndex index="1">tag.getTopTracks</numIndex>
 									</numIndex>
-									<numIndex index="905" type="array">
-										<numIndex index="0">tag.search</numIndex>
-										<numIndex index="1">tag.search</numIndex>
-									</numIndex>
 									<!-- ###tag.*### end -->
 								
 									<!-- ###tasteometer.*### begin -->
 									<!-- TODO: 1000 -->
 									<!-- ###tasteometer.*### end -->
-								
+
 									<!-- ###track.*### begin -->
 									<numIndex index="1100" type="array">
-										<numIndex index="0">track.getSimilar</numIndex>
-										<numIndex index="1">track.getSimilar</numIndex>
-									</numIndex>
-									<numIndex index="1101" type="array">
-										<numIndex index="0">track.getTopFans</numIndex>
-										<numIndex index="1">track.getTopFans</numIndex>
-									</numIndex>
-									<numIndex index="1102" type="array">
-										<numIndex index="0">track.getTopTags</numIndex>
-										<numIndex index="1">track.getTopTags</numIndex>
-									</numIndex>
-									<numIndex index="1103" type="array">
 										<numIndex index="0">track.getInfo</numIndex>
 										<numIndex index="1">track.getInfo</numIndex>
 									</numIndex>
+									<numIndex index="1101" type="array">
+										<numIndex index="0">track.getSimilar</numIndex>
+										<numIndex index="1">track.getSimilar</numIndex>
+									</numIndex>
+									<numIndex index="1102" type="array">
+										<numIndex index="0">track.getTopFans</numIndex>
+										<numIndex index="1">track.getTopFans</numIndex>
+									</numIndex>
+									<numIndex index="1103" type="array">
+										<numIndex index="0">track.getTopTags</numIndex>
+										<numIndex index="1">track.getTopTags</numIndex>
+									</numIndex>
 									<!-- ###track.*### end -->
-								
+
 									<!-- ###user.*### begin -->
 									<numIndex index="1200" type="array">
 										<numIndex index="0">user.getEvents</numIndex>
