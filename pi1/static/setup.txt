@@ -424,31 +424,11 @@ plugin.tx_musicview_pi1 {
 		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		getWeeklyChartList {
 			#userFunc = user_getWeeklyChartList->userFuncIniTest
 			userFunc = user_getWeeklyChartList->xmlel_exttmpl_init
 			templateFile = EXT:musicview/res/user/user.getWeeklyChartList.tmpl
 		}
-		
-		
-		
-		
-		
-		
 		
 		getWeeklyTrackChart {
 			#userFunc = user_getWeeklyTrackChart->userFuncIniTest
@@ -464,8 +444,4 @@ plugin.tx_musicview_pi1 {
 			}
 		}
 	}
-	
-	
-	
-	
 }
