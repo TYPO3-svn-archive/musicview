@@ -140,6 +140,16 @@ class tx_musicview_pi1 extends tslib_pibase {
 			),
 			/* ###library.*### end */
 			
+			/* ###playlist.*### begin */
+			'playlist' => array(
+				'api_key' => array(
+					'sheet' => 'sDEF',
+					'key' => 'apikey_settings',
+					'req' => 1,
+				),
+			),
+			/* ###playlist.*### end */
+			
 			/* ###tag.*### begin */
 			'tag' => array(
 				'api_key' => array(
@@ -149,7 +159,17 @@ class tx_musicview_pi1 extends tslib_pibase {
 				),
 			),
 			/* ###tag.*### end */
-
+			
+			/* ###tasteometer.*### begin */
+			'tasteometer' => array(
+				'api_key' => array(
+					'sheet' => 'sDEF',
+					'key' => 'apikey_settings',
+					'req' => 1,
+				),
+			),
+			/* ###tasteometer.*### end */
+			
 			/* ###track.*### begin */
 			'track' => array(
 				'api_key' => array(
@@ -533,6 +553,16 @@ class tx_musicview_pi1 extends tslib_pibase {
 		),
 		/* ###library.*### end */
 		
+		/* ###playlist.*### begin */
+		'playlist.fetch' => array(
+			'playlistURL' => array(
+				'sheet' => 'sheet_playlist_api',
+				'key' => 'playlist.fetch',
+				'req' => 1,
+			),
+		),
+		/* ###playlist.*### end */
+		
 		/* ###tag.*### begin */
 		'tag.getSimilar' => array(
 			'tag' => array(
@@ -582,6 +612,36 @@ class tx_musicview_pi1 extends tslib_pibase {
 			),
 		),
 		/* ###tag.*### begin */
+		
+		/* ###tasteometer.*### begin */
+		'tasteometer.compare' => array(
+			'type1' => array(
+				'sheet' => 'sheet_tastemeter_api',
+				'key' => 'tasteometer.compare_type1',
+				'req' => 1,
+			),
+			'type2' => array(
+				'sheet' => 'sheet_tastemeter_api',
+				'key' => 'tasteometer.compare_type2',
+				'req' => 1,
+			),
+			'value1' => array(
+				'sheet' => 'sheet_tastemeter_api',
+				'key' => 'tasteometer.compare_value1',
+				'req' => 1,
+			),
+			'value2' => array(
+				'sheet' => 'sheet_tastemeter_api',
+				'key' => 'tasteometer.compare_value2',
+				'req' => 1,
+			),
+			'limit' => array(
+				'sheet' => 'sheet_tastemeter_api',
+				'key' => 'tasteometer.compare_limit',
+				'req' => 0,
+			),
+		),
+		/* ###tasteometer.*### end */
 
 	);
 	
@@ -596,13 +656,13 @@ class tx_musicview_pi1 extends tslib_pibase {
 		$this->conf=$conf;
 		$this->pi_setPiVarDefaults();
 		$this->pi_loadLL();
-	
 		$this->pi_initPIflexForm();
+
 		$this->piFlexForm = $this->cObj->data['pi_flexform'];
 
 		$method = $this->getFlexFormValue('sDEF', 'apifunc_setting');
 		$dom = $this->doRequest($method);
-		
+
 		return $this->workOnRequestResult($dom, $method);
 	}
 	

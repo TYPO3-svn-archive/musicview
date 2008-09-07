@@ -54,7 +54,7 @@ class xmlel_event extends xmlel_base {
 		$markerArray['###EVENT_LINKTITLE###'] = $cObj->typolink($this->getValue('title'), $typolink_conf);
 		$markerArray['###EVENT_URLTITLE###'] = $cObj->typolink($this->getValue('title'), $typolink_conf);
 
-		$markerArray['###EVENT_IMAGE###'] = $this->filterImage($conf);
+		$markerArray['###EVENT_IMAGE###'] = $this->filterImage($cObj, $conf);
 
 		return $markerArray;
 	}

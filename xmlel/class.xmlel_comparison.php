@@ -9,15 +9,15 @@ require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_base.php');
  * @package     TYPO3
  * @subpackage  tx_musicview
  */
-class xmlel_stats extends xmlel_base {
+class xmlel_comparison extends xmlel_base {
 
 	/**
 	 * Structure about the <artist></artist> node
 	 */
 	private $tagStruct = array(
-		'stats' => array(
-			'listeners',
-			'playcount',
+		'comparison' => array(
+			array('tag' => 'result'),
+			array('tag' => 'input'),
 		),
 	);
 
@@ -31,7 +31,7 @@ class xmlel_stats extends xmlel_base {
 	}
 }
 
-if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_stats.php'])    {
-	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_stats.php']);
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_comparison.php'])    {
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_comparison.php']);
 }
 ?>

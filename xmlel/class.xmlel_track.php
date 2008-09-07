@@ -23,13 +23,17 @@ class xmlel_track extends xmlel_base {
 			array('tag' => 'wiki'),
 			'id',
 			'name',
+			'title',
+			'identifier',
 			'streamable',
 			'playcount',
 			'tagcount',
 			'duration',
 			'listeners',
+			'creator',
 			'mbid',
 			'match',
+			'info',
 			'url',
 			'date',
 		),
@@ -54,7 +58,7 @@ class xmlel_track extends xmlel_base {
 	public function getTemplateMarkers($cObj, $conf) {
 		$markerArray = parent::getTemplateMarkers();
 
-		$markerArray['###TRACK_IMAGE###'] = $this->filterImage($conf);
+		$markerArray['###TRACK_IMAGE###'] = $this->filterImage($cObj, $conf);
 
 		$ar = array();
 		$artists = $this->getChild('artist');
@@ -67,10 +71,13 @@ class xmlel_track extends xmlel_base {
 			}
 		}
 		$markerArray['###TRACK_ARTISTS###'] = implode(',', $ar);
-
 		$typolink_conf['parameter'] = $this->getValue('url');
 		$typolink_conf['extTarget'] = '_blank';
-		$markerArray['###TRACK_URLNAME###'] = $cObj->typolink($this->getValue('name'), $typolink_conf); 
+		$markerArray['###TRACK_URLNAME###'] = $cObj->typolink($this->getValue('name'), $typolink_conf);
+		$markerArray['###TRACK_URLTITLE###'] = $cObj->typolink($this->getValue('title'), $typolink_conf);
+
+		$typolink_conf['parameter'] = $this->getValue('info');
+		$markerArray['###TRACK_INFOTITLE###'] = $cObj->typolink($this->getValue('title'), $typolink_conf);
 		
 		return $markerArray;
 	}

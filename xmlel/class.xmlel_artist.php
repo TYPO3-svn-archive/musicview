@@ -49,7 +49,7 @@ class xmlel_artist extends xmlel_base {
 	public function getTemplateMarkers($cObj, $conf) {
 		$markerArray = parent::getTemplateMarkers($cObj, $conf);
 		$markerArray['###ARTIST_URLNAME###'] = $this->getUrlName($cObj, $conf);
-		$markerArray['###ARTIST_IMAGE###'] = $this->filterImage($conf);	
+		$markerArray['###ARTIST_IMAGE###'] = $this->filterImage($cObj, $conf);	
 
 		return $markerArray;
 	}

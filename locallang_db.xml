@@ -95,12 +95,26 @@
 			<label index="tt_content.pi_flexform.sheet_library_api_getTracks_page">getTracks: The page number you wish to scan to</label>
 			<!-- ###LIBRARYAPI_SHEET### end -->
 			
+			<!-- ###PLAYLISTAPI_SHEET### begin -->
+			<label index="tt_content.pi_flexform.sheet_playlist_api">Playlist API</label>
+			<label index="tt_content.pi_flexform.sheet_playlist_api_fetch">A lastfm protocol playlist url ('lastfm://playlist/...'); 'http://www.last.fm/api/playlists'</label>
+			<!-- ###PLAYLISTAPI_SHEET### end -->
+			
 			<!-- ###TAGAPI_SHEET### begin -->
 			<label index="tt_content.pi_flexform.sheet_tag_api">Tag API</label>
 			<label index="tt_content.pi_flexform.sheet_tag_api_tag_req">Tag name used by tag.getSimilar, tag.getTopAlbums, tag.getTopArtists, tag.getTopTracks and tag.search*</label>
 			<label index="tt_content.pi_flexform.sheet_tag_api_search_limit">tag.search: Limit the number of tags returned at one time. Default (maximum) is 30</label>
 			<label index="tt_content.pi_flexform.sheet_tag_api_search_page">tag.search: Scan into the results by specifying a page number. Defaults to first page</label>
 			<!-- ###TAGAPI_SHEET### end -->
+
+			<!-- ###TASTEOMETERAPI_SHEET### begin -->
+			<label index="tt_content.pi_flexform.sheet_tasteometer_api">Tasteometer API</label>
+			<label index="tt_content.pi_flexform.sheet_tasteometer_api_compare_type1">Please select type #1:</label>
+			<label index="tt_content.pi_flexform.sheet_tasteometer_api_compare_type2">Please select type #2:</label>
+			<label index="tt_content.pi_flexform.sheet_tasteometer_api_compare_value1">Please enter value #1 (Last.fm username | Comma-separated artist names | MySpace profile URL):</label>
+			<label index="tt_content.pi_flexform.sheet_tasteometer_api_compare_value2">Please enter value #2 (Last.fm username | Comma-separated artist names | MySpace profile URL):</label>
+			<label index="tt_content.pi_flexform.sheet_tasteometer_api_compare_limit">How many shared artists to display</label>
+			<!-- ###TASTEOMETERAPI_SHEET### end -->
 			
 			<!-- ###ALBUMAPI_SHEET### begin -->
 			<label index="tt_content.pi_flexform.sheet_album_api">Album API</label>

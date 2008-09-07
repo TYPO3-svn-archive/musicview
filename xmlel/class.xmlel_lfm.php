@@ -26,37 +26,34 @@ class xmlel_lfm extends xmlel_base {
 
 	private $tagStruct = array(
 		'lfm' => array(
+			array('tag' => 'album'),
+			array('tag' => 'albums'),
+			array('tag' => 'artist'),
+			array('tag' => 'artists'),
+			array('tag' => 'comparison'),
+			array('tag' => 'error'), /* error class -> status != ok */
+			array('tag' => 'event'),
 			array('tag' => 'events'),
 			array('tag' => 'friends'),
 			array('tag' => 'lovedtracks'),
-			array('tag' => 'weeklyalbumchart'),
-			array('tag' => 'weeklyartistchart'),
 			array('tag' => 'neighbours'),
+			array('tag' => 'playlist'),
+			array('tag' => 'playlists'),
 			array('tag' => 'recenttracks'),
+			array('tag' => 'similarartists'),
+			array('tag' => 'similartags'),
+			array('tag' => 'similartracks'),
 			array('tag' => 'topalbums'),
 			array('tag' => 'topartists'),
-			array('tag' => 'toptracks'),
-			array('tag' => 'weeklytrackchart'),
-			array('tag' => 'playlists'),
-			array('tag' => 'toptags'),
-			array('tag' => 'weeklychartlist'),
-			
-			array('tag' => 'albums'),
-			array('tag' => 'artists'),
-			array('tag' => 'tracks'),
-			
-			array('tag' => 'similartags'),
-			
-			array('tag' => 'album'),
-			
-			array('tag' => 'similartracks'),
 			array('tag' => 'topfans'),
-			array('tag' => 'artist'),
-			array('tag' => 'similarartists'),
-			array('tag' => 'event'),
+			array('tag' => 'toptags'),
+			array('tag' => 'toptracks'),
 			array('tag' => 'track'),
-
-			array('tag' => 'error'), /* error class -> status != ok */
+			array('tag' => 'tracks'),
+			array('tag' => 'weeklyalbumchart'),
+			array('tag' => 'weeklyartistchart'),
+			array('tag' => 'weeklychartlist'),
+			array('tag' => 'weeklytrackchart'),
 		),
 	);
 

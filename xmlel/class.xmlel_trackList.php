@@ -9,28 +9,28 @@ require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_base.php');
  * @package     TYPO3
  * @subpackage  tx_musicview
  */
-class xmlel_similarartists  extends xmlel_base {
+class xmlel_trackList extends xmlel_base {
 
 	/**
-	 * Structure about the <albums></albums> node
+	 * Structure about the <toptracks></toptracks> node
 	 */
 	private $tagStruct = array(
-		'similarartists' => array(
-			array('tag' => 'artist'),
+		'trackList' => array(
+			array('tag' => 'track'),
 		),
 	);
 
 	/**
 	 * Constructor.
 	 *
-	 * @param 	DOMNode 	$domNode: Node, should be a '<artists></artists>' node
+	 * @param 	DOMNode 	$domNode: Node, should be a '<toptracks></toptracks>' node
 	 */
 	public function __construct($domNode) {
 		parent::__construct($this->tagStruct, $domNode);
 	}
 }
 
-if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_similarartists.php'])    {
-	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_similarartists.php']);
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_trackList.php'])    {
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_trackList.php']);
 }
 ?>

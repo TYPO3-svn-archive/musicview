@@ -42,6 +42,11 @@ require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_similar.php'
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_bio.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_similarartists.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_wiki.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_extension.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_trackList.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_comparison.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_result.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_input.php');
 
 /**
  * Plugin 'musicview' for the 'musicview' extension.
@@ -187,10 +192,11 @@ abstract class xmlel_base {
 	 * has set the image.size (small|medium|large) filter the image link and return
 	 * the image tag.
 	 * 
+	 * @param	object	$cObj: Content object 
 	 * @param	array	$conf: The configuration (typoscript)
 	 @ return	The image tag or NULL if not set|found
 	 */
-	protected function filterImage($conf) {
+	protected function filterImage($cObj, $conf) {
 		static $width = array(
 			'small' => 50,
 			'medium' => 130,
@@ -207,6 +213,22 @@ abstract class xmlel_base {
 					return '<img width="' . $width[$s] . '" src="' . $image->getContent() . '" />';
 				}
 			}
+
+			$img = array();
+			switch ($size) {
+				case 'large':
+					$img['file'] = t3lib_extMgm::extRelPath('musicview') . 'res/img/large.gif';
+					break;
+				case 'medium':
+					$img['file'] = t3lib_extMgm::extRelPath('musicview') . 'res/img/medium.gif';
+					break;
+				case 'small':
+					$img['file'] = t3lib_extMgm::extRelPath('musicview') . 'res/img/small.gif';
+					break;
+			}
+			$img['width'] = $width[$size];
+			return $cObj->IMAGE($img);
+
 		}
 		return '&nbsp;';
 	}

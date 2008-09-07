@@ -51,9 +51,9 @@ class xmlel_album extends xmlel_base {
  
 		$typolink_conf['parameter'] = $this->getValue('url');
 		$typolink_conf['extTarget'] = '_blank';
-		$markerArray['###ALBUM_IMAGE###'] = $this->filterImage($conf);
+		$markerArray['###ALBUM_IMAGE###'] = $this->filterImage($cObj, $conf);
 		$markerArray['###ALBUM_URLNAME###'] = $cObj->typolink($this->getValue('name'), $typolink_conf);
-		$markerArray['###ALBUM_URLIMAGE###'] = $cObj->typolink($this->filterImage($conf), $typolink_conf);
+		$markerArray['###ALBUM_URLIMAGE###'] = $cObj->typolink($this->filterImage($cObj, $conf), $typolink_conf);
 
 		$ar = array();
 		$artists = $this->getChild('artist');

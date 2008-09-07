@@ -48,7 +48,7 @@ class xmlel_user extends xmlel_base {
 		$typolink_conf['extTarget'] = '_blank';
 		$markerArray['###USER_URLNAME###'] = $cObj->typolink($this->getValue('name'), $typolink_conf);
 
-		$markerArray['###USER_IMAGE###'] = $this->filterImage($conf);
+		$markerArray['###USER_IMAGE###'] = $this->filterImage($cObj, $conf);
 		
 		return $markerArray;
 	}

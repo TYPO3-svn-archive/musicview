@@ -163,7 +163,10 @@
 									<!-- ###library.*### begin -->
 									
 									<!-- ###playlist.*### begin -->
-									<!-- TODO: 800 -->
+									<numIndex index="800" type="array">
+										<numIndex index="0">playlist.fetch</numIndex>
+										<numIndex index="1">playlist.fetch</numIndex>
+									</numIndex>
 									<!-- ###playlist.*### end -->
 
 									<!-- ###tag.*### begin -->
@@ -190,7 +193,10 @@
 									<!-- ###tag.*### end -->
 								
 									<!-- ###tasteometer.*### begin -->
-									<!-- TODO: 1000 -->
+									<numIndex index="1000" type="array">
+										<numIndex index="0">tasteometer.compare</numIndex>
+										<numIndex index="1">tasteometer.compare</numIndex>
+									</numIndex>
 									<!-- ###tasteometer.*### end -->
 
 									<!-- ###track.*### begin -->
@@ -651,10 +657,26 @@
 			</ROOT>
 		</sheet_library_api>
 
-<!-- TODO:
 		<sheet_playlist_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_playlist_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<playlist.fetch>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_playlist_api_fetch</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</playlist.fetch>
+				</el>
+			</ROOT>
 		</sheet_playlist_api>
- -->
 
 		<sheet_tag_api>
 			<ROOT>
@@ -699,10 +721,125 @@
 			</ROOT>
 		</sheet_tag_api>
 
-<!-- TODO:
 		<sheet_tastemeter_api>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tasteometer_api</sheetTitle>
+				</TCEforms>
+				
+				<type>array</type>
+				<el>
+					<tasteometer.compare_type1>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tasteometer_api_compare_type1</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">user</numIndex>
+										<numIndex index="1">user</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">artists</numIndex>
+										<numIndex index="1">artists</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">myspace</numIndex>
+										<numIndex index="1">myspace</numIndex>
+									</numIndex>
+								</items>
+								
+								<minitems>0</minitems>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</tasteometer.compare_type1>
+					
+					<tasteometer.compare_type2>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tasteometer_api_compare_type2</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">user</numIndex>
+										<numIndex index="1">user</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">artists</numIndex>
+										<numIndex index="1">artists</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">myspace</numIndex>
+										<numIndex index="1">myspace</numIndex>
+									</numIndex>
+								</items>
+								
+								<minitems>0</minitems>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</tasteometer.compare_type2>
+					
+					<tasteometer.compare_value1>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tasteometer_api_compare_value1</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</tasteometer.compare_value1>
+					
+					<tasteometer.compare_value2>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tasteometer_api_compare_value2</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</tasteometer.compare_value2>
+					
+					<tasteometer.compare_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_tasteometer_api_compare_limit</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0"></numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">5</numIndex>
+										<numIndex index="1">5</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">10</numIndex>
+										<numIndex index="1">10</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">15</numIndex>
+										<numIndex index="1">15</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">20</numIndex>
+										<numIndex index="1">20</numIndex>
+									</numIndex>
+								</items>
+					
+								<minitems>0</minitems>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</tasteometer.compare_limit>
+				</el>
+			</ROOT>
 		</sheet_tastemeter_api>
- -->
 
 		<sheet_track_api>
 			<ROOT>

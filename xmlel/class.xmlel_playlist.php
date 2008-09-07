@@ -16,8 +16,10 @@ class xmlel_playlist extends xmlel_base {
 	 */
 	private $tagStruct = array(
 		'playlist' => array(
+			array('tag' => 'trackList'),
 			'id',
 			'title',
+			'annotation',
 			'date',
 			'size',
 			'creator',

@@ -6,12 +6,13 @@ page.includeLibs.xmlel_exttmpl_chart_count_toptags = EXT:musicview/xmlel_exttmpl
 page.includeLibs.xmlel_exttmpl_chart_playcount_weeklyalbumchart = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_playcount_weeklyalbumchart.php
 page.includeLibs.xmlel_exttmpl_chart_playcount_weeklyartistchart = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_playcount_weeklyartistchart.php
 page.includeLibs.xmlel_exttmpl_chart_playcount_weeklytrackchart = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_playcount_weeklytrackchart.php
+page.includeLibs.xmlel_exttmpl_chart_match_neighbours = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_match_neighbours.php
 
 plugin.tx_musicview_pi1 {
 
 	error {
 		userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-		templateFile = EXT:musicview/res/error.tmpl
+		templateFile = EXT:musicview/res/error.html
 	}
 	
 	album {
@@ -77,8 +78,8 @@ plugin.tx_musicview_pi1 {
 			templateFile = EXT:musicview/res/artist/artist.getTopTags.html
 
 			classes {
-				1 = artist_getTopTags-TABLE-TR-light
-				2 = artist_getTopTags-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 		
@@ -138,45 +139,36 @@ plugin.tx_musicview_pi1 {
 	
 		getWeeklyAlbumChart {
 			userFunc = xmlel_exttmpl_chart_playcount_weeklyalbumchart->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/group/group.getWeeklyAlbumChart.tmpl
-			
-#			cut = 1
-#			percentage = 30
+			templateFile = EXT:musicview/res/group/group.getWeeklyAlbumChart.html
 			
 			classes {
-				1 = group_getWeeklyAlbumChart-TABLE-TR-light
-				2 = group_getWeeklyAlbumChart-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 		
 		getWeeklyArtistChart {
 			userFunc = xmlel_exttmpl_chart_playcount_weeklyartistchart->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/group/group.getWeeklyArtistChart.tmpl
-			
-#			cut = 1
-#			percentage = 10
+			templateFile = EXT:musicview/res/group/group.getWeeklyArtistChart.html
 
 			classes {
-				1 = group_getWeeklyArtistChart-TABLE-TR-light
-				2 = group_getWeeklyArtistChart-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 		
 		getWeeklyChartList {
 			userFunc = group_getWeeklyChartList->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/group/group.getWeeklyChartList.tmpl
+			templateFile = EXT:musicview/res/group/group.getWeeklyChartList.html
 		}
 		
 		getWeeklyTrackChart {
 			userFunc = xmlel_exttmpl_chart_playcount_weeklytrackchart->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/group/group.getWeeklyTrackChart.tmpl
-			
-#			cut = 1
-#			percentage = 10
+			templateFile = EXT:musicview/res/group/group.getWeeklyTrackChart.html
 			
 			classes {
-				1 = group_getWeeklyTrackChart-TABLE-TR-light
-				2 = group_getWeeklyTrackChart-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 	}
@@ -211,6 +203,15 @@ plugin.tx_musicview_pi1 {
 		}
 	}
 	
+	playlist {
+	
+		fetch {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/playlist/playlist.fetch.html
+		}
+	
+	}
+	
 	tag {
 	
 		getSimilar { // TODO: Feature 1457
@@ -241,14 +242,26 @@ plugin.tx_musicview_pi1 {
 			templateFile = EXT:musicview/res/tag/tag.getTopTags.html
 			
 			classes {
-				1 = artist_getTopTags-TABLE-TR-light
-				2 = artist_getTopTags-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 		
 		getTopTracks {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
 			templateFile = EXT:musicview/res/tag/tag.getTopTracks.html
+			
+			image {
+				size = small
+			}
+		}
+	}
+
+	tasteometer {
+		
+		compare {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/tasteometer/tasteometer.compare.html
 			
 			image {
 				size = small
@@ -290,8 +303,8 @@ plugin.tx_musicview_pi1 {
 			templateFile = EXT:musicview/res/track/track.getTopTags.html
 
 			classes {
-				1 = artist_getTopTags-TABLE-TR-light
-				2 = artist_getTopTags-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 	}
@@ -300,7 +313,7 @@ plugin.tx_musicview_pi1 {
 	
 		getEvents {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getEvents.tmpl
+			templateFile = EXT:musicview/res/user/user.getEvents.html
 			
 			image {
 				size = medium
@@ -309,10 +322,7 @@ plugin.tx_musicview_pi1 {
 		
 		getFriends {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getFriends.tmpl
-			
-#			limit = 5
-#			random = 1
+			templateFile = EXT:musicview/res/user/user.getFriends.html
 			
 			image {
 				size = small
@@ -321,7 +331,7 @@ plugin.tx_musicview_pi1 {
 		
 		getLovedTracks {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getLovedTracks.tmpl
+			templateFile = EXT:musicview/res/user/user.getLovedTracks.html
 			
 			image {
 				size = small
@@ -329,17 +339,22 @@ plugin.tx_musicview_pi1 {
 		}
 		
 		getNeighbours {
-			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getNeighbours.tmpl
+			userFunc = xmlel_exttmpl_chart_match_neighbours->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getNeighbours.html
 
 			image {
 				size = small
+			}
+
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 		
 		getPastEvents {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getPastEvents.tmpl
+			templateFile = EXT:musicview/res/user/user.getPastEvents.html
 			
 			image {
 				size = medium
@@ -348,12 +363,12 @@ plugin.tx_musicview_pi1 {
 		
 		getPlaylists {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getPlaylists.tmpl
+			templateFile = EXT:musicview/res/user/user.getPlaylists.html
 		}
 		
 		getRecentTracks {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getRecentTracks.tmpl
+			templateFile = EXT:musicview/res/user/user.getRecentTracks.html
 			
 			image {
 				size = small
@@ -362,7 +377,7 @@ plugin.tx_musicview_pi1 {
 		
 		getTopAlbums {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getTopAlbums.tmpl
+			templateFile = EXT:musicview/res/user/user.getTopAlbums.html
 			
 			image {
 				size = small
@@ -371,7 +386,7 @@ plugin.tx_musicview_pi1 {
 		
 		getTopArtists {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getTopArtists.tmpl
+			templateFile = EXT:musicview/res/user/user.getTopArtists.html
 			
 			image {
 				size = small
@@ -380,17 +395,17 @@ plugin.tx_musicview_pi1 {
 		
 		getTopTags {
 			userFunc = xmlel_exttmpl_chart_count_toptags->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getTopTags.tmpl
+			templateFile = EXT:musicview/res/user/user.getTopTags.html
 			
 			classes {
-				1 = user_getTopTags-TABLE-TR-light
-				2 = user_getTopTags-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 		
 		getTopTracks {
 			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getTopTracks.tmpl
+			templateFile = EXT:musicview/res/user/user.getTopTracks.html
 			
 			image {
 				size = small
@@ -399,49 +414,41 @@ plugin.tx_musicview_pi1 {
 		
 		getWeeklyAlbumChart {
 			userFunc = xmlel_exttmpl_chart_playcount_weeklyalbumchart->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getWeeklyAlbumChart.tmpl
-			
-#			cut = 1
-#			percentage = 30
+			templateFile = EXT:musicview/res/user/user.getWeeklyAlbumChart.html
 			
 			classes {
-				1 = user_getWeeklyAlbumChart-TABLE-TR-light
-				2 = user_getWeeklyAlbumChart-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 		
 		getWeeklyArtistChart {
 			userFunc = xmlel_exttmpl_chart_playcount_weeklyartistchart->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getWeeklyArtistChart.tmpl
-			
-#			cut = 1
-#			percentage = 10
+			templateFile = EXT:musicview/res/user/user.getWeeklyArtistChart.html
 
 			classes {
-				1 = user_getWeeklyArtistChart-TABLE-TR-light
-				2 = user_getWeeklyArtistChart-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
 		
 		
 		getWeeklyChartList {
-			#userFunc = user_getWeeklyChartList->userFuncIniTest
 			userFunc = user_getWeeklyChartList->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getWeeklyChartList.tmpl
+			templateFile = EXT:musicview/res/user/user.getWeeklyChartList.html
 		}
 		
 		getWeeklyTrackChart {
-			#userFunc = user_getWeeklyTrackChart->userFuncIniTest
 			userFunc = xmlel_exttmpl_chart_playcount_weeklytrackchart->xmlel_exttmpl_init
-			templateFile = EXT:musicview/res/user/user.getWeeklyTrackChart.tmpl
-			
-#			cut = 1
-#			percentage = 10
+			templateFile = EXT:musicview/res/user/user.getWeeklyTrackChart.html
 			
 			classes {
-				1 = user_getWeeklyTrackChart-TABLE-TR-light
-				2 = user_getWeeklyTrackChart-TABLE-TR-lighter
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
 			}
 		}
+	}
+	
+	_CSS_DEFAULT_STYLE (
 	}
 }

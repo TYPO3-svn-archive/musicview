@@ -3,25 +3,25 @@
 	<!-- ###TEMPLATE_WEEKLYCHARTLIST### begin -->
 
 	<form action="###TEMPLATE_WEEKLYCHARTLIST-FORM-ACTION-URL###" method="get" title="###TEMPLATE_WEEKLYCHARTLIST-FORM-TITLE###">
-		<table class="group_getWeeklyChartList-TABLE-overview">
+		<table class="tx_musicview_pi1-TABLE-boxed">
 			<tbody>
 				<tr>
 					<td>
-						<select name="tx_musicview_pi1[###TEMPLATE_WEEKLYCHARTLIST-SELECT-DATE-NAME###]" class="group_getWeeklyChartList-SELECT-date">
+						<select name="tx_musicview_pi1[###TEMPLATE_WEEKLYCHARTLIST-SELECT-DATE-NAME###]" class="tx_musicview_pi1-SELECT-date">
 							<!--  ###TEMPLATE_WEEKLYCHARTLIST-SELECT-DATE### begin -->
 								<option value="###CHART_FROMTO###">###CHART_FROMTO_USERREADABLE###</option>
 							<!--  ###TEMPLATE_WEEKLYCHARTLIST-SELECT-DATE### end -->
 						</select>
 					</td>
 					<td>
-						<select name="tx_musicview_pi1[###TEMPLATE_WEEKLYCHARTLIST-SELECT-METHOD-NAME###]" class="group_getWeeklyChartList-SELECT-method">
+						<select name="tx_musicview_pi1[###TEMPLATE_WEEKLYCHARTLIST-SELECT-METHOD-NAME###]" class="tx_musicview_pi1-SELECT-method">
 							<!-- ###TEMPLATE_WEEKLYCHARTLIST-SELECT-METHOD### begin -->
 								<option value="###TEMPLATE_WEEKLYCHARTLIST_LASTFM_API_FUNC###">###TEMPLATE_WEEKLYCHARTLIST_LASTFM_API_FUNC_NAME###</option>
 							<!-- ###TEMPLATE_WEEKLYCHARTLIST-SELECT-METHOD### end -->
 						</select>
 					</td>
 					<td>
-						<input type="SUBMIT" name="weeklychartlist_submit" class="group_getWeeklyChartList-INPUT-submit" value="###TMPL_WEEKLYCHARTLIST_MARKER_SUBMIT###" />
+						<input type="SUBMIT" name="weeklychartlist_submit" class="tx_musicview_pi1-INPUT-submit" value="###TMPL_WEEKLYCHARTLIST_MARKER_SUBMIT###" />
 					</td>
 				</tr>
 			</tbody>
@@ -32,7 +32,7 @@
 	
 	<br />
 	<!-- ###TEMPLATE_WEEKLYCHARTLIST_METHOD_RESULT### begin -->
-		<div class="group_getWeeklyChartList-DIV-method-result">
+		<div>
 			###TMPL_WEEKLYCHARTLIST_NO_RESULT###
 		</div>
 	<!-- ###TEMPLATE_WEEKLYCHARTLIST_METHOD_RESULT### end -->	
