@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <T3DataStructure>
 	<meta>
 		<langDisable>1</langDisable>
@@ -12,40 +13,6 @@
 
 				<type>array</type>
 				<el>
-					<username_settings>
-						<TCEforms>
-							<exclude>1</exclude>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_general_username</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</username_settings>
-
-					<password_settings>
-						<TCEforms>
-							<exclude>1</exclude>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_general_password</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-								<eval>password</eval>
-							</config>
-						</TCEforms>
-					</password_settings>
-					
-					<group_name>
-						<TCEforms>
-							<exclude>1</exclude>
-							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_general_group</label>
-							<config>
-								<type>input</type>
-								<size>30</size>
-							</config>
-						</TCEforms>
-					</group_name>
-
 					<apikey_settings>
 						<TCEforms>
 							<exclude>1</exclude>
@@ -99,6 +66,10 @@
 									<numIndex index="207" type="array">
 										<numIndex index="0">artist.getTopTracks</numIndex>
 										<numIndex index="1">artist.getTopTracks</numIndex>
+									</numIndex>
+									<numIndex index="208" type="array">
+										<numIndex index="0">artist.search</numIndex>
+										<numIndex index="1">artist.search</numIndex>
 									</numIndex>
 									<!-- ###artist.*### end -->
 
@@ -190,6 +161,10 @@
 										<numIndex index="0">tag.getTopTracks</numIndex>
 										<numIndex index="1">tag.getTopTracks</numIndex>
 									</numIndex>
+									<numIndex index="905" type="array">
+										<numIndex index="0">tag.search</numIndex>
+										<numIndex index="1">tag.search</numIndex>
+									</numIndex>
 									<!-- ###tag.*### end -->
 								
 									<!-- ###tasteometer.*### begin -->
@@ -215,6 +190,10 @@
 									<numIndex index="1103" type="array">
 										<numIndex index="0">track.getTopTags</numIndex>
 										<numIndex index="1">track.getTopTags</numIndex>
+									</numIndex>
+									<numIndex index="1104" type="array">
+										<numIndex index="0">track.search</numIndex>
+										<numIndex index="1">track.search</numIndex>
 									</numIndex>
 									<!-- ###track.*### end -->
 
@@ -376,6 +355,28 @@
 							</config>
 						</TCEforms>
 					</artist.getSimilar_limit>
+					
+					<artist.search_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_artist_api_search_page</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</artist.search_page>
+					
+					<artist.search_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_artist_api_search_limit</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</artist.search_limit>
 				</el>
 			</ROOT>
 		</sheet_artist_api>
@@ -506,6 +507,17 @@
 				
 				<type>array</type>
 				<el>
+					<group_name>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_group</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</group_name>
+					
 					<group.getWeeklyAlbumChart_from>
 						<TCEforms>
 							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_group_api_getWeeklyAlbumChart_from</label>
@@ -878,6 +890,28 @@
 							</config>
 						</TCEforms>
 					</track.getTopTags-getTopFans-getSimilar_mbid>
+					
+					<track.search_limit>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_search_limit</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</track.search_limit>
+					
+					<track.search_page>
+						<TCEforms>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_track_api_search_page</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</track.search_page>
 				</el>
 			</ROOT>
 		</sheet_track_api>
@@ -890,6 +924,17 @@
 
 				<type>array</type>
 				<el>
+					<username_settings>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:musicview/locallang_db.xml:tt_content.pi_flexform.sheet_user_api_username</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</username_settings>
+					
 					<!-- no optional attribute for this function 
 					<user.getEvents>
 						<TCEforms>

@@ -21,6 +21,14 @@ class xmlel_exttmpl {
 		$this->tagStruct = array();
 	}
 	
+	/**
+	 * Initialise the xmlel_exttempl object and fill the template with the information from the
+	 * xmlel object.
+	 * 
+	 * @param	xmlel_base	$xmlel_obj: The object with the information to fill the template
+	 * @param 	tx_musicview_pi1	$tx_musicview_pi1: Reference to the caller class
+	 * @return 	The content of the xmlel object
+	 */
 	public function xmlel_exttmpl_init($xmlel_obj, $tx_musicview_pi1) {
 		$this->xmlel_obj = $xmlel_obj;
 		$this->tx_musicview_pi1 = $tx_musicview_pi1;
@@ -37,13 +45,24 @@ class xmlel_exttmpl {
 		return $this->fillTemplate();
 	}
 	
+	/**
+	 * Fill the template with the local xmlel object.
+	 * 
+	 * @return 	The template filled with information from the xmlel object
+	 */
 	protected function fillTemplate() {
 		$template = $this->getTemplateParts('###TEMPLATE###');
 		return $this->displayXmlelObject($template['total'], $this->xmlel_obj);
 	}
 	
-	
-	
+	/**
+	 * Fill the template with information from the xmlel object.
+	 *  
+	 * @param 	mixed	$template: The template to fill
+	 * @param 	xmlel_base	$xmlel_obj: The object's information used to fill the template
+	 * @param 	array 	$glSubpartArrray: 
+	 * @return	The filled template
+	 */
 	protected function displayXmlelObject($template, $xmlel_obj, $glSubpartArrray = array()) {
 		$childKeys = $xmlel_obj->getChildKeys();
 		$subpartArray = array();
@@ -72,6 +91,14 @@ class xmlel_exttmpl {
 		return $this->substituteMarkerArrayCached($template, $markerArray, $fSubpartArray);
 	}
 	
+	/**
+	 * Fill a subpart calling recursivly displayXmlelObject(...).
+	 * 
+	 * @param $iSubTemplate: The template to fill
+	 * @param $objectArr: An array with xmlel objects
+	 * @param $templateKey: not used
+	 * @return	The filled subpart
+	 */
 	protected function fillSubpart($iSubTemplate, $objectArr, $templateKey) {
 		$content = '';
 		
@@ -82,7 +109,13 @@ class xmlel_exttmpl {
 		return $content;
 	}
 		
-	
+	/**
+	 * Get the template markers for an object with those from the 
+	 * tx_musicview_pi1 class.
+	 * 
+	 * @param	xmlel_base	$xmlel_obj: The object to get the template markers
+	 * @return	An array with template markers
+	 */
 	protected function getTemplateMarkers($xmlel_obj) {
 		$objMarkerArray = $xmlel_obj->getTemplateMarkers($this->tx_musicview_pi1->cObj, $this->conf);
 		$tmplMarkerArray = $this->tx_musicview_pi1->getTemplateMarker();
@@ -90,63 +123,18 @@ class xmlel_exttmpl {
 		return array_merge($objMarkerArray, $tmplMarkerArray);
 	}
 	
+	/**
+	 * Create a template content marker for a child.
+	 * 
+	 *  @param 	string	$childKey: The child which we create the marker for
+	 *  @return	The marker for the child.
+	 */
 	protected function getTemplateKey($childKey) {
 		static $tmplBase = '###TEMPLATE_%s###';
 		
 		return sprintf($tmplBase, strtoupper($childKey));
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
 	/**
 	 * This function gets template suparts out of the main template. 
 	 * The parameter $total declears the template part to select, the items
@@ -154,7 +142,7 @@ class xmlel_exttmpl {
 	 *
 	 * @param 	string	$total: The main template part.
 	 * @param 	array 	$items: The subparts to select.
-	 * @return  	The template and subparts in one array.
+	 * @return	The template and subparts in one array.
 	 */
 	protected function getTemplateParts($total, $items = array()) {
 		$template['total'] = $this->tx_musicview_pi1->cObj->getSubpart($this->tx_musicview_pi1->templateCode, $total);

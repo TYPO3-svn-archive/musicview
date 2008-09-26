@@ -17,7 +17,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'author' => 'Christoph Gostner',
 	'author_email' => 'christoph.gostner@gmail.com',
 	'shy' => '',
-	'dependencies' => 'cms',
+	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
@@ -32,8 +32,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'version' => '0.0.0',
 	'constraints' => array(
 		'depends' => array(
-			'php' => '5.0.0-0.0.0',
-			'cms' => '4.2.0',
+			'php' => '5.2.0-0.0.0',
 		),
 		'conflicts' => array(
 		),

@@ -1,0 +1,61 @@
+###TEMPLATE###
+	<br />
+	<form action="###TMPL_URL_ACTION###" method="post">
+	
+		<table class="tx_musicview_pi2-TABLE-search" cellspacing="0px" cellpadding="2px">
+			<tbody>
+				<tr class="tx_musicview_pi2-TR-title">
+					<td colspan="2">
+						###TMPL_SEARCH_TITLE###
+					</td>
+				</tr>
+				<tr>
+					<td>
+						###TMPL_NAMESPACE_TITLE###
+						<select class="tx_musicview_pi1-SELECT-method" name="tx_musicview_pi2[namespace]" onchange="this.form.submit();">
+							<option value=""></option>
+							<!-- ###TEMPLATE_NAMESPACE_AREA### start -->
+								<option ###TMPL_NAMESPACE_SELECTED### value="###TMPL_NAMESPACE###">###TMPL_NAMESPACE_LL###</option>
+							<!-- ###TEMPLATE_NAMESPACE_AREA### end -->
+						</select>
+					</td>
+					<!-- ###TEMPLATE_NAMESPACE_METHODS### start -->
+					<td>
+						<!-- ###TEMPLATE_NAMESPACE_METHODS_CONTENT### start -->
+						###TMPL_NAMESPACE_METHOD_TITLE###
+						<select class="tx_musicview_pi1-SELECT-method" name="tx_musicview_pi2[method]" onchange="this.form.submit();">
+							<option value=""></option>
+							<!-- ###TEMPLATE_METHOD_AREA### start -->
+								<option ###TMPL_METHOD_SELECTED### value="###TMPL_METHOD###">###TMPL_METHOD_LL###</option>
+							<!-- ###TEMPLATE_METHOD_AREA### end -->
+						</select>
+						<!-- ###TEMPLATE_NAMESPACE_METHODS_CONTENT### end -->
+					</td>
+					<!-- ###TEMPLATE_NAMESPACE_METHODS### start -->
+				</tr>
+				<!-- ###TEMPLATE_METHOD_AREA_INPUT### start -->
+				<tr class="tx_musicview_pi2-TR-border-top">
+					<td colspan="2">
+						<!-- ###TEMPLATE_METHOD_AREA_INPUT_FIELDS### start -->
+							<p>
+							###TMPL_SEARCH_TEXT###:
+							<input class="tx_musicview_pi1-INPUT-submit" name="tx_musicview_pi2[###TMPL_INPUT_KEY###]" type="text" value="###TMPL_INPUT_VALUE###" size="30" />
+							</p>
+						<!-- ###TEMPLATE_METHOD_AREA_INPUT_FIELDS### end -->
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<center>
+							<input class="tx_musicview_pi1-INPUT-submit" type="submit" value="###TMPL_SEARCH_SUBMIT###" />
+						</center>
+					</td>
+				</tr>
+				<!-- ###TEMPLATE_METHOD_AREA_INPUT### end -->
+			</tbody>
+		</table>
+	</form>
+	<br />
+	<!-- ###TEMPLATE_SEARCH_RESULT### start -->
+	<!-- ###TEMPLATE_SEARCH_RESULT### end -->
+###TEMPLATE###

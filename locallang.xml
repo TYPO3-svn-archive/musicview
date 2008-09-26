@@ -8,6 +8,9 @@
 		<languageKey index="default" type="array">
 			<label index="pi1_title">Music Overview from Last.fm</label>
 			<label index="pi1_plus_wiz_description">Displays your music data from last.fm on your homepage</label>
+			
+			<label index="pi2_title">Music Overview search</label>
+			<label index="pi2_plus_wiz_description">Search for content in last.fm</label>
 		</languageKey>
 	</data>
 </T3locallang>

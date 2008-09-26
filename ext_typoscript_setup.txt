@@ -1,0 +1,512 @@
+page.includeLibs.xmlel_exttmpl = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl.php
+page.includeLibs.artist_getInfo = EXT:musicview/xmlel_exttmpl/class.artist_getInfo.php
+page.includeLibs.group_getWeeklyChartList = EXT:musicview/xmlel_exttmpl/class.group_getWeeklyChartList.php
+page.includeLibs.user_getWeeklyChartList = EXT:musicview/xmlel_exttmpl/class.user_getWeeklyChartList.php
+page.includeLibs.xmlel_exttmpl_chart_count_toptags = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_count_toptags.php
+page.includeLibs.xmlel_exttmpl_chart_playcount_weeklyalbumchart = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_playcount_weeklyalbumchart.php
+page.includeLibs.xmlel_exttmpl_chart_playcount_weeklyartistchart = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_playcount_weeklyartistchart.php
+page.includeLibs.xmlel_exttmpl_chart_playcount_weeklytrackchart = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_playcount_weeklytrackchart.php
+page.includeLibs.xmlel_exttmpl_chart_match_neighbours = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_match_neighbours.php
+
+temp.tx_musicview_ts_conf {
+
+	# extension configuration
+	debugURL = 0
+	
+	# this is for testing
+	# XML files must be in a folder called xml in your web root.
+	# example: localhost/xml/album.getInfo.xml
+	localXML = 0
+	
+	# with this you can modify the calculation of the date.
+	# last.fm breaks the day at 13:00 - used for group.getWeeklyArtistChart
+	# and others 
+	modifyTime = 46800
+	
+	
+
+	# last.fm API configuration
+	error {
+		userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+		templateFile = EXT:musicview/res/error.html
+	}
+	
+	album {
+		getInfo {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/album/album.getInfo.html
+			
+			image {
+				size = small
+			}
+		}
+	}
+	
+	artist {
+	
+		getEvents {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/artist/artist.getEvents.html
+			
+			image {
+				size = medium
+			}
+		}
+		
+		getInfo {
+			userFunc = artist_getInfo->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/artist/artist.getInfo.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getSimilar {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/artist/artist.getSimilar.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopAlbums {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/artist/artist.getTopAlbums.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopFans {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/artist/artist.getTopFans.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopTags {
+			userFunc = xmlel_exttmpl_chart_count_toptags->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/artist/artist.getTopTags.html
+
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+		
+		getTopTracks {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/artist/artist.getTopTracks.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		search {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/artist/artist.search.html
+		}
+	}
+
+	event {
+	
+		getInfo {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/event/event.getInfo.html
+			
+			image {
+				size = small
+			}
+		}
+	}
+	
+	geo {
+	
+		getEvents {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/geo/geo.getEvents.html
+			
+			image {
+				size = medium
+			}
+		}
+		
+		getTopArtists {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/geo/geo.getTopArtists.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopTracks {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/geo/geo.getTopTracks.html
+			
+			image {
+				size = small
+			}
+		}
+	}
+	
+	group {
+	
+		getWeeklyAlbumChart {
+			userFunc = xmlel_exttmpl_chart_playcount_weeklyalbumchart->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/group/group.getWeeklyAlbumChart.html
+			
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+		
+		getWeeklyArtistChart {
+			userFunc = xmlel_exttmpl_chart_playcount_weeklyartistchart->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/group/group.getWeeklyArtistChart.html
+
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+		
+		getWeeklyChartList {
+			userFunc = group_getWeeklyChartList->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/group/group.getWeeklyChartList.html
+		}
+		
+		getWeeklyTrackChart {
+			userFunc = xmlel_exttmpl_chart_playcount_weeklytrackchart->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/group/group.getWeeklyTrackChart.html
+			
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+	}
+	
+	library {
+	
+		getAlbums {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/library/library.getAlbums.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getArtists {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/library/library.getArtists.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTracks {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/library/library.getTracks.html
+			
+			image {
+				size = small
+			}
+		}
+	}
+	
+	playlist {
+	
+		fetch {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/playlist/playlist.fetch.html
+		}
+	
+	}
+	
+	tag {
+	
+		getSimilar {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/tag/tag.getSimilar.html
+		}
+		
+		getTopAlbums {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/tag/tag.getTopAlbums.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopArtists {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/tag/tag.getTopArtists.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopTags {
+			userFunc = xmlel_exttmpl_chart_count_toptags->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/tag/tag.getTopTags.html
+			
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+		
+		getTopTracks {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/tag/tag.getTopTracks.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		search { 
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/tag/tag.search.html
+		}
+	}
+
+	tasteometer {
+		
+		compare {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/tasteometer/tasteometer.compare.html
+			
+			image {
+				size = small
+			}
+		}
+	}
+
+	track {
+	
+		getInfo {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/track/track.getInfo.html
+			
+			image {
+				size = small
+			}
+		}
+
+		getSimilar {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/track/track.getSimilar.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopFans {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/track/track.getTopFans.html
+			
+			image {
+				size = small
+			}
+		}
+	
+		getTopTags {
+			userFunc = xmlel_exttmpl_chart_count_toptags->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/track/track.getTopTags.html
+
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+		
+		search { 
+			userFunc = xmlel_exttmpl_chart_count_toptags->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/track/track.search.html
+			
+			image {
+				size = medium
+			}
+		}
+	}
+	
+	user {
+	
+		getEvents {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getEvents.html
+			
+			image {
+				size = medium
+			}
+		}
+		
+		getFriends {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getFriends.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getLovedTracks {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getLovedTracks.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getNeighbours {
+			userFunc = xmlel_exttmpl_chart_match_neighbours->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getNeighbours.html
+
+			image {
+				size = small
+			}
+
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+		
+		getPastEvents {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getPastEvents.html
+			
+			image {
+				size = medium
+			}
+		}
+		
+		getPlaylists {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getPlaylists.html
+		}
+		
+		getRecentTracks {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getRecentTracks.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopAlbums {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getTopAlbums.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopArtists {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getTopArtists.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getTopTags {
+			userFunc = xmlel_exttmpl_chart_count_toptags->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getTopTags.html
+			
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+		
+		getTopTracks {
+			userFunc = xmlel_exttmpl->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getTopTracks.html
+			
+			image {
+				size = small
+			}
+		}
+		
+		getWeeklyAlbumChart {
+			userFunc = xmlel_exttmpl_chart_playcount_weeklyalbumchart->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getWeeklyAlbumChart.html
+			
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+		
+		getWeeklyArtistChart {
+			userFunc = xmlel_exttmpl_chart_playcount_weeklyartistchart->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getWeeklyArtistChart.html
+
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+		
+		
+		getWeeklyChartList {
+			userFunc = user_getWeeklyChartList->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getWeeklyChartList.html
+		}
+		
+		getWeeklyTrackChart {
+			userFunc = xmlel_exttmpl_chart_playcount_weeklytrackchart->xmlel_exttmpl_init
+			templateFile = EXT:musicview/res/user/user.getWeeklyTrackChart.html
+			
+			classes {
+				1 = tx_musicview_pi1-TR-chart-background1
+				2 = tx_musicview_pi1-TR-chart-background2
+			}
+		}
+	}
+}
+
+plugin.tx_musicview_pi1 < temp.tx_musicview_ts_conf
+plugin.tx_musicview_pi1 {
+	userFunc = tx_musicview_pi1->main
+}
+
+plugin.tx_musicview_pi2 < temp.tx_musicview_ts_conf
+plugin.tx_musicview_pi2 {
+	userFunc = tx_musicview_pi2->main
+	templateFile = EXT:musicview/res/search.html
+	
+	namespace.invalid {
+		0 = tasteometer
+		1 = playlist
+	}
+	
+	methods.invalid {
+		0 = user.getWeeklyChartList
+		1 = group.getWeeklyChartList
+		2 = geo.getTopTracks
+		3 = playlist.fetch
+		4 = tag.getTopTags
+		5 = tasteometer.compare
+	}
+}
+

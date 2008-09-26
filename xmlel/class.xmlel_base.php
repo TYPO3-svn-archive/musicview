@@ -47,6 +47,11 @@ require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_trackList.ph
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_comparison.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_result.php');
 require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_input.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_artistmatches.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_results.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_image_small.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_tagmatches.php');
+require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_trackmatches.php');
 
 /**
  * Plugin 'musicview' for the 'musicview' extension.

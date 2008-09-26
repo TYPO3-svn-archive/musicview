@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_musicview_pi2&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index='tx_musicview_pi2_template_not_found'>Error: template file not found</label>
+			<label index='tx_musicview_pi2_tmpl_invalid_method'>Invalid method!</label>
+			
+			
+			<label index='tx_musicview_pi2_tmpl_method_title_artist'>Search for 'artists'</label>
+			<label index='tx_musicview_pi2_tmpl_method_title_tag'>Search for 'tags'</label>
+			<label index='tx_musicview_pi2_tmpl_method_title_track'>Search for 'tracks'</label>
+			
+			
+			<label index='tx_musicview_pi2_tmpl_method_input_tag_tag'>Tag:</label>
+
+			<label index='tx_musicview_pi2_tmpl_method_input_artist_artist'>Artist:</label>
+			<label index='tx_musicview_pi2_tmpl_method_input_artist_mbid'>MBID:</label>
+			<label index='tx_musicview_pi2_tmpl_method_input_artist_limit'>Limit:</label>
+			
+			<label index='tx_musicview_pi2_tmpl_method_input_track_track'>Track:</label>
+			<label index='tx_musicview_pi2_tmpl_method_input_track_artist'>Artist:</label>
+			<label index='tx_musicview_pi2_tmpl_method_input_track_mbid'>MBID:</label>
+			
+			 <label index='tx_musicview_pi2_tmpl_method_ll_artist.getEvents'>get artist's events</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_artist.getInfo'>get artist's info</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_artist.getSimilar'>get similar artists</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_artist.getTopAlbums'>get top albums of the artist</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_artist.getTopFans'>get top fans of the artist</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_artist.getTopTags'>get top tags of the artist</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_artist.getTopTracks'>get top tracks of the artist</label>
+			
+			<label index='tx_musicview_pi2_tmpl_method_ll_tag.getSimilar'>get similar tags</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_tag.getTopAlbums'>get the top tagged albums</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_tag.getTopArtists'>get the top tagged artists</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_tag.getTopTracks'>get the top tagged tracks</label>
+			
+			<label index='tx_musicview_pi2_tmpl_method_ll_track.getTopTags'>get top tags of the track</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_track.getTopFans'>get top fans of the track</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_track.getSimilar'>get similar tracks</label>
+			<label index='tx_musicview_pi2_tmpl_method_ll_track.getInfo'>get info about the track</label>
+			
+			
+			<!-- 
+			<label index='tx_musicview_pi2_tmpl_method_input_artist'>Artist:</label>
+			<label index='tx_musicview_pi2_tmpl_method_input_tag'>Tag:</label>
+			<label index='tx_musicview_pi2_tmpl_method_input_track'>Track:</label> -->
+			
+			<label index='tx_musicview_pi2_tmpl_method_select'>Select option:</label>
+			
+			<label index='tx_musicview_pi2_tmpl_method_search'>Search</label>
+			
+		</languageKey>
+	</data>
+</T3locallang>

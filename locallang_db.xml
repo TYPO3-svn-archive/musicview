@@ -7,23 +7,21 @@
 	<data type="array">
 		<languageKey index="default" type="array">
 			<label index="tt_content.list_type_pi1">Music Overview from Last.fm</label>
+			<label index="tt_content.list_type_pi2">Music Overview search (Last.fm)</label>
 
 			<!-- ###GENERAL_SHEET### begin -->
 			<label index="tt_content.pi_flexform.sheet_general">Account Settings</label>
-			<label index="tt_content.pi_flexform.sheet_general_username">Username (user.*)</label>
-			<label index="tt_content.pi_flexform.sheet_general_password">Password</label>
 			<label index="tt_content.pi_flexform.sheet_general_apikey">API-key (*.*)</label>
 			<label index="tt_content.pi_flexform.sheet_general_apifunc">Select what should be displayed</label>
-			<label index="tt_content.pi_flexform.sheet_general_group">Group name (group.*)</label>
 			<!-- ###GENERAL_SHEET### end -->
-			
-			
 			
 			<!-- ###ARTISTAPI_SHEET### begin--> 
 			<label index="tt_content.pi_flexform.sheet_artist_api">Artist API</label>
 			<label index="tt_content.pi_flexform.sheet_artist_api_common">artist.*: The artist name in question*</label>
 			<label index="tt_content.pi_flexform.sheet_artist_api_getInfo_mbid">artist.getInfo: The musicbrainz id for the artist</label>
 			<label index="tt_content.pi_flexform.sheet_artist_api_getSimilar_limit">artist.getSimilar: Limit the number of similar artists returned</label>
+			<label index="tt_content.pi_flexform.sheet_artist_api_search_page">artist.search: Scan into the results by specifying a page number</label>
+			<label index="tt_content.pi_flexform.sheet_artist_api_search_limit">artist.search: Limit the number of artists returned at one time</label>
 			<!-- ###ARTISTAPI_SHEET### end-->
 
 			<!-- ###EVENTAPI_SHEET### begin -->
@@ -34,6 +32,7 @@
 
 			<!-- ###USERAPI_SHEET### begin -->
 			<label index="tt_content.pi_flexform.sheet_user_api">User API</label>
+			<label index="tt_content.pi_flexform.sheet_user_api_username">Username (user.*)</label>
 			<label index="tt_content.pi_flexform.sheet_user_api_getEvents">user.getEvents</label>
 
 			<!-- ###user.getFriends### begin -->
@@ -75,6 +74,7 @@
 			
 			<!-- ###GEOAPI_SHEET### begin -->
 			<label index="tt_content.pi_flexform.sheet_geo_api">Geo API</label>
+<label index="tt_content.pi_flexform.sheet_group_api_group">Group name (group.*)</label>
 			<label index="tt_content.pi_flexform.sheet_geo_api_getEvents_location">geo.getEvents: Specifies a location to retrieve events for</label>
 			<label index="tt_content.pi_flexform.sheet_geo_api_getEvents_lat">geo.getEvents: Specifies a latitude value to retrieve events for</label>
 			<label index="tt_content.pi_flexform.sheet_geo_api_getEvents_long">geo.getEvents: Specifies a longitude value to retrieve events for</label>
@@ -125,9 +125,11 @@
 			
 			<!-- ###TRACKAPI_SHEET### begin -->
 			<label index="tt_content.pi_flexform.sheet_track_api">Track API</label>
-			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_track">track.[getTopTags|getTopFans|getSimilar|getInfo]: The track name in question*</label>
-			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_artist">track.[getTopTags|getTopFans|getSimilar|getInfo]: The artist name in question*</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_track">track.[getTopTags|getTopFans|getSimilar|getInfo|search]: The track name in question*</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_artist">track.[getTopTags|getTopFans|getSimilar|getInfo|search]: The artist name in question*</label>
 			<label index="tt_content.pi_flexform.sheet_track_api_getTopTags-getTopFans-getSimilar_mbid">track.[getTopTags|getTopFans|getSimilar|getInfo]: The musicbrainz id for the track</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_search_limit">track.search: Limit the number of tracks returned at one time</label>
+			<label index="tt_content.pi_flexform.sheet_track_api_search_page">track.search: Scan into the results by specifying a page number</label>
 			<!-- ###TRACKAPI_SHEET### end -->
 
 			<label index="tt_content.pi_flexform.sheet_display">Display Settings</label>
@@ -135,6 +137,28 @@
 			<label index="tt_content.pi_flexform.disable_rte">Disable the Rich Text Editor</label>
 			<label index="tt_content.pi_flexform.show_errors">Show Errors</label>
 			<label index="tt_content.pi_flexform.prepend_text">Text to prepend errors with</label>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<label index="tt_content.pi_flexform.sheet_general_search">Search settings</label>
+			<label index="tt_content.pi_flexform.sheet_general_search_option">Set search methods to offer</label>
 		</languageKey>
 	</data>
 </T3locallang>

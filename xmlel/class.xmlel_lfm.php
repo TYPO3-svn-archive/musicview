@@ -40,6 +40,7 @@ class xmlel_lfm extends xmlel_base {
 			array('tag' => 'playlist'),
 			array('tag' => 'playlists'),
 			array('tag' => 'recenttracks'),
+			array('tag' => 'results'),
 			array('tag' => 'similarartists'),
 			array('tag' => 'similartags'),
 			array('tag' => 'similartracks'),
