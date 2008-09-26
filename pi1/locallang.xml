@@ -26,7 +26,6 @@
 			<label index='tx_musicview_pi1_tmpl_weeklychartlist_lastfmapi_method_not_found'>Method not found/invalid method</label>
 
 			<label index='tx_musicview_pi1_tmpl_weeklychartlist_form_action_url'></label>
-			<label index='tx_musicview_pi1_tmpl_weeklychartlist_form_title'>Chart List Requestor</label>
 			<label index='tx_musicview_pi1_tmpl_weeklychartlist_submit'>Update</label>
 			<label index='tx_musicview_pi1_tmpl_weeklychartlist_no_result'>Nothing selected</label>
 			
