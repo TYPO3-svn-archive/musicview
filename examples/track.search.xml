@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lfm status="ok">
+<results for="Generation Landslide" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+<opensearch:Query role="request" searchTerms="Generation Landslide" startPage="1"/>
+<opensearch:totalResults>1</opensearch:totalResults>
+<opensearch:startIndex>0</opensearch:startIndex>
+<opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+<trackmatches>
+<track>
+    <name>Generation Landslide</name>
+    <artist>Alice Cooper</artist>
+    <url>http://www.last.fm/music/Alice+Cooper/_/Generation+Landslide</url>
+    <streamable fulltrack="0">1</streamable>
+    <listeners>14133</listeners>
+            <image size="small">http://images.amazon.com/images/P/B000056W0F.01.MZZZZZZZ.jpg</image>
+    <image size="medium">http://images.amazon.com/images/P/B000056W0F.01.MZZZZZZZ.jpg</image>
+    <image size="large">http://images.amazon.com/images/P/B000056W0F.01.MZZZZZZZ.jpg</image>
+    </track>
+</trackmatches>
+</results></lfm>

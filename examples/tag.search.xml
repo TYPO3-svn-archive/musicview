@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lfm status="ok">
+<results for="cover" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+<opensearch:Query role="request" searchTerms="cover" startPage="1"/>
+<opensearch:totalResults>5159</opensearch:totalResults>
+<opensearch:startIndex>0</opensearch:startIndex>
+<opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+<tagmatches>
+<tag>
+    <name>cover</name>
+    <count>72669</count>
+    <url>www.last.fm/tag/cover</url>
+</tag>
+<tag>
+    <name>cover song</name>
+    <count>3526</count>
+    <url>www.last.fm/tag/cover%20song</url>
+</tag>
+<tag>
+    <name>great cover</name>
+    <count>1233</count>
+    <url>www.last.fm/tag/great%20cover</url>
+</tag>
+<tag>
+    <name>beatles cover</name>
+    <count>2175</count>
+    <url>www.last.fm/tag/beatles%20cover</url>
+</tag>
+<tag>
+    <name>cover songs</name>
+    <count>4927</count>
+    <url>www.last.fm/tag/cover%20songs</url>
+</tag>
+<tag>
+    <name>cover version</name>
+    <count>1225</count>
+    <url>www.last.fm/tag/cover%20version</url>
+</tag>
+<tag>
+    <name>good cover</name>
+    <count>612</count>
+    <url>www.last.fm/tag/good%20cover</url>
+</tag>
+<tag>
+    <name>punk cover</name>
+    <count>565</count>
+    <url>www.last.fm/tag/punk%20cover</url>
+</tag>
+<tag>
+    <name>cover band</name>
+    <count>301</count>
+    <url>www.last.fm/tag/cover%20band</url>
+</tag>
+<tag>
+    <name>cover versions</name>
+    <count>590</count>
+    <url>www.last.fm/tag/cover%20versions</url>
+</tag>
+<tag>
+    <name>nirvana cover</name>
+    <count>151</count>
+    <url>www.last.fm/tag/nirvana%20cover</url>
+</tag>
+<tag>
+    <name>bob dylan cover</name>
+    <count>1606</count>
+    <url>www.last.fm/tag/bob%20dylan%20cover</url>
+</tag>
+<tag>
+    <name>radiohead cover</name>
+    <count>132</count>
+    <url>www.last.fm/tag/radiohead%20cover</url>
+</tag>
+<tag>
+    <name>awesome cover</name>
+    <count>278</count>
+    <url>www.last.fm/tag/awesome%20cover</url>
+</tag>
+<tag>
+    <name>queen cover</name>
+    <count>174</count>
+    <url>www.last.fm/tag/queen%20cover</url>
+</tag>
+<tag>
+    <name>metallica cover</name>
+    <count>328</count>
+    <url>www.last.fm/tag/metallica%20cover</url>
+</tag>
+<tag>
+    <name>metal cover</name>
+    <count>661</count>
+    <url>www.last.fm/tag/metal%20cover</url>
+</tag>
+<tag>
+    <name>cover tunes</name>
+    <count>390</count>
+    <url>www.last.fm/tag/cover%20tunes</url>
+</tag>
+<tag>
+    <name>leonard cohen cover</name>
+    <count>267</count>
+    <url>www.last.fm/tag/leonard%20cohen%20cover</url>
+</tag>
+<tag>
+    <name>rolling stones cover</name>
+    <count>253</count>
+    <url>www.last.fm/tag/rolling%20stones%20cover</url>
+</tag>
+</tagmatches>
+</results></lfm>

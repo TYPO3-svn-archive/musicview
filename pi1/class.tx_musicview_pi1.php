@@ -32,16 +32,28 @@ require_once (t3lib_extMgm::extPath('musicview').'class.tx_musicview_base.php');
  * @subpackage	tx_musicview
  */
 class tx_musicview_pi1 extends tx_musicview_base {
-	var $prefixId      = 'tx_musicview_pi1';		// Same as class name
-	var $scriptRelPath = 'pi1/class.tx_musicview_pi1.php';	// Path to this script relative to the extension dir.
+	
+	/**
+	 * Same as class name
+	 * 
+	 * @var string
+	 */
+	var $prefixId      = 'tx_musicview_pi1';
+	/**
+	 * Path to this script relative to the extension dir
+	 * 
+	 * @var string
+	 */
+	var $scriptRelPath = 'pi1/class.tx_musicview_pi1.php';
 
 
 	/**
 	 * The main method of the PlugIn
 	 *
-	 * @param	string		$content: The PlugIn content
-	 * @param	array		$conf: The PlugIn configuration
-	 * @return	The content that is displayed on the website
+	 * @param string $content The PlugIn content
+	 * @param array $conf The PlugIn configuration
+	 * @return The content that is displayed on the website
+	 * @author Christoph Gostner
 	 */
 	function main($content,$conf)	{
 		$this->init($conf);
@@ -49,7 +61,7 @@ class tx_musicview_pi1 extends tx_musicview_base {
 		$method = $this->getFlexFormValue('sDEF', 'apifunc_setting');
 		$dom = $this->doRequest($method);
 
-		return $this->workOnRequestResult($dom, $method, &$this);
+		return $this->workOnRequestResult($dom, $method);
 	}
 }
 

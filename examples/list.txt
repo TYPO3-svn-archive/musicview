@@ -1,0 +1,63 @@
+user.getWeeklyChartList.xml
+
+
+To all users!
+Stay attention to not request to much tracks/artists/users/... 
+The extension pareses all information in it's own data structure type - and that consumes a lot of memory. So, limit your results!
+
+
+Your own userFunc class ...
+
+1. create the userFunc class that handels the display of the information you wish (you should extend class.musicview_userfunc_base.php and set the userFunc in the configuration. The musicview_userfunc_base class has an abstract method named fillTemplate() - you must implement this method.
+	
+	EXAMPLE: userFunc = user_getTopTracks->userFuncIniTest 
+
+2. So that typo3 knows about this cluss you must include the class: 
+
+	EXAMPLE: page.includeLibs.userGetTopTracks = EXT:musicview/userFunc/class.user_getTopTracks.php
+
+3. if you'r extending the musicview userfunc's abstract class (see class.user_musicview_userfunc_base.php) you have also to create a template file
+	and set the corresponding entry in the extension's configuration (templateFile).
+
+	EXAMPLE: templateFile = EXT:musicview/res/user.getTopTracks.tmpl
+
+4. This was the setup part if you want to use your own classes to handle the view of a last.fm API method.
+	You can finally implement your class to handle this task.
+
+
+by using class.musicview_userfunc_base.php ...
+	you have access to many useful methods to implement the view part.
+
+	First of all, the xml object you'll represent is stored in the attribute $xmlel_obj. Next there is a reference 
+	to the extension's main class represented by $tx_musicview_pi1. So you can do all things like accessing the cObj 
+	attribute. Another useful attribute is $conf which is the configuration about the method represented by the class.
+	Stay attention, this works only, when the nameing convension for userFunc classes is correct.
+	By setting this attributes (when calling userFuncIniTest(...)) some other work goes along, like checking if the
+	configuration array is an array, setting the template (see Your own userFunc class ... (3)) and finally call 
+	fillTemplate().
+
+	Other useful methods are:
+		
+		getTemplateParts(...)
+		getSubTemplate(...)
+		substituteMarkerArrayCached(...)
+		getClassName()
+		randomize(...)
+		getMaxPlaycount(...)
+		getClasses()
+
+
+userFunc class names (when extending class.user_musicview_userfunc_base.php)
+
+
+The xmlel object system
+
+Extending the xmlel object system
+
+	By doing this you'll get a reference to a xmlel object. These objects are located in the xmlel folder and
+	represent the complete abstraction of the last.fm xml response. This classes offer many methods you can 
+	use (see class.xmlel_base.php - it's the base class for all classes). The class.xmlel_lfm.php is the first
+	class used by the extension. It's factory method lfmFactory(...) parses the complete xml structure. If you
+	find new sub sections in the xml response (in <lfm></lfm> tags)
+
+

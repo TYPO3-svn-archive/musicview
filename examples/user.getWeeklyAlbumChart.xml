@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lfm status="ok">
+<weeklyalbumchart user="moe-pub" from="1220184000" to="1220788800">
+<album rank="1">
+    <artist mbid="b202beb7-99bd-47e7-8b72-195c8d72ebdd">Christina Aguilera</artist>
+    <name>Back To Basics</name>
+    <mbid/>
+    <playcount>103</playcount>
+    <url>http://www.last.fm/music/Christina+Aguilera/Back+To+Basics</url>
+</album>
+<album rank="2">
+    <artist mbid="4e0e884d-099b-4ca9-bf4d-bcb31e739540">Duffy</artist>
+    <name>Rockferry</name>
+    <mbid/>
+    <playcount>100</playcount>
+    <url>http://www.last.fm/music/Duffy/Rockferry</url>
+</album>
+<album rank="3">
+    <artist mbid="7252abc2-dfc8-4aa6-889f-2d168b265403">The Blues Brothers</artist>
+    <name>The Definitive Collection</name>
+    <mbid>8603f0e0-41f1-4f54-8b97-ea1a9a47c912</mbid>
+    <playcount>82</playcount>
+    <url>http://www.last.fm/music/The+Blues+Brothers/The+Definitive+Collection</url>
+</album>
+<album rank="4">
+    <artist mbid="2386cd66-e923-4e8e-bf14-2eebe2e9b973">3 Doors Down</artist>
+    <name>Better Life</name>
+    <mbid/>
+    <playcount>81</playcount>
+    <url>http://www.last.fm/music/3+Doors+Down/Better+Life</url>
+</album>
+<album rank="5">
+    <artist mbid="8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e">Genesis</artist>
+    <name>Live Over Europe</name>
+    <mbid/>
+    <playcount>75</playcount>
+    <url>http://www.last.fm/music/Genesis/Live+Over+Europe</url>
+</album>
+<album rank="6">
+    <artist mbid="0103c1cc-4a09-4a5d-a344-56ad99a77193">Avril Lavigne</artist>
+    <name>Let Go</name>
+    <mbid>f8a1fc40-7295-4896-9a59-7a53ea36e450</mbid>
+    <playcount>71</playcount>
+    <url>http://www.last.fm/music/Avril+Lavigne/Let+Go</url>
+</album>
+<album rank="7">
+    <artist mbid="0103c1cc-4a09-4a5d-a344-56ad99a77193">Avril Lavigne</artist>
+    <name>My World</name>
+    <mbid>61f0439c-d4fb-475e-8544-21539781f740</mbid>
+    <playcount>60</playcount>
+    <url>http://www.last.fm/music/Avril+Lavigne/My+World</url>
+</album>
+<album rank="8">
+    <artist mbid="ada7a83c-e3e1-40f1-93f9-3e73dbc9298a">Arctic Monkeys</artist>
+    <name>Bigger Boys And Stolen Sweethearts</name>
+    <mbid/>
+    <playcount>59</playcount>
+    <url>http://www.last.fm/music/Arctic+Monkeys/Bigger+Boys+And+Stolen+Sweethearts</url>
+</album>
+<album rank="9">
+    <artist mbid="c98d40fd-f6cf-4b26-883e-eaa515ee2851">The Cranberries</artist>
+    <name>Wake Up and Smell the Coffee</name>
+    <mbid>2d4334e2-0be4-432d-be56-62f3f2930d7b</mbid>
+    <playcount>58</playcount>
+    <url>http://www.last.fm/music/The+Cranberries/Wake+Up+and+Smell+the+Coffee</url>
+</album>
+<album rank="10">
+    <artist mbid="8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e">Genesis</artist>
+    <name>Platinum Collection</name>
+    <mbid/>
+    <playcount>53</playcount>
+    <url>http://www.last.fm/music/Genesis/Platinum+Collection</url>
+</album>
+<album rank="11">
+    <artist mbid="d1353a0c-26fb-4318-a116-defde9c7c9ad">Dido</artist>
+    <name>Live at Brixton Academy</name>
+    <mbid>9dc4efb5-addd-4d65-81ed-abfd27edfbb1</mbid>
+    <playcount>52</playcount>
+    <url>http://www.last.fm/music/Dido/Live+at+Brixton+Academy</url>
+</album>
+<album rank="12">
+    <artist mbid="084308bd-1654-436f-ba03-df6697104e19">Green Day</artist>
+    <name>American Idiot</name>
+    <mbid>1790c881-b35b-4c3e-a489-e011e5143476</mbid>
+    <playcount>49</playcount>
+    <url>http://www.last.fm/music/Green+Day/American+Idiot</url>
+</album>
+<album rank="13">
+    <artist mbid="d1353a0c-26fb-4318-a116-defde9c7c9ad">Dido</artist>
+    <name>Life for Rent</name>
+    <mbid>dd4298a2-07f6-411a-8725-bfe78593064a</mbid>
+    <playcount>48</playcount>
+    <url>http://www.last.fm/music/Dido/Life+for+Rent</url>
+</album>
+<album rank="14">
+    <artist mbid="084308bd-1654-436f-ba03-df6697104e19">Green Day</artist>
+    <name>Dookie</name>
+    <mbid>17ca17ed-f061-4d5b-97e2-848d85e47d95</mbid>
+    <playcount>46</playcount>
+    <url>http://www.last.fm/music/Green+Day/Dookie</url>
+</album>
+<album rank="15">
+    <artist mbid="bfaf9b70-d1fd-4d3e-b730-3e67e6f8f9bb">Hilary Duff</artist>
+    <name>Hilary Duff</name>
+    <mbid>e0440635-800b-4b22-80fd-551d4abbdce9</mbid>
+    <playcount>44</playcount>
+    <url>http://www.last.fm/music/Hilary+Duff/Hilary+Duff</url>
+</album>
+<album rank="16">
+    <artist mbid="05755bf1-380c-487f-983f-d1a02401fa28">Cat Power</artist>
+    <name>Jukebox</name>
+    <mbid/>
+    <playcount>43</playcount>
+    <url>http://www.last.fm/music/Cat+Power/Jukebox</url>
+</album>
+<album rank="17">
+    <artist mbid="149e6720-4e4a-41a4-afca-6d29083fc091">Bad Religion</artist>
+    <name>Back to the Known</name>
+    <mbid>6f174030-458b-4b3a-8145-6f4cc31c4b81</mbid>
+    <playcount>38</playcount>
+    <url>http://www.last.fm/music/Bad+Religion/Back+to+the+Known</url>
+</album>
+<album rank="18">
+    <artist mbid="c98d40fd-f6cf-4b26-883e-eaa515ee2851">The Cranberries</artist>
+    <name>No Need to Argue</name>
+    <mbid>c5f9c7d9-249f-4589-ab04-01b19fa1467c</mbid>
+    <playcount>31</playcount>
+    <url>http://www.last.fm/music/The+Cranberries/No+Need+to+Argue</url>
+</album>
+<album rank="19">
+    <artist mbid="149e6720-4e4a-41a4-afca-6d29083fc091">Bad Religion</artist>
+    <name>Against the Grain</name>
+    <mbid>d62e6b44-b5d4-477b-ae01-0f961938e3bc</mbid>
+    <playcount>30</playcount>
+    <url>http://www.last.fm/music/Bad+Religion/Against+the+Grain</url>
+</album>
+<album rank="20">
+    <artist mbid="bfaf9b70-d1fd-4d3e-b730-3e67e6f8f9bb">Hilary Duff</artist>
+    <name>Dignity</name>
+    <mbid/>
+    <playcount>26</playcount>
+    <url>http://www.last.fm/music/Hilary+Duff/Dignity</url>
+</album>
+<album rank="21">
+    <artist mbid="7e9bd05a-117f-4cce-87bc-e011527a8b18">Miley Cyrus</artist>
+    <name>Breakout</name>
+    <mbid/>
+    <playcount>24</playcount>
+    <url>http://www.last.fm/music/Miley+Cyrus/Breakout</url>
+</album>
+<album rank="22">
+    <artist mbid="149e6720-4e4a-41a4-afca-6d29083fc091">Bad Religion</artist>
+    <name>The Empire Strikes First</name>
+    <mbid>6ef16128-731d-46ee-a1e9-970cdf33b82c</mbid>
+    <playcount>21</playcount>
+    <url>http://www.last.fm/music/Bad+Religion/The+Empire+Strikes+First</url>
+</album>
+<album rank="23">
+    <artist mbid="bfaf9b70-d1fd-4d3e-b730-3e67e6f8f9bb">Hilary Duff</artist>
+    <name>Most Wanted</name>
+    <mbid>700d7615-9f87-43b6-b2d7-1611c621817a</mbid>
+    <playcount>20</playcount>
+    <url>http://www.last.fm/music/Hilary+Duff/Most+Wanted</url>
+</album>
+<album rank="24">
+    <artist mbid="ada7a83c-e3e1-40f1-93f9-3e73dbc9298a">Arctic Monkeys</artist>
+    <name>Favourite Worst Nightmare</name>
+    <mbid/>
+    <playcount>19</playcount>
+    <url>http://www.last.fm/music/Arctic+Monkeys/Favourite+Worst+Nightmare</url>
+</album>
+<album rank="25">
+    <artist mbid="63e8d6f9-e247-45c9-aaf2-e079cddbdd54">Billy Ray Cyrus</artist>
+    <name>Home At Last</name>
+    <mbid/>
+    <playcount>17</playcount>
+    <url>http://www.last.fm/music/Billy+Ray+Cyrus/Home+At+Last</url>
+</album>
+<album rank="26">
+    <artist mbid="5b11f4ce-a62d-471e-81fc-a69a8278c7da">Nirvana</artist>
+    <name>From The Muddy Banks Of Wishkah</name>
+    <mbid/>
+    <playcount>16</playcount>
+    <url>http://www.last.fm/music/Nirvana/From+The+Muddy+Banks+Of+Wishkah</url>
+</album>
+<album rank="26">
+    <artist mbid="149e6720-4e4a-41a4-afca-6d29083fc091">Bad Religion</artist>
+    <name>New Maps Of Hell</name>
+    <mbid/>
+    <playcount>16</playcount>
+    <url>http://www.last.fm/music/Bad+Religion/New+Maps+Of+Hell</url>
+</album>
+<album rank="26">
+    <artist mbid="c98d40fd-f6cf-4b26-883e-eaa515ee2851">The Cranberries</artist>
+    <name>Bury the Hatchet</name>
+    <mbid>134f30ef-1ee4-4a57-8861-22c198924277</mbid>
+    <playcount>16</playcount>
+    <url>http://www.last.fm/music/The+Cranberries/Bury+the+Hatchet</url>
+</album>
+<album rank="29">
+    <artist mbid="7252abc2-dfc8-4aa6-889f-2d168b265403">The Blues Brothers</artist>
+    <name>Live From Chicago</name>
+    <mbid/>
+    <playcount>15</playcount>
+    <url>http://www.last.fm/music/The+Blues+Brothers/Live+From+Chicago</url>
+</album>
+<album rank="30">
+    <artist mbid="149e6720-4e4a-41a4-afca-6d29083fc091">Bad Religion</artist>
+    <name>How Could Hell Be Any Worse?</name>
+    <mbid>b5864f22-b71f-46e8-81c2-d089cba67c92</mbid>
+    <playcount>14</playcount>
+    <url>http://www.last.fm/music/Bad+Religion/How+Could+Hell+Be+Any+Worse%3F</url>
+</album>
+<album rank="30">
+    <artist mbid="ea4dfa26-f633-4da6-a52a-f49ea4897b58">R.E.M.</artist>
+    <name>Accelerate</name>
+    <mbid/>
+    <playcount>14</playcount>
+    <url>http://www.last.fm/music/R.E.M./Accelerate</url>
+</album>
+<album rank="30">
+    <artist mbid="149e6720-4e4a-41a4-afca-6d29083fc091">Bad Religion</artist>
+    <name>No Control</name>
+    <mbid>03bc9825-703b-4c5b-9b03-ded7bb2e2f1a</mbid>
+    <playcount>14</playcount>
+    <url>http://www.last.fm/music/Bad+Religion/No+Control</url>
+</album>
+<album rank="33">
+    <artist mbid="63e8d6f9-e247-45c9-aaf2-e079cddbdd54">Billy Ray Cyrus</artist>
+    <name>The Millennium Collection: Best of Billy Ray Cyrus</name>
+    <mbid/>
+    <playcount>12</playcount>
+    <url>http://www.last.fm/music/Billy+Ray+Cyrus/The+Millennium+Collection%3A+Best+of+Billy+Ray+Cyrus</url>
+</album>
+<album rank="33">
+    <artist mbid="2386cd66-e923-4e8e-bf14-2eebe2e9b973">3 Doors Down</artist>
+    <name>17 Days</name>
+    <mbid/>
+    <playcount>12</playcount>
+    <url>http://www.last.fm/music/3+Doors+Down/17+Days</url>
+</album>
+<album rank="35">
+    <artist mbid="149e6720-4e4a-41a4-afca-6d29083fc091">Bad Religion</artist>
+    <name>Generator</name>
+    <mbid>606a385a-b6f1-465d-b502-bab7fdac8746</mbid>
+    <playcount>11</playcount>
+    <url>http://www.last.fm/music/Bad+Religion/Generator</url>
+</album>
+<album rank="35">
+    <artist mbid="bfaf9b70-d1fd-4d3e-b730-3e67e6f8f9bb">Hilary Duff</artist>
+    <name>Metamorphosis</name>
+    <mbid>70871304-126b-4d9f-bca9-b53df88cddd0</mbid>
+    <playcount>11</playcount>
+    <url>http://www.last.fm/music/Hilary+Duff/Metamorphosis</url>
+</album>
+<album rank="37">
+    <artist mbid="7d093650-89be-4108-842b-ba7f5367504b">Nevermore</artist>
+    <name>Dead Heart, In A Dead World</name>
+    <mbid/>
+    <playcount>10</playcount>
+    <url>http://www.last.fm/music/Nevermore/Dead+Heart%2C+In+A+Dead+World</url>
+</album>
+<album rank="38">
+    <artist mbid="7252abc2-dfc8-4aa6-889f-2d168b265403">The Blues Brothers</artist>
+    <name>Made In America</name>
+    <mbid>badaa3dc-5f33-458f-a4d2-c8d99a6bf067</mbid>
+    <playcount>9</playcount>
+    <url>http://www.last.fm/music/The+Blues+Brothers/Made+In+America</url>
+</album>
+<album rank="38">
+    <artist mbid="9db1e69b-935f-4c1d-a48c-8bcca179a25c">E Nomine</artist>
+    <name>Finsternis</name>
+    <mbid>655aa547-f1fa-49dd-9bba-de30f0aaef11</mbid>
+    <playcount>9</playcount>
+    <url>http://www.last.fm/music/E+Nomine/Finsternis</url>
+</album>
+<album rank="40">
+    <artist mbid="c98d40fd-f6cf-4b26-883e-eaa515ee2851">The Cranberries</artist>
+    <name>Stars</name>
+    <mbid/>
+    <playcount>8</playcount>
+    <url>http://www.last.fm/music/The+Cranberries/Stars</url>
+</album>
+<album rank="40">
+    <artist mbid="149e6720-4e4a-41a4-afca-6d29083fc091">Bad Religion</artist>
+    <name>Into the Unknown</name>
+    <mbid>732d0e60-d4cf-48a7-97d9-074c9048630f</mbid>
+    <playcount>8</playcount>
+    <url>http://www.last.fm/music/Bad+Religion/Into+the+Unknown</url>
+</album>
+<album rank="42">
+    <artist mbid="7e9bd05a-117f-4cce-87bc-e011527a8b18">Miley Cyrus</artist>
+    <name>Hannah Montana 2 / Meet Miley Cyrus</name>
+    <mbid/>
+    <playcount>7</playcount>
+    <url>http://www.last.fm/music/Miley+Cyrus/Hannah%2BMontana%2B2%2B%252F%2BMeet%2BMiley%2BCyrus</url>
+</album>
+<album rank="42">
+    <artist mbid="5b11f4ce-a62d-471e-81fc-a69a8278c7da">Nirvana</artist>
+    <name>Bleach</name>
+    <mbid>b7184186-6884-44cd-91ed-62370f880e5d</mbid>
+    <playcount>7</playcount>
+    <url>http://www.last.fm/music/Nirvana/Bleach</url>
+</album>
+<album rank="44">
+    <artist mbid="b4d32cff-f19e-455f-86c4-f347d824ca61">Eurythmics</artist>
+    <name>Greatest Hits</name>
+    <mbid>1ccec942-1de4-4228-9488-14364ffe3e44</mbid>
+    <playcount>6</playcount>
+    <url>http://www.last.fm/music/Eurythmics/Greatest+Hits</url>
+</album>
+<album rank="45">
+    <artist mbid="7252abc2-dfc8-4aa6-889f-2d168b265403">The Blues Brothers</artist>
+    <name>Everybody Needs Blues Brothers</name>
+    <mbid>514a45df-d1b5-49f9-b898-4cac64f33876</mbid>
+    <playcount>4</playcount>
+    <url>http://www.last.fm/music/The+Blues+Brothers/Everybody+Needs+Blues+Brothers</url>
+</album>
+<album rank="45">
+    <artist mbid="5b11f4ce-a62d-471e-81fc-a69a8278c7da">Nirvana</artist>
+    <name>In Utero</name>
+    <mbid>1cbfd7e6-a888-4184-924d-e59a9f0c621c</mbid>
+    <playcount>4</playcount>
+    <url>http://www.last.fm/music/Nirvana/In+Utero</url>
+</album>
+<album rank="45">
+    <artist mbid="149e6720-4e4a-41a4-afca-6d29083fc091">Bad Religion</artist>
+    <name>No Substance</name>
+    <mbid>9a3aaa1b-0803-41bd-88db-c7ab8495ec85</mbid>
+    <playcount>4</playcount>
+    <url>http://www.last.fm/music/Bad+Religion/No+Substance</url>
+</album>
+<album rank="45">
+    <artist mbid="eace2373-31c8-4aba-9a5c-7bce22dd140a">Within Temptation</artist>
+    <name>Mother Earth</name>
+    <mbid>1be7e461-231d-4fe2-b8df-4558434750f4</mbid>
+    <playcount>4</playcount>
+    <url>http://www.last.fm/music/Within+Temptation/Mother+Earth</url>
+</album>
+<album rank="45">
+    <artist mbid="0103c1cc-4a09-4a5d-a344-56ad99a77193">Avril Lavigne</artist>
+    <name>Under My Skin</name>
+    <mbid>d63e9e3d-210c-49ac-8f33-d2269ee94966</mbid>
+    <playcount>4</playcount>
+    <url>http://www.last.fm/music/Avril+Lavigne/Under+My+Skin</url>
+</album>
+<album rank="45">
+    <artist mbid="d87e52c5-bb8d-4da8-b941-9f4928627dc8">ABBA</artist>
+    <name>Gold</name>
+    <mbid/>
+    <playcount>4</playcount>
+    <url>http://www.last.fm/music/ABBA/Gold</url>
+</album>
+<album rank="45">
+    <artist mbid="9db1e69b-935f-4c1d-a48c-8bcca179a25c">E Nomine</artist>
+    <name>Das Testament</name>
+    <mbid>46437f1a-3274-4bb4-bbf7-89199308fe9b</mbid>
+    <playcount>4</playcount>
+    <url>http://www.last.fm/music/E+Nomine/Das+Testament</url>
+</album>
+<album rank="52">
+    <artist mbid="eace2373-31c8-4aba-9a5c-7bce22dd140a">Within Temptation</artist>
+    <name>The Heart of Everything</name>
+    <mbid/>
+    <playcount>3</playcount>
+    <url>http://www.last.fm/music/Within+Temptation/The+Heart+of+Everything</url>
+</album>
+<album rank="53">
+    <artist mbid="">Vanessa Hudgens</artist>
+    <name>V</name>
+    <mbid/>
+    <playcount>2</playcount>
+    <url>http://www.last.fm/music/Vanessa+Hudgens/V</url>
+</album>
+<album rank="53">
+    <artist mbid="7252abc2-dfc8-4aa6-889f-2d168b265403">The Blues Brothers</artist>
+    <name>Orginal Soundtrack</name>
+    <mbid/>
+    <playcount>2</playcount>
+    <url>http://www.last.fm/music/The+Blues+Brothers/Orginal+Soundtrack</url>
+</album>
+<album rank="53">
+    <artist mbid="c17f08f4-2542-46fb-97f3-3202d60c225a">Fear Factory</artist>
+    <name>Hatefiles</name>
+    <mbid>0b672f01-bf47-42fa-aa17-35ed6bb4614f</mbid>
+    <playcount>2</playcount>
+    <url>http://www.last.fm/music/Fear+Factory/Hatefiles</url>
+</album>
+<album rank="53">
+    <artist mbid="084308bd-1654-436f-ba03-df6697104e19">Green Day</artist>
+    <name>1039 Smoothed Out Slappy Hours</name>
+    <mbid/>
+    <playcount>2</playcount>
+    <url>http://www.last.fm/music/Green+Day/1039+Smoothed+Out+Slappy+Hours</url>
+</album>
+<album rank="53">
+    <artist mbid="084308bd-1654-436f-ba03-df6697104e19">Green Day</artist>
+    <name>Bowling Bowling Bowling Parking Parking (live)</name>
+    <mbid/>
+    <playcount>2</playcount>
+    <url>http://www.last.fm/music/Green+Day/Bowling+Bowling+Bowling+Parking+Parking+%28live%29</url>
+</album>
+<album rank="53">
+    <artist mbid="2e41ae9c-afd2-4f20-8f1e-17281ce9b472">Gwen Stefani</artist>
+    <name>Love Angel Music Baby</name>
+    <mbid/>
+    <playcount>2</playcount>
+    <url>http://www.last.fm/music/Gwen+Stefani/Love+Angel+Music+Baby</url>
+</album>
+<album rank="53">
+    <artist mbid="bd13909f-1c29-4c27-a874-d4aaf27c5b1a">Fleetwood Mac</artist>
+    <name>Rumours</name>
+    <mbid>dc383c3a-03fb-4a24-8774-f5b6748b8d31</mbid>
+    <playcount>2</playcount>
+    <url>http://www.last.fm/music/Fleetwood+Mac/Rumours</url>
+</album>
+<album rank="60">
+    <artist mbid="5dcdb5eb-cb72-4e6e-9e63-b7bace604965">Bon Jovi</artist>
+    <name>Burning For Rock</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Bon+Jovi/Burning+For+Rock</url>
+</album>
+<album rank="60">
+    <artist mbid="c29f4522-f710-4bb5-a06b-d436fcc3b2fd">Combichrist</artist>
+    <name>The Joy of Gunz</name>
+    <mbid>8a9f88ee-4b69-445a-8eb1-0f83345faf3f</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Combichrist/The+Joy+of+Gunz</url>
+</album>
+<album rank="60">
+    <artist mbid="ff460a70-fdf4-4aa2-b021-8a04da76d88e">Puddle of Mudd</artist>
+    <name>Famous</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Puddle+of+Mudd/Famous</url>
+</album>
+<album rank="60">
+    <artist mbid="3f2e771c-6559-4603-8c4a-90c89bc94aa1">Die Apokalyptischen Reiter</artist>
+    <name>Have a Nice Trip</name>
+    <mbid>1fee0615-ecb9-4b78-918a-3f1097d9f918</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Die+Apokalyptischen+Reiter/Have+a+Nice+Trip</url>
+</album>
+<album rank="60">
+    <artist mbid="8ebd161e-f45e-41b9-8019-fcbd094c327f">In Extremo</artist>
+    <name>Verehrt und Angespien</name>
+    <mbid>3ebfa0e4-0f05-4719-a8ed-d4bee5683e61</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/In+Extremo/Verehrt+und+Angespien</url>
+</album>
+<album rank="60">
+    <artist mbid="d6ed7887-a401-47a8-893c-34b967444d26">Ramones</artist>
+    <name>Greatest Hits</name>
+    <mbid>ebd6da0d-a62a-4697-b3d4-28fc09283d00</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Ramones/Greatest+Hits</url>
+</album>
+<album rank="60">
+    <artist mbid="45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">Britney Spears</artist>
+    <name>Blackout</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Britney+Spears/Blackout</url>
+</album>
+<album rank="60">
+    <artist mbid="8ebd161e-f45e-41b9-8019-fcbd094c327f">In Extremo</artist>
+    <name>Live</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/In+Extremo/Live</url>
+</album>
+<album rank="60">
+    <artist mbid="0383dadf-2a4e-4d10-a46a-e9e041da8eb3">Queen</artist>
+    <name>A Kind of Magic</name>
+    <mbid>bc687229-7b3f-449b-93bf-9ba002b1fe60</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Queen/A+Kind+of+Magic</url>
+</album>
+<album rank="60">
+    <artist mbid="1d93c839-22e7-4f76-ad84-d27039efc048">Sepultura</artist>
+    <name>Nation</name>
+    <mbid>8293eaf5-b304-4b3f-b4f8-5d07b3d1e9e2</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Sepultura/Nation</url>
+</album>
+<album rank="60">
+    <artist mbid="">Jay-Z &amp; Marvin Gaye</artist>
+    <name>Brooklyn Soul</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Jay-Z%2B%2526%2BMarvin%2BGaye/Brooklyn+Soul</url>
+</album>
+<album rank="60">
+    <artist mbid="83b9cbe7-9857-49e2-ab8e-b57b01038103">Pearl Jam</artist>
+    <name>Live in Salzburg</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Pearl+Jam/Live+in+Salzburg</url>
+</album>
+<album rank="60">
+    <artist mbid="dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3">Amy Winehouse</artist>
+    <name>Back To Black</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Amy+Winehouse/Back+To+Black</url>
+</album>
+<album rank="60">
+    <artist mbid="2e41ae9c-afd2-4f20-8f1e-17281ce9b472">Gwen Stefani</artist>
+    <name>The Sweet Escape</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Gwen+Stefani/The+Sweet+Escape</url>
+</album>
+<album rank="60">
+    <artist mbid="2386cd66-e923-4e8e-bf14-2eebe2e9b973">3 Doors Down</artist>
+    <name>Another 700 Miles</name>
+    <mbid>cc89a1d2-260c-48d5-98d8-27446c787b49</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/3+Doors+Down/Another+700+Miles</url>
+</album>
+<album rank="60">
+    <artist mbid="2eada8f8-056a-4093-bbc2-004909ce743b">Broken Social Scene</artist>
+    <name>Feel Good Lost</name>
+    <mbid>7dccdcae-a7b3-46d0-a4ad-ec584f0c20b4</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Broken+Social+Scene/Feel+Good+Lost</url>
+</album>
+<album rank="60">
+    <artist mbid="80c38d4f-7419-4ae9-8d4c-cf899df0d5cc">Fool's Garden</artist>
+    <name>Dish of the Day</name>
+    <mbid>dcfe8092-607d-43dd-88e5-4d4429f049c9</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Fool%27s+Garden/Dish+of+the+Day</url>
+</album>
+<album rank="60">
+    <artist mbid="fad8967c-a327-4af5-a64a-d4de66ece652">Celldweller</artist>
+    <name>Celldweller</name>
+    <mbid>39f393ac-74fa-4957-8844-e286b15eb12f</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Celldweller/Celldweller</url>
+</album>
+<album rank="60">
+    <artist mbid="122d63fc-8671-43e4-9752-34e846d62a9c">Katy Perry</artist>
+    <name>One Of The Boys</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Katy+Perry/One+Of+The+Boys</url>
+</album>
+<album rank="60">
+    <artist mbid="94b0fb9d-a066-4823-b2ec-af1d324bcfcf">The Velvet Underground</artist>
+    <name>Peel Slowly and See</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/The+Velvet+Underground/Peel+Slowly+and+See</url>
+</album>
+<album rank="60">
+    <artist mbid="67f66c07-6e61-4026-ade5-7e782fad3a5d">Foo Fighters</artist>
+    <name>Skin And Bones</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Foo+Fighters/Skin+And+Bones</url>
+</album>
+<album rank="60">
+    <artist mbid="d6ed7887-a401-47a8-893c-34b967444d26">Ramones</artist>
+    <name>Brain Drain</name>
+    <mbid>3d6dc3b3-a69f-498d-a6be-6157ceca9df8</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Ramones/Brain+Drain</url>
+</album>
+<album rank="60">
+    <artist mbid="5b11f4ce-a62d-471e-81fc-a69a8278c7da">Nirvana</artist>
+    <name>Incesticide</name>
+    <mbid>726ca690-fe70-4d3f-86b5-f8347f1a1af0</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Nirvana/Incesticide</url>
+</album>
+<album rank="60">
+    <artist mbid="f2fb0ff0-5679-42ec-a55c-15109ce6e320">Die Ärzte</artist>
+    <name>Bäst Of</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Die+%C3%84rzte/B%C3%A4st+Of</url>
+</album>
+<album rank="60">
+    <artist mbid="ada7a83c-e3e1-40f1-93f9-3e73dbc9298a">Arctic Monkeys</artist>
+    <name>Beneath the Boardwalk</name>
+    <mbid>d219b710-f6df-4866-a3da-d218d24b913b</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Arctic+Monkeys/Beneath+the+Boardwalk</url>
+</album>
+<album rank="60">
+    <artist mbid="4d8afa16-4018-4ca8-8b5e-ede8f9314562">The Animals</artist>
+    <name>summer of love</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/The+Animals/summer+of+love</url>
+</album>
+<album rank="60">
+    <artist mbid="8bf5abde-89d0-4676-98ef-7e1a4eecd03d">Ralph McTell</artist>
+    <name>Best of</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Ralph+McTell/Best+of</url>
+</album>
+<album rank="60">
+    <artist mbid="f57e14e4-b030-467c-b202-539453f504ec">Children of Bodom</artist>
+    <name>Something Wild</name>
+    <mbid>dc3a6225-6e3c-4d21-a66a-b0336169ed3c</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Children+of+Bodom/Something+Wild</url>
+</album>
+<album rank="60">
+    <artist mbid="7252abc2-dfc8-4aa6-889f-2d168b265403">The Blues Brothers</artist>
+    <name>Blues Brothers Complete (Disc 1)</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/The+Blues+Brothers/Blues+Brothers+Complete+%28Disc+1%29</url>
+</album>
+<album rank="60">
+    <artist mbid="72c536dc-7137-4477-a521-567eeb840fa8">Bob Dylan</artist>
+    <name>Modern Times</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Bob+Dylan/Modern+Times</url>
+</album>
+<album rank="60">
+    <artist mbid="7364dea6-ca9a-48e3-be01-b44ad0d19897">a-ha</artist>
+    <name>James Bond Themes</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/a-ha/James+Bond+Themes</url>
+</album>
+<album rank="60">
+    <artist mbid="8bfac288-ccc5-448d-9573-c33ea2aa5c30">Red Hot Chili Peppers</artist>
+    <name>Stadium Arcadium</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Red+Hot+Chili+Peppers/Stadium+Arcadium</url>
+</album>
+<album rank="60">
+    <artist mbid="f31ec2ac-9071-4306-acd1-d2c8321033b5">The Bangles</artist>
+    <name>Greatest Hits</name>
+    <mbid>6defad53-6823-4cfc-9509-097ffb007873</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/The+Bangles/Greatest+Hits</url>
+</album>
+<album rank="60">
+    <artist mbid="">Burning Mind</artist>
+    <name>The trip of eternal unity</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Burning+Mind/The+trip+of+eternal+unity</url>
+</album>
+<album rank="60">
+    <artist mbid="72c536dc-7137-4477-a521-567eeb840fa8">Bob Dylan</artist>
+    <name>John Birch Society Blues</name>
+    <mbid>8a0e68b8-0c3b-46a4-a3c6-1383deaca902</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Bob+Dylan/John+Birch+Society+Blues</url>
+</album>
+<album rank="60">
+    <artist mbid="b267ca80-034e-4dc1-9ed4-ec45f1fed41d">Good Charlotte</artist>
+    <name>The Chronicles of Life &amp; Death</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Good+Charlotte/The%2BChronicles%2Bof%2BLife%2B%2526%2BDeath</url>
+</album>
+<album rank="60">
+    <artist mbid="8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e">Genesis</artist>
+    <name>Diamonds of Rock and Pop Music</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Genesis/Diamonds+of+Rock+and+Pop+Music</url>
+</album>
+<album rank="60">
+    <artist mbid="f2fb0ff0-5679-42ec-a55c-15109ce6e320">Die Ärzte</artist>
+    <name>Wir wollen nur deine See</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Die+%C3%84rzte/Wir+wollen+nur+deine+See</url>
+</album>
+<album rank="60">
+    <artist mbid="8ac6cc32-8ddf-43b1-9ac4-4b04f9053176">Alien Ant Farm</artist>
+    <name>Up in the Attic</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Alien+Ant+Farm/Up+in+the+Attic</url>
+</album>
+<album rank="60">
+    <artist mbid="c98d40fd-f6cf-4b26-883e-eaa515ee2851">The Cranberries</artist>
+    <name>Cranberries</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/The+Cranberries/Cranberries</url>
+</album>
+<album rank="60">
+    <artist mbid="eace2373-31c8-4aba-9a5c-7bce22dd140a">Within Temptation</artist>
+    <name>Enter</name>
+    <mbid>1bc1c68c-6c31-4f88-8b52-1f6417b5eb9d</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Within+Temptation/Enter</url>
+</album>
+<album rank="60">
+    <artist mbid="7291957b-c463-4275-a41c-a104c9e2337f">Alan Jackson</artist>
+    <name>Like Red On A Rose</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Alan+Jackson/Like+Red+On+A+Rose</url>
+</album>
+<album rank="60">
+    <artist mbid="87a73cf0-ebdf-483d-8b5a-3db1e5e72122">Drowning Pool</artist>
+    <name>Sinner</name>
+    <mbid>bf849219-6bc9-4043-a015-f20dee55f4d1</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Drowning+Pool/Sinner</url>
+</album>
+<album rank="60">
+    <artist mbid="79d60c41-8fe0-448c-9bec-3f43c10f860a">Crossfade</artist>
+    <name>Crossfade</name>
+    <mbid>407c509c-2bae-4912-882a-0a21e4a2263a</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Crossfade/Crossfade</url>
+</album>
+<album rank="60">
+    <artist mbid="0e086b78-5df4-4f9e-ace0-6780faa41462">7 Zwerge</artist>
+    <name>Der Wald Ist Nicht Genug</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/7+Zwerge/Der+Wald+Ist+Nicht+Genug</url>
+</album>
+<album rank="60">
+    <artist mbid="7252abc2-dfc8-4aa6-889f-2d168b265403">The Blues Brothers</artist>
+    <name>Ultimate16 Rock and Roll 80s</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/The+Blues+Brothers/Ultimate16+Rock+and+Roll+80s</url>
+</album>
+<album rank="60">
+    <artist mbid="ff7f80cd-05c2-4068-a00e-fbfbd453d049">Schandmaul</artist>
+    <name>Anderswelt</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Schandmaul/Anderswelt</url>
+</album>
+<album rank="60">
+    <artist mbid="4a4ee089-93b1-4470-af9a-6ff575d32704">The Prodigy</artist>
+    <name>The Fat of the Land</name>
+    <mbid>2892b1e6-59d1-48c0-8295-24c663d9c573</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/The+Prodigy/The+Fat+of+the+Land</url>
+</album>
+<album rank="60">
+    <artist mbid="d8354b38-e942-4c89-ba93-29323432abc3">30 Seconds to Mars</artist>
+    <name>30 Seconds to Mars</name>
+    <mbid>a31d72e3-b63c-41f3-acb2-7c37d580ac55</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/30+Seconds+to+Mars/30+Seconds+to+Mars</url>
+</album>
+<album rank="60">
+    <artist mbid="5441c29d-3602-4898-b1a1-b77fa23b8e50">David Bowie</artist>
+    <name>Platinum Collection</name>
+    <mbid/>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/David+Bowie/Platinum+Collection</url>
+</album>
+<album rank="60">
+    <artist mbid="a0327dc2-dc76-44d5-aec6-47cd2dff1469">Counting Crows</artist>
+    <name>August and Everything After</name>
+    <mbid>3738da94-663e-44c1-84af-f850b0bdb763</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Counting+Crows/August+and+Everything+After</url>
+</album>
+<album rank="60">
+    <artist mbid="06fb1c8b-566e-4cb2-985b-b467c90781d4">Jimi Hendrix</artist>
+    <name>Experience Hendrix: The Best of Jimi Hendrix</name>
+    <mbid>57e1b720-7129-41a7-84c2-ad0eacd0257c</mbid>
+    <playcount>1</playcount>
+    <url>http://www.last.fm/music/Jimi+Hendrix/Experience+Hendrix%3A+The+Best+of+Jimi+Hendrix</url>
+</album>
+</weeklyalbumchart></lfm>

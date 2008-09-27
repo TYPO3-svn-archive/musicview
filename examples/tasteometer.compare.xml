@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+    <comparison>
+        <result>
+            <score>1</score>
+            <artists matches="100">
+                <artist>
+                    <name>Nirvana</name>
+                    <url>http://www.last.fm/music/Nirvana</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/3991355.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/3991355.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/3991355.jpg</image>
+                </artist>
+                <artist>
+                    <name>U2</name>
+                    <url>http://www.last.fm/music/U2</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/5926.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/5926.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/5926.jpg</image>
+                </artist>
+                <artist>
+                    <name>Muse</name>
+                    <url>http://www.last.fm/music/Muse</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/206638.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/206638.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/206638.jpg</image>
+                </artist>
+                <artist>
+                    <name>Green Day</name>
+                    <url>http://www.last.fm/music/Green+Day</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/4897.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/4897.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/4897.jpg</image>
+                </artist>
+                <artist>
+                    <name>Queen</name>
+                    <url>http://www.last.fm/music/Queen</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/333122.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/333122.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/333122.jpg</image>
+                </artist>
+                <artist>
+                    <name>Foo Fighters</name>
+                    <url>http://www.last.fm/music/Foo+Fighters</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/263300.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/263300.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/263300.jpg</image>
+                </artist>
+                <artist>
+                    <name>Oasis</name>
+                    <url>http://www.last.fm/music/Oasis</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/3323.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/3323.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/3323.jpg</image>
+                </artist>
+                <artist>
+                    <name>Pink Floyd</name>
+                    <url>http://www.last.fm/music/Pink+Floyd</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/374170.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/374170.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/374170.jpg</image>
+                </artist>
+                <artist>
+                    <name>The White Stripes</name>
+                    <url>http://www.last.fm/music/The+White+Stripes</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/2253726.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/2253726.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/2253726.jpg</image>
+                </artist>
+                <artist>
+                    <name>Led Zeppelin</name>
+                    <url>http://www.last.fm/music/Led+Zeppelin</url>
+                    <image size="large">http://userserve-ak.last.fm/serve/126/117730.jpg</image>
+                    <image size="medium">http://userserve-ak.last.fm/serve/64/117730.jpg</image>
+                    <image size="small">http://userserve-ak.last.fm/serve/34/117730.jpg</image>
+                </artist>
+            </artists>
+        </result>
+        <input>
+            <user>
+                <name>moe-pub</name>
+                <url>http://www.last.fm/user/moe-pub</url>
+                <image size="large">http://userserve-ak.last.fm/serve/126/2657928.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/2657928.jpg</image>
+                <image size="small">http://userserve-ak.last.fm/serve/34/2657928.jpg</image>
+            </user>
+            <user>
+                <name>Schnuffiman</name>
+                <url>http://www.last.fm/user/Schnuffiman</url>
+                <image size="large">http://userserve-ak.last.fm/serve/126/4443154.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/4443154.jpg</image>
+                <image size="small">http://userserve-ak.last.fm/serve/34/4443154.jpg</image>
+            </user>
+        </input>
+    </comparison>
+</lfm>

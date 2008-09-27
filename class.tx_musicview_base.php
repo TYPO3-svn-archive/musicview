@@ -723,7 +723,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 			t3lib_div::debug(array());
 		}
 		if ($this->conf['localXML']) {
-			$reqLink = 'xml/'.$method.'.xml';
+			$reqLink = t3lib_extMgm::extPath('musicview') . '/examples/'.$method.'.xml';
 		}
 		$dom = new DomDocument('1.0', 'utf-8');
 		$dom->load($reqLink);
@@ -743,10 +743,10 @@ abstract class tx_musicview_base extends tslib_pibase {
 	 * @return 	The content to display
 	 */
 	public function workOnRequestResult($dom, $method) {
-		$content = '';
 		/*DOMNodeList*/$domNodeList = $dom->getElementsByTagName(xmlel_lfm::XMLEL_NAME);
 		
 		if ($domNodeList->length == 1) {
+			$content = '';
 			$xmlel_lfm = xmlel_lfm::lfmFactory($domNodeList);
 
 			if ($xmlel_lfm->checkStatus()) { // ok
@@ -768,11 +768,10 @@ abstract class tx_musicview_base extends tslib_pibase {
 					$userFuncContent = $this->callUserFunc($lConf, $error, 'error');
 					$content .= $this->pi_wrapInBaseClass($userFuncContent);
 				}
-				#return $this->pi_getLL('tx_musicview_pi1_incorrect_status');
 			}
+			return $content;
 		}
-		
-		return $content;
+		return $this->pi_getLL('tx_musicview_pi1_incorrect_status');
 	}
 
 	/************************* ###USERFUNC### begin *******************************/

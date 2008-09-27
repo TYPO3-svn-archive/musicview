@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lfm status="ok">
+<event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <id>674680</id>
+  <title>’Es lebe die Welt’ Festival</title>
+  <artists>
+    <artist>Burning Mind</artist>
+    <headliner>Burning Mind</headliner>
+  </artists>
+  <venue>
+    <name>Treibhaus</name>
+    <location>
+      <city>Innsbruck</city>
+      <country>Austria</country>
+      <street>Angerzellgasse 8</street>
+      <postalcode>6020</postalcode>
+      <geo:point>
+         <geo:lat>47.2666667</geo:lat>
+         <geo:long>11.4</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8779199</url>
+  </venue>
+  <startDate>Fri, 03 Oct 2008 13:40:01</startDate>
+  <description/>
+     <image size="small">http://userserve-ak.last.fm/serve/34/7239805.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/7239805.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/7239805.jpg</image>
+  <url>http://www.last.fm/event/674680</url> 
+  <attendance>4</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=674680</tag>
+</event></lfm>

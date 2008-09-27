@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lfm status="ok">
+<topartists user="moe-pub" type="3month">
+
+<artist rank="1">
+    <name>Maria Mena</name>
+    <playcount>475</playcount>
+    <mbid>88679ca2-2080-4cea-8669-41ab4b8d865d</mbid>
+    <url>http://www.last.fm/music/Maria+Mena</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/382143.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/382143.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/382143.jpg</image>
+    </artist>
+<artist rank="2">
+    <name>Guns N' Roses</name>
+    <playcount>398</playcount>
+    <mbid>eeb1195b-f213-4ce1-b28c-8565211f8e43</mbid>
+    <url>http://www.last.fm/music/Guns+N%27+Roses</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/406793.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/406793.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/406793.jpg</image>
+    </artist>
+<artist rank="3">
+    <name>Shakira</name>
+    <playcount>362</playcount>
+    <mbid>bf24ca37-25f4-4e34-9aec-460b94364cfc</mbid>
+    <url>http://www.last.fm/music/Shakira</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/411908.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/411908.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/411908.jpg</image>
+    </artist>
+<artist rank="4">
+    <name>Dream Theater</name>
+    <playcount>313</playcount>
+    <mbid>28503ab7-8bf2-4666-a7bd-2644bfc7cb1d</mbid>
+    <url>http://www.last.fm/music/Dream+Theater</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/206529.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/206529.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/206529.jpg</image>
+    </artist>
+<artist rank="5">
+    <name>Billy Talent</name>
+    <playcount>286</playcount>
+    <mbid>fd429857-5ace-4609-ae54-1502c3bdac11</mbid>
+    <url>http://www.last.fm/music/Billy+Talent</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/879489.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/879489.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/879489.jpg</image>
+    </artist>
+<artist rank="6">
+    <name>Bad Religion</name>
+    <playcount>281</playcount>
+    <mbid>149e6720-4e4a-41a4-afca-6d29083fc091</mbid>
+    <url>http://www.last.fm/music/Bad+Religion</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/99634.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/99634.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/99634.jpg</image>
+    </artist>
+<artist rank="7">
+    <name>Die Ärzte</name>
+    <playcount>269</playcount>
+    <mbid>f2fb0ff0-5679-42ec-a55c-15109ce6e320</mbid>
+    <url>http://www.last.fm/music/Die+%C3%84rzte</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/2695318.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/2695318.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/2695318.jpg</image>
+    </artist>
+<artist rank="8">
+    <name>Apocalyptica</name>
+    <playcount>263</playcount>
+    <mbid>788ad31c-bf0c-4a31-83f8-b8b130d79c76</mbid>
+    <url>http://www.last.fm/music/Apocalyptica</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/264825.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/264825.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/264825.jpg</image>
+    </artist>
+<artist rank="9">
+    <name>Die Toten Hosen</name>
+    <playcount>248</playcount>
+    <mbid>c3bc80a6-1f4a-4e17-8cf0-6b1efe8302f1</mbid>
+    <url>http://www.last.fm/music/Die+Toten+Hosen</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/354319.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/354319.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/354319.jpg</image>
+    </artist>
+<artist rank="10">
+    <name>Duffy</name>
+    <playcount>247</playcount>
+    <mbid>4e0e884d-099b-4ca9-bf4d-bcb31e739540</mbid>
+    <url>http://www.last.fm/music/Duffy</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/4442217.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/4442217.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/4442217.jpg</image>
+    </artist>
+<artist rank="11">
+    <name>Tristania</name>
+    <playcount>227</playcount>
+    <mbid>7e482754-d3f6-49e5-b351-235849754e26</mbid>
+    <url>http://www.last.fm/music/Tristania</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/78129.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/78129.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/78129.jpg</image>
+    </artist>
+<artist rank="12">
+    <name>AC/DC</name>
+    <playcount>219</playcount>
+    <mbid>66c662b6-6e2f-4930-8610-912e24c63ed1</mbid>
+    <url>http://www.last.fm/music/AC%252FDC</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/132243.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/132243.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/132243.jpg</image>
+    </artist>
+<artist rank="13">
+    <name>Gwen Stefani</name>
+    <playcount>212</playcount>
+    <mbid>2e41ae9c-afd2-4f20-8f1e-17281ce9b472</mbid>
+    <url>http://www.last.fm/music/Gwen+Stefani</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/305346.png</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/305346.png</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/305346.png</image>
+    </artist>
+<artist rank="14">
+    <name>Stefanie Heinzmann</name>
+    <playcount>210</playcount>
+    <mbid/>
+    <url>http://www.last.fm/music/Stefanie+Heinzmann</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/4732080.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/4732080.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/4732080.jpg</image>
+    </artist>
+<artist rank="15">
+    <name>Nightwish</name>
+    <playcount>202</playcount>
+    <mbid>00a9f935-ba93-4fc8-a33a-993abe9c936b</mbid>
+    <url>http://www.last.fm/music/Nightwish</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/2124668.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/2124668.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/2124668.jpg</image>
+    </artist>
+<artist rank="16">
+    <name>Green Day</name>
+    <playcount>198</playcount>
+    <mbid>084308bd-1654-436f-ba03-df6697104e19</mbid>
+    <url>http://www.last.fm/music/Green+Day</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/260849.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/260849.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/260849.jpg</image>
+    </artist>
+<artist rank="17">
+    <name>Aerosmith</name>
+    <playcount>195</playcount>
+    <mbid>3d2b98e5-556f-4451-a3ff-c50ea18d57cb</mbid>
+    <url>http://www.last.fm/music/Aerosmith</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/166813.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/166813.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/166813.jpg</image>
+    </artist>
+<artist rank="17">
+    <name>Hilary Duff</name>
+    <playcount>195</playcount>
+    <mbid>bfaf9b70-d1fd-4d3e-b730-3e67e6f8f9bb</mbid>
+    <url>http://www.last.fm/music/Hilary+Duff</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/359493.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/359493.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/359493.jpg</image>
+    </artist>
+<artist rank="19">
+    <name>Ashley Tisdale</name>
+    <playcount>193</playcount>
+    <mbid>1fa14a96-c25c-4bb7-b94d-ff453519eab3</mbid>
+    <url>http://www.last.fm/music/Ashley+Tisdale</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/887614.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/887614.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/887614.jpg</image>
+    </artist>
+<artist rank="20">
+    <name>Gorillaz</name>
+    <playcount>188</playcount>
+    <mbid>e21857d5-3256-4547-afb3-4b6ded592596</mbid>
+    <url>http://www.last.fm/music/Gorillaz</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/207159.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/207159.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/207159.jpg</image>
+    </artist>
+<artist rank="21">
+    <name>Christina Aguilera</name>
+    <playcount>186</playcount>
+    <mbid>b202beb7-99bd-47e7-8b72-195c8d72ebdd</mbid>
+    <url>http://www.last.fm/music/Christina+Aguilera</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/2933074.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/2933074.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/2933074.jpg</image>
+    </artist>
+<artist rank="22">
+    <name>Genesis</name>
+    <playcount>182</playcount>
+    <mbid>8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e</mbid>
+    <url>http://www.last.fm/music/Genesis</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/306.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/306.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/306.jpg</image>
+    </artist>
+<artist rank="23">
+    <name>Nirvana</name>
+    <playcount>181</playcount>
+    <mbid>5b11f4ce-a62d-471e-81fc-a69a8278c7da</mbid>
+    <url>http://www.last.fm/music/Nirvana</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/100498.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/100498.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/100498.jpg</image>
+    </artist>
+<artist rank="24">
+    <name>Arctic Monkeys</name>
+    <playcount>180</playcount>
+    <mbid>ada7a83c-e3e1-40f1-93f9-3e73dbc9298a</mbid>
+    <url>http://www.last.fm/music/Arctic+Monkeys</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/187015.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/187015.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/187015.jpg</image>
+    </artist>
+<artist rank="25">
+    <name>In Extremo</name>
+    <playcount>174</playcount>
+    <mbid>8ebd161e-f45e-41b9-8019-fcbd094c327f</mbid>
+    <url>http://www.last.fm/music/In+Extremo</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/314707.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/314707.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/314707.jpg</image>
+    </artist>
+<artist rank="26">
+    <name>Queen</name>
+    <playcount>157</playcount>
+    <mbid>0383dadf-2a4e-4d10-a46a-e9e041da8eb3</mbid>
+    <url>http://www.last.fm/music/Queen</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/784176.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/784176.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/784176.jpg</image>
+    </artist>
+<artist rank="27">
+    <name>Mika</name>
+    <playcount>155</playcount>
+    <mbid>c7b85bb1-522f-4138-906d-2f7bbdbce9f3</mbid>
+    <url>http://www.last.fm/music/Mika</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/4278.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/4278.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/4278.jpg</image>
+    </artist>
+<artist rank="28">
+    <name>Eminem</name>
+    <playcount>151</playcount>
+    <mbid>b95ce3ff-3d05-4e87-9e01-c97b66af13d4</mbid>
+    <url>http://www.last.fm/music/Eminem</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/400407.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/400407.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/400407.jpg</image>
+    </artist>
+<artist rank="29">
+    <name>Alice Cooper</name>
+    <playcount>138</playcount>
+    <mbid>4d7928cd-7ed2-4282-8c29-c0c9f966f1bd</mbid>
+    <url>http://www.last.fm/music/Alice+Cooper</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/7537621.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/7537621.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/7537621.jpg</image>
+    </artist>
+<artist rank="30">
+    <name>Subway to Sally</name>
+    <playcount>126</playcount>
+    <mbid>5533fa1c-4102-4ae7-92ae-78dddb17fe7f</mbid>
+    <url>http://www.last.fm/music/Subway+to+Sally</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/31308.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/31308.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/31308.jpg</image>
+    </artist>
+<artist rank="30">
+    <name>Dido</name>
+    <playcount>126</playcount>
+    <mbid>d1353a0c-26fb-4318-a116-defde9c7c9ad</mbid>
+    <url>http://www.last.fm/music/Dido</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/320668.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/320668.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/320668.jpg</image>
+    </artist>
+<artist rank="32">
+    <name>Bon Jovi</name>
+    <playcount>117</playcount>
+    <mbid>5dcdb5eb-cb72-4e6e-9e63-b7bace604965</mbid>
+    <url>http://www.last.fm/music/Bon+Jovi</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/388700.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/388700.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/388700.jpg</image>
+    </artist>
+<artist rank="33">
+    <name>Good Charlotte</name>
+    <playcount>114</playcount>
+    <mbid>b267ca80-034e-4dc1-9ed4-ec45f1fed41d</mbid>
+    <url>http://www.last.fm/music/Good+Charlotte</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/86772.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/86772.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/86772.jpg</image>
+    </artist>
+<artist rank="34">
+    <name>Avril Lavigne</name>
+    <playcount>112</playcount>
+    <mbid>0103c1cc-4a09-4a5d-a344-56ad99a77193</mbid>
+    <url>http://www.last.fm/music/Avril+Lavigne</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/2125336.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/2125336.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/2125336.jpg</image>
+    </artist>
+<artist rank="35">
+    <name>Red Hot Chili Peppers</name>
+    <playcount>103</playcount>
+    <mbid>8bfac288-ccc5-448d-9573-c33ea2aa5c30</mbid>
+    <url>http://www.last.fm/music/Red+Hot+Chili+Peppers</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/2128170.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/2128170.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/2128170.jpg</image>
+    </artist>
+<artist rank="35">
+    <name>Oasis</name>
+    <playcount>103</playcount>
+    <mbid>39ab1aed-75e0-4140-bd47-540276886b60</mbid>
+    <url>http://www.last.fm/music/Oasis</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/348907.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/348907.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/348907.jpg</image>
+    </artist>
+<artist rank="37">
+    <name>Within Temptation</name>
+    <playcount>102</playcount>
+    <mbid>eace2373-31c8-4aba-9a5c-7bce22dd140a</mbid>
+    <url>http://www.last.fm/music/Within+Temptation</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/206021.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/206021.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/206021.jpg</image>
+    </artist>
+<artist rank="37">
+    <name>Cat Power</name>
+    <playcount>102</playcount>
+    <mbid>05755bf1-380c-487f-983f-d1a02401fa28</mbid>
+    <url>http://www.last.fm/music/Cat+Power</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/422071.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/422071.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/422071.jpg</image>
+    </artist>
+<artist rank="39">
+    <name>Rammstein</name>
+    <playcount>97</playcount>
+    <mbid>b2d122f9-eadb-4930-a196-8f221eeb0c66</mbid>
+    <url>http://www.last.fm/music/Rammstein</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/2159240.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/2159240.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/2159240.jpg</image>
+    </artist>
+<artist rank="40">
+    <name>3 Doors Down</name>
+    <playcount>96</playcount>
+    <mbid>2386cd66-e923-4e8e-bf14-2eebe2e9b973</mbid>
+    <url>http://www.last.fm/music/3+Doors+Down</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/76286.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/76286.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/76286.jpg</image>
+    </artist>
+<artist rank="41">
+    <name>The Who</name>
+    <playcount>86</playcount>
+    <mbid>9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa</mbid>
+    <url>http://www.last.fm/music/The+Who</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/264132.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/264132.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/264132.jpg</image>
+    </artist>
+<artist rank="42">
+    <name>E Nomine</name>
+    <playcount>83</playcount>
+    <mbid>9db1e69b-935f-4c1d-a48c-8bcca179a25c</mbid>
+    <url>http://www.last.fm/music/E+Nomine</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/2167097.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/2167097.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/2167097.jpg</image>
+    </artist>
+<artist rank="43">
+    <name>Joss Stone</name>
+    <playcount>81</playcount>
+    <mbid>dbbc47a5-1338-4830-9298-a8d0b11c0a46</mbid>
+    <url>http://www.last.fm/music/Joss+Stone</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/5967811.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/5967811.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/5967811.jpg</image>
+    </artist>
+<artist rank="43">
+    <name>Die Apokalyptischen Reiter</name>
+    <playcount>81</playcount>
+    <mbid>3f2e771c-6559-4603-8c4a-90c89bc94aa1</mbid>
+    <url>http://www.last.fm/music/Die+Apokalyptischen+Reiter</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/2957.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/2957.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/2957.jpg</image>
+    </artist>
+<artist rank="45">
+    <name>Blues Brothers &amp; Friends</name>
+    <playcount>76</playcount>
+    <mbid/>
+    <url>http://www.last.fm/music/Blues%2BBrothers%2B%2526%2BFriends</url>
+    <streamable>0</streamable>
+            <image size="small"/>
+        <image size="medium"/>
+        <image size="large"/>
+    </artist>
+<artist rank="46">
+    <name>System of a Down</name>
+    <playcount>75</playcount>
+    <mbid>cc0b7089-c08d-4c10-b6b0-873582c17fd6</mbid>
+    <url>http://www.last.fm/music/System+of+a+Down</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/244722.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/244722.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/244722.jpg</image>
+    </artist>
+<artist rank="47">
+    <name>Tenacious D</name>
+    <playcount>72</playcount>
+    <mbid>148ddea2-6839-4354-8e2c-5dfadf136b7f</mbid>
+    <url>http://www.last.fm/music/Tenacious+D</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/73144.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/73144.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/73144.jpg</image>
+    </artist>
+<artist rank="48">
+    <name>The Cranberries</name>
+    <playcount>69</playcount>
+    <mbid>c98d40fd-f6cf-4b26-883e-eaa515ee2851</mbid>
+    <url>http://www.last.fm/music/The+Cranberries</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/210458.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/210458.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/210458.jpg</image>
+    </artist>
+<artist rank="48">
+    <name>Hawksley Workman</name>
+    <playcount>69</playcount>
+    <mbid>8427ea7b-717e-4834-97f1-57a4c29351c3</mbid>
+    <url>http://www.last.fm/music/Hawksley+Workman</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/292911.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/292911.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/292911.jpg</image>
+    </artist>
+<artist rank="50">
+    <name>Elvis Presley</name>
+    <playcount>65</playcount>
+    <mbid>01809552-4f87-45b0-afff-2c6f0730a3be</mbid>
+    <url>http://www.last.fm/music/Elvis+Presley</url>
+    <streamable>1</streamable>
+            <image size="small">http://userserve-ak.last.fm/serve/34/191898.jpg</image>
+        <image size="medium">http://userserve-ak.last.fm/serve/64/191898.jpg</image>
+        <image size="large">http://userserve-ak.last.fm/serve/126/191898.jpg</image>
+    </artist>
+</topartists></lfm>

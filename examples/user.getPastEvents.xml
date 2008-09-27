@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<events user="moe-pub" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" page="0" perPage="20" totalPages="0" total="8">
+<event>
+  <id>581664</id>
+  <title>Grossstadtgefluester</title>
+
+  <artists>
+    <artist>Grossstadtgefluester</artist>
+    <headliner>Grossstadtgefluester</headliner>
+  </artists>
+  <venue>
+    <name>Treibhaus</name>
+    <location>
+      <city>Innsbruck</city>
+      <country>Austria</country>
+      <street>Angerzellgasse 8</street>
+      <postalcode>6020</postalcode>
+      <geo:point>
+         <geo:lat>47.2666667</geo:lat>
+         <geo:long>11.4</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8779199</url>
+  </venue>
+  <startDate>Thu, 24 Apr 2008 15:20:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/3266041.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/3266041.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/3266041.jpg</image>
+   <attendance>1</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=581664</tag>    
+  <url>http://www.last.fm/event/581664</url>
+</event>
+<event>
+  <id>497311</id>
+  <title>bluekilla</title>
+
+  <artists>
+    <artist>bluekilla</artist>
+    <headliner>bluekilla</headliner>
+  </artists>
+  <venue>
+    <name>Treibhaus</name>
+    <location>
+      <city>Innsbruck</city>
+      <country>Austria</country>
+      <street>Angerzellgasse 8</street>
+      <postalcode>6020</postalcode>
+      <geo:point>
+         <geo:lat>47.2666667</geo:lat>
+         <geo:long>11.4</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8779199</url>
+  </venue>
+  <startDate>Fri, 11 Apr 2008 22:00:00</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/353413.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/353413.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/353413.jpg</image>
+   <attendance>2</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=497311</tag>    
+  <url>http://www.last.fm/event/497311</url>
+</event>
+<event>
+  <id>497346</id>
+  <title>Puke</title>
+
+  <artists>
+    <artist>Puke</artist>
+    <artist>Burning Mind</artist>
+    <headliner>Puke</headliner>
+  </artists>
+  <venue>
+    <name>Treibhaus</name>
+    <location>
+      <city>Innsbruck</city>
+      <country>Austria</country>
+      <street>Angerzellgasse 8</street>
+      <postalcode>6020</postalcode>
+      <geo:point>
+         <geo:lat>47.2666667</geo:lat>
+         <geo:long>11.4</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8779199</url>
+  </venue>
+  <startDate>Sat, 15 Mar 2008 20:30:00</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/321992.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/321992.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/321992.jpg</image>
+   <attendance>1</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=497346</tag>    
+  <url>http://www.last.fm/event/497346</url>
+</event>
+<event>
+  <id>527555</id>
+  <title>St. Patrick's Day-Celebration</title>
+
+  <artists>
+    <artist>Puke</artist>
+    <artist>Catstep</artist>
+    <artist>Burning Mind</artist>
+    <headliner>Puke</headliner>
+  </artists>
+  <venue>
+    <name>Treibhaus</name>
+    <location>
+      <city>Innsbruck</city>
+      <country>Austria</country>
+      <street>Angerzellgasse 8</street>
+      <postalcode>6020</postalcode>
+      <geo:point>
+         <geo:lat>47.2666667</geo:lat>
+         <geo:long>11.4</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8779199</url>
+  </venue>
+  <startDate>Sat, 15 Mar 2008 15:51:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/321992.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/321992.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/321992.jpg</image>
+   <attendance>3</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=527555</tag>    
+  <url>http://www.last.fm/event/527555</url>
+</event>
+<event>
+  <id>290073</id>
+  <title>Wir sind Helden</title>
+
+  <artists>
+    <artist>Wir sind Helden</artist>
+    <headliner>Wir sind Helden</headliner>
+  </artists>
+  <venue>
+    <name>Dogana</name>
+    <location>
+      <city>Innsbruck</city>
+      <country>Austria</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>47.2666667</geo:lat>
+         <geo:long>11.4</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8778749</url>
+  </venue>
+  <startDate>Sat, 27 Oct 2007 15:26:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/345174.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/345174.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/345174.jpg</image>
+   <attendance>5</attendance>
+   <reviews>1</reviews>
+   <tag>lastfm:event=290073</tag>    
+  <url>http://www.last.fm/event/290073</url>
+</event>
+<event>
+  <id>264464</id>
+  <title>MOOOVES</title>
+
+  <artists>
+    <artist>Kosheen</artist>
+    <artist>Guadalajara</artist>
+    <artist>Mono&amp;Nikitaman</artist>
+    <artist>Wax Wreckaz</artist>
+    <headliner>Kosheen</headliner>
+  </artists>
+  <venue>
+    <name>Innsbruck</name>
+    <location>
+      <city></city>
+      <country>Austria</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>47.2666667</geo:lat>
+         <geo:long>11.4</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8833565</url>
+  </venue>
+  <startDate>Fri, 06 Jul 2007 16:00:00</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/3309551.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/3309551.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/3309551.jpg</image>
+   <attendance>10</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=264464</tag>    
+  <url>http://www.last.fm/event/264464</url>
+</event>
+<event>
+  <id>267969</id>
+  <title>Fanfara Ciocărlia</title>
+
+  <artists>
+    <artist>Fanfara Ciocărlia</artist>
+    <artist>Bassekou Kouyate</artist>
+    <headliner>Fanfara Ciocărlia</headliner>
+  </artists>
+  <venue>
+    <name>Treibhaus</name>
+    <location>
+      <city>Innsbruck</city>
+      <country>Austria</country>
+      <street>Angerzellgasse 8</street>
+      <postalcode>6020</postalcode>
+      <geo:point>
+         <geo:lat>47.2666667</geo:lat>
+         <geo:long>11.4</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8779199</url>
+  </venue>
+  <startDate>Tue, 03 Jul 2007 16:27:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/547086.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/547086.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/547086.jpg</image>
+   <attendance>2</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=267969</tag>    
+  <url>http://www.last.fm/event/267969</url>
+</event>
+<event>
+  <id>200389</id>
+  <title>Los Fastidos</title>
+
+  <artists>
+    <artist>Los Fastidos</artist>
+    <headliner>Los Fastidos</headliner>
+  </artists>
+  <venue>
+    <name>Schloss Tirol / Meran</name>
+    <location>
+      <city>Merano</city>
+      <country>Italy</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>46.6666667</geo:lat>
+         <geo:long>11.15</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8816449</url>
+  </venue>
+  <startDate>Sat, 30 Jun 2007 20:00:00</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/3626028.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/3626028.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/3626028.jpg</image>
+   <attendance>7</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=200389</tag>    
+  <url>http://www.last.fm/event/200389</url>
+</event>
+</events></lfm>

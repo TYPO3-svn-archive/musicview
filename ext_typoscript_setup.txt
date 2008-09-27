@@ -14,8 +14,8 @@ temp.tx_musicview_ts_conf {
 	debugURL = 0
 	
 	# this is for testing
-	# XML files must be in a folder called xml in your web root.
-	# example: localhost/xml/album.getInfo.xml
+	# the extension contains now some XML example file 
+	# of last.fm's output, see examples
 	localXML = 0
 	
 	# with this you can modify the calculation of the date.

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<events artist="Maria Mena" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="4">
+<event>
+    <id>746202</id>
+  <title>Maria Mena</title>
+  <artists>
+    <artist>Maria Mena</artist>
+    <headliner>Maria Mena</headliner>
+  </artists>
+  <venue>
+    <name>John Dee</name>
+    <location>
+      <city>Oslo</city>
+      <country>Norway</country>
+      <street>Hammersborggata</street>
+      <postalcode>0181</postalcode>
+      <geo:point>
+         <geo:lat>59.9166667</geo:lat>
+         <geo:long>10.75</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8779403</url>
+  </venue>
+  <startDate>Thu, 30 Oct 2008</startDate>
+  <startTime>20:00</startTime>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/82322.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/82322.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/82322.jpg</image>
+   <attendance>0</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=746202</tag>    
+  <url>http://www.last.fm/event/746202</url>
+</event>
+<event>
+    <id>660881</id>
+  <title>Maria Mena</title>
+  <artists>
+    <artist>Maria Mena</artist>
+    <headliner>Maria Mena</headliner>
+  </artists>
+  <venue>
+    <name>Paard van Troje</name>
+    <location>
+      <city>Den Haag</city>
+      <country>Netherlands</country>
+      <street>Prinsegracht 12</street>
+      <postalcode>2512</postalcode>
+      <geo:point>
+         <geo:lat>52.0833333</geo:lat>
+         <geo:long>4.3</geo:long>
+      </geo:point>
+              <timezone>UTC</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8894860</url>
+  </venue>
+  <startDate>Mon, 03 Nov 2008</startDate>
+  <description><![CDATA[Zaal open: 19:30<br />
+Aanvang: 20:30<br />
+€ 20,00]]></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/82322.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/82322.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/82322.jpg</image>
+   <attendance>13</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=660881</tag>    
+  <url>http://www.last.fm/event/660881</url>
+</event>
+<event>
+    <id>656580</id>
+  <title>Maria Mena</title>
+  <artists>
+    <artist>Maria Mena</artist>
+    <headliner>Maria Mena</headliner>
+  </artists>
+  <venue>
+    <name>Paradiso</name>
+    <location>
+      <city>Amsterdam</city>
+      <country>Netherlands</country>
+      <street>Weteringschans 6-8</street>
+      <postalcode>1017 SG</postalcode>
+      <geo:point>
+         <geo:lat>52.35</geo:lat>
+         <geo:long>4.9166667</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8778456</url>
+  </venue>
+  <startDate>Tue, 04 Nov 2008</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/82322.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/82322.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/82322.jpg</image>
+   <attendance>26</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=656580</tag>    
+  <url>http://www.last.fm/event/656580</url>
+</event>
+<event>
+    <id>668188</id>
+  <title>Maria Mena</title>
+  <artists>
+    <artist>Maria Mena</artist>
+    <headliner>Maria Mena</headliner>
+  </artists>
+  <venue>
+    <name>De Oosterpoort</name>
+    <location>
+      <city>Groningen</city>
+      <country>Netherlands</country>
+      <street>Trompsingel 27</street>
+      <postalcode>9724 DA</postalcode>
+      <geo:point>
+         <geo:lat>53.2166667</geo:lat>
+         <geo:long>6.55</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8915420</url>
+  </venue>
+  <startDate>Fri, 07 Nov 2008</startDate>
+  <startTime>20:30</startTime>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/82322.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/82322.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/82322.jpg</image>
+   <attendance>10</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=668188</tag>    
+  <url>http://www.last.fm/event/668188</url>
+</event>
+</events></lfm>

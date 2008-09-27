@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<events location="Graz" page="1" totalpages="7" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" total="70">
+<event>
+  <id>717507</id>
+  <title>DJ Rush</title>
+  <artists>
+    <artist>DJ Rush</artist>
+    <headliner>DJ Rush</headliner>
+  </artists>
+  <venue>
+    <name>Opernpassage</name>
+    <location>
+      <city>Graz</city>
+      <country>Austria</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>47.0677833917242</geo:lat>
+         <geo:long>15.4402542114258</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8954837</url>
+  </venue>
+  <startDate>Wed, 03 Sep 2008</startDate>
+  <description><![CDATA[Ab sofort ist es offiziell, Sunshine Events präsentiert am Mittwoch, den<br />
+03. September 2008 in der Steirischen Landeshauptstadt Graz ein vorher<br />
+noch nie da gewesenes Event der Superlative. Geplant ist ein regelmäßig<br />
+stattfindender Club, der Euch die bekanntesten Stars &amp; DJ' s der<br />
+weltweiten Partylandschaft in eine vorher noch nicht gekannte Nähe<br />
+bringen soll. Sunsine Events ist stolz darauf für das Start Event DJ<br />
+RUSH aus Chicago hinter den Turntables präsentieren zu können. 1998<br />
+gelang DJ Rush mit &quot;Motherfucking Bass&quot; der große Wurf: der fett<br />
+pumpende Track wurde zu einer der Clubhymnen dieses Jahrhunderts. Seit<br />
+diesem Zeitpunkt zählt Isaiah Major wie er mit bürgerlichem Namen heißt<br />
+zu den weltweit gefragtesten und bekanntesten Künstlern, die es<br />
+überhaupt jemals gab und noch geben wird. DJ RUSH aka Russian Roulette,<br />
+Major Rush oder einfach Isaiah Major war viele Male unter den Top 3 des<br />
+internationalen DJ Rankings, und ist mit seiner Erscheinung ein<br />
+einmaliges Erlebnis hinter den Plattenspielern. In dieser<br />
+außergewöhnlichen Nacht gehen wir zu den Wurzeln des Amerikaners zurück,<br />
+denn er wird uns ein in Österreich erstmaliges &quot;*Special Chicago House<br />
+Set&quot; zum besten geben! Verpassen geht gar nicht, denn es sei Euch<br />
+versichert, sowas hat die Partygemeinde noch nicht erlebt in Österreich.]]></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/355026.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/355026.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/355026.jpg</image>
+   <attendance>1</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=717507</tag>  
+  <url>http://www.last.fm/event/717507</url>
+</event>
+<event>
+  <id>725162</id>
+  <title>Punch against Poverty</title>
+  <artists>
+    <artist>Excrementory Grindfuckers</artist>
+    <artist>Outrage</artist>
+    <artist>Interregnum</artist>
+    <artist>Del Loco</artist>
+    <artist>Carignan</artist>
+    <artist>Feisty Prey</artist>
+    <headliner>Excrementory Grindfuckers</headliner>
+  </artists>
+  <venue>
+    <name>Punch Against Poverty</name>
+    <location>
+      <city>Graz</city>
+      <country>Austria</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>47.0677833917242</geo:lat>
+         <geo:long>15.4402542114258</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8956684</url>
+  </venue>
+  <startDate>Fri, 05 Sep 2008</startDate>
+  <startTime>18:30</startTime>
+  <description><![CDATA[Postgarage]]></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/88020.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/88020.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/88020.jpg</image>
+   <attendance>8</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=725162</tag>  
+  <url>http://www.last.fm/event/725162</url>
+</event>
+<event>
+  <id>717057</id>
+  <title>Interregnum</title>
+  <artists>
+    <artist>Interregnum</artist>
+    <headliner>Interregnum</headliner>
+  </artists>
+  <venue>
+    <name>Postgarage</name>
+    <location>
+      <city>Graz</city>
+      <country>Austria</country>
+      <street>Dreihackengasse 42</street>
+      <postalcode>8020</postalcode>
+      <geo:point>
+         <geo:lat>47.0666667</geo:lat>
+         <geo:long>15.45</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8782236</url>
+  </venue>
+  <startDate>Fri, 05 Sep 2008</startDate>
+  <description></description>
+  <image size="small"></image>
+  <image size="medium"></image>
+  <image size="large"></image>
+   <attendance>1</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=717057</tag>  
+  <url>http://www.last.fm/event/717057</url>
+</event>
+<event>
+  <id>742154</id>
+  <title>3. Gaudium zur Purg</title>
+  <artists>
+    <artist>Nachtwindheim</artist>
+    <artist>In Speculum</artist>
+    <headliner>Nachtwindheim</headliner>
+  </artists>
+  <venue>
+    <name>Park</name>
+    <location>
+      <city>Purgstall</city>
+      <country>Austria</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>47.1166667</geo:lat>
+         <geo:long>15.5666667</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8960874</url>
+  </venue>
+  <startDate>Fri, 05 Sep 2008</startDate>
+  <endDate>Sun, 07 Sep 2008</endDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/400903.gif</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/400903.gif</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/400903.gif</image>
+   <attendance>1</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=742154</tag>  
+  <url>http://www.last.fm/event/742154</url>
+</event>
+<event>
+  <id>706049</id>
+  <title>Thalija</title>
+  <artists>
+    <artist>Thalija</artist>
+    <artist>Molto Mosso</artist>
+    <artist>Posh-Band</artist>
+    <headliner>Thalija</headliner>
+  </artists>
+  <venue>
+    <name>Volkshaus</name>
+    <location>
+      <city>Graz</city>
+      <country>Austria</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>47.0677833917242</geo:lat>
+         <geo:long>15.4402542114258</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8951963</url>
+  </venue>
+  <startDate>Sat, 06 Sep 2008</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/290734.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/290734.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/290734.jpg</image>
+   <attendance>3</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=706049</tag>  
+  <url>http://www.last.fm/event/706049</url>
+</event>
+<event>
+  <id>635921</id>
+  <title>Leningrad Cowboys</title>
+  <artists>
+    <artist>Leningrad Cowboys</artist>
+    <headliner>Leningrad Cowboys</headliner>
+  </artists>
+  <venue>
+    <name>Orpheum</name>
+    <location>
+      <city>Graz</city>
+      <country>Austria</country>
+      <street>Orpheumgasse 8</street>
+      <postalcode>8020</postalcode>
+      <geo:point>
+         <geo:lat>47.0666667</geo:lat>
+         <geo:long>15.45</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8780519</url>
+  </venue>
+  <startDate>Sun, 07 Sep 2008</startDate>
+  <startTime>20:00</startTime>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/50049.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/50049.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/50049.jpg</image>
+   <attendance>5</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=635921</tag>  
+  <url>http://www.last.fm/event/635921</url>
+</event>
+<event>
+  <id>703463</id>
+  <title>Sido</title>
+  <artists>
+    <artist>Sido</artist>
+    <artist>Marsimoto</artist>
+    <artist>Marteria</artist>
+    <headliner>Sido</headliner>
+  </artists>
+  <venue>
+    <name>Orpheum</name>
+    <location>
+      <city>Graz</city>
+      <country>Austria</country>
+      <street>Orpheumgasse 8</street>
+      <postalcode>8020</postalcode>
+      <geo:point>
+         <geo:lat>47.0666667</geo:lat>
+         <geo:long>15.45</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8780519</url>
+  </venue>
+  <startDate>Thu, 11 Sep 2008</startDate>
+  <startTime>19:30</startTime>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/312045.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/312045.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/312045.jpg</image>
+   <attendance>4</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=703463</tag>  
+  <url>http://www.last.fm/event/703463</url>
+</event>
+<event>
+  <id>659632</id>
+  <title>Cancelled</title>
+  <artists>
+    <artist>Jeffrey Teejay</artist>
+    <headliner>Jeffrey Teejay</headliner>
+  </artists>
+  <venue>
+    <name>Bollwerk Diskothek Club</name>
+    <location>
+      <city>Graz</city>
+      <country>Austria</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>47.0666667</geo:lat>
+         <geo:long>15.45</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8940144</url>
+  </venue>
+  <startDate>Sat, 13 Sep 2008</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/7178381.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/7178381.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/7178381.jpg</image>
+   <attendance>0</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=659632</tag>  
+  <url>http://www.last.fm/event/659632</url>
+</event>
+<event>
+  <id>729506</id>
+  <title>Bulbul</title>
+  <artists>
+    <artist>Bulbul</artist>
+    <headliner>Bulbul</headliner>
+  </artists>
+  <venue>
+    <name>Postgarage</name>
+    <location>
+      <city>Graz</city>
+      <country>Austria</country>
+      <street>Dreihackengasse 42</street>
+      <postalcode>8020</postalcode>
+      <geo:point>
+         <geo:lat>47.0666667</geo:lat>
+         <geo:long>15.45</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8782236</url>
+  </venue>
+  <startDate>Wed, 17 Sep 2008</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/794065.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/794065.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/794065.jpg</image>
+   <attendance>0</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=729506</tag>  
+  <url>http://www.last.fm/event/729506</url>
+</event>
+<event>
+  <id>604987</id>
+  <title>Portugal. The Man</title>
+  <artists>
+    <artist>Portugal. The Man</artist>
+    <artist>Steaming Satellites</artist>
+    <headliner>Portugal. The Man</headliner>
+  </artists>
+  <venue>
+    <name>Postgarage</name>
+    <location>
+      <city>Graz</city>
+      <country>Austria</country>
+      <street>Dreihackengasse 42</street>
+      <postalcode>8020</postalcode>
+      <geo:point>
+         <geo:lat>47.0666667</geo:lat>
+         <geo:long>15.45</geo:long>
+      </geo:point>
+              <timezone>CET</timezone>
+          </location>
+    <url>http://www.last.fm/venue/8782236</url>
+  </venue>
+  <startDate>Fri, 19 Sep 2008</startDate>
+  <startTime>20:00</startTime>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/376150.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/376150.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/376150.jpg</image>
+   <attendance>30</attendance>
+   <reviews>0</reviews>
+   <tag>lastfm:event=604987</tag>  
+  <url>http://www.last.fm/event/604987</url>
+</event>
+</events></lfm>

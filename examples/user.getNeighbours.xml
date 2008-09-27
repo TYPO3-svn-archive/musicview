@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<neighbours user="moe-pub">
+<user>
+    <name>ubootalex</name>
+    <url>http://www.last.fm/user/ubootalex</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/7381051.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/7381051.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/7381051.jpg</image>
+    <match>100</match>
+</user>
+<user>
+    <name>zokareen</name>
+    <url>http://www.last.fm/user/zokareen</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/8971317.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/8971317.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/8971317.jpg</image>
+    <match>99.18</match>
+</user>
+<user>
+    <name>Schnuffiman</name>
+    <url>http://www.last.fm/user/Schnuffiman</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/4443154.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/4443154.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/4443154.jpg</image>
+    <match>98.16</match>
+</user>
+<user>
+    <name>TheConstructor</name>
+    <url>http://www.last.fm/user/TheConstructor</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1605835.png</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1605835.png</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1605835.png</image>
+    <match>98.06</match>
+</user>
+<user>
+    <name>tholmer</name>
+    <url>http://www.last.fm/user/tholmer</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/8284643.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/8284643.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/8284643.jpg</image>
+    <match>97.7</match>
+</user>
+<user>
+    <name>DerTempler</name>
+    <url>http://www.last.fm/user/DerTempler</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/3047996.gif</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/3047996.gif</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/3047996.gif</image>
+    <match>97.56</match>
+</user>
+<user>
+    <name>Lachgummi</name>
+    <url>http://www.last.fm/user/Lachgummi</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/4457401.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/4457401.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/4457401.jpg</image>
+    <match>96.25</match>
+</user>
+<user>
+    <name>CeeX</name>
+    <url>http://www.last.fm/user/CeeX</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>96.16</match>
+</user>
+<user>
+    <name>Relo_C3</name>
+    <url>http://www.last.fm/user/Relo_C3</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1366292.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1366292.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1366292.jpg</image>
+    <match>96.03</match>
+</user>
+<user>
+    <name>phischu77</name>
+    <url>http://www.last.fm/user/phischu77</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/5081579.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/5081579.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/5081579.jpg</image>
+    <match>94.7</match>
+</user>
+<user>
+    <name>speicher-12</name>
+    <url>http://www.last.fm/user/speicher-12</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1425111.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1425111.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1425111.jpg</image>
+    <match>94.65</match>
+</user>
+<user>
+    <name>LadyMo</name>
+    <url>http://www.last.fm/user/LadyMo</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/750034.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/750034.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/750034.jpg</image>
+    <match>94.41</match>
+</user>
+<user>
+    <name>Zecke17</name>
+    <url>http://www.last.fm/user/Zecke17</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/3485068.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/3485068.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/3485068.jpg</image>
+    <match>94.1</match>
+</user>
+<user>
+    <name>gufybine</name>
+    <url>http://www.last.fm/user/gufybine</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/4337940.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/4337940.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/4337940.jpg</image>
+    <match>93.8</match>
+</user>
+<user>
+    <name>saschant</name>
+    <url>http://www.last.fm/user/saschant</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>93.62</match>
+</user>
+<user>
+    <name>Schirra</name>
+    <url>http://www.last.fm/user/Schirra</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1243353.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1243353.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1243353.jpg</image>
+    <match>92.84</match>
+</user>
+<user>
+    <name>Ace_S_High</name>
+    <url>http://www.last.fm/user/Ace_S_High</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/8467409.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/8467409.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/8467409.jpg</image>
+    <match>92.58</match>
+</user>
+<user>
+    <name>Aethelflead</name>
+    <url>http://www.last.fm/user/Aethelflead</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>92.32</match>
+</user>
+<user>
+    <name>Silent_Warrior</name>
+    <url>http://www.last.fm/user/Silent_Warrior</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/4395716.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/4395716.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/4395716.jpg</image>
+    <match>92.3</match>
+</user>
+<user>
+    <name>humpelpumpel</name>
+    <url>http://www.last.fm/user/humpelpumpel</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1517441.png</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1517441.png</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1517441.png</image>
+    <match>92.26</match>
+</user>
+<user>
+    <name>TheDedem</name>
+    <url>http://www.last.fm/user/TheDedem</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/5083122.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/5083122.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/5083122.jpg</image>
+    <match>92.12</match>
+</user>
+<user>
+    <name>Angus73</name>
+    <url>http://www.last.fm/user/Angus73</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/5439321.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/5439321.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/5439321.jpg</image>
+    <match>91.52</match>
+</user>
+<user>
+    <name>Manjack</name>
+    <url>http://www.last.fm/user/Manjack</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>91.26</match>
+</user>
+<user>
+    <name>helch</name>
+    <url>http://www.last.fm/user/helch</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>91.14</match>
+</user>
+<user>
+    <name>leichtsinnig</name>
+    <url>http://www.last.fm/user/leichtsinnig</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/7617097.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/7617097.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/7617097.jpg</image>
+    <match>91.1</match>
+</user>
+<user>
+    <name>Truthahn</name>
+    <url>http://www.last.fm/user/Truthahn</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/8872451.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/8872451.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/8872451.jpg</image>
+    <match>91.08</match>
+</user>
+<user>
+    <name>Maeldae</name>
+    <url>http://www.last.fm/user/Maeldae</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/6162299.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/6162299.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/6162299.jpg</image>
+    <match>90.92</match>
+</user>
+<user>
+    <name>Schaggo</name>
+    <url>http://www.last.fm/user/Schaggo</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/4048622.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/4048622.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/4048622.jpg</image>
+    <match>90.88</match>
+</user>
+<user>
+    <name>hardy2112</name>
+    <url>http://www.last.fm/user/hardy2112</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/7272515.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/7272515.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/7272515.jpg</image>
+    <match>90.59</match>
+</user>
+<user>
+    <name>Meisterretter</name>
+    <url>http://www.last.fm/user/Meisterretter</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/8415775.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/8415775.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/8415775.jpg</image>
+    <match>90.54</match>
+</user>
+<user>
+    <name>markus85</name>
+    <url>http://www.last.fm/user/markus85</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/8244053.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/8244053.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/8244053.jpg</image>
+    <match>90.32</match>
+</user>
+<user>
+    <name>Thomson123</name>
+    <url>http://www.last.fm/user/Thomson123</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1902735.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1902735.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1902735.jpg</image>
+    <match>90.04</match>
+</user>
+<user>
+    <name>Bubba-Civic</name>
+    <url>http://www.last.fm/user/Bubba-Civic</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/6007190.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/6007190.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/6007190.jpg</image>
+    <match>89.76</match>
+</user>
+<user>
+    <name>gbhardy</name>
+    <url>http://www.last.fm/user/gbhardy</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/2879753.png</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/2879753.png</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/2879753.png</image>
+    <match>89.34</match>
+</user>
+<user>
+    <name>thomcz</name>
+    <url>http://www.last.fm/user/thomcz</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/2004768.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/2004768.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/2004768.jpg</image>
+    <match>89.18</match>
+</user>
+<user>
+    <name>mai94cbr</name>
+    <url>http://www.last.fm/user/mai94cbr</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>89.18</match>
+</user>
+<user>
+    <name>Chinaboeller</name>
+    <url>http://www.last.fm/user/Chinaboeller</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>89.14</match>
+</user>
+<user>
+    <name>DoomTheBrain</name>
+    <url>http://www.last.fm/user/DoomTheBrain</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>88.86</match>
+</user>
+<user>
+    <name>Garfield15</name>
+    <url>http://www.last.fm/user/Garfield15</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1389318.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1389318.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1389318.jpg</image>
+    <match>88.83</match>
+</user>
+<user>
+    <name>Halford</name>
+    <url>http://www.last.fm/user/Halford</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/3209977.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/3209977.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/3209977.jpg</image>
+    <match>88.73</match>
+</user>
+<user>
+    <name>Kniggy</name>
+    <url>http://www.last.fm/user/Kniggy</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>88.67</match>
+</user>
+<user>
+    <name>Shiaki</name>
+    <url>http://www.last.fm/user/Shiaki</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/10553055.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/10553055.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/10553055.jpg</image>
+    <match>88.58</match>
+</user>
+<user>
+    <name>Zorro_007</name>
+    <url>http://www.last.fm/user/Zorro_007</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>88.54</match>
+</user>
+<user>
+    <name>chrizzio</name>
+    <url>http://www.last.fm/user/chrizzio</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/5305054.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/5305054.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/5305054.jpg</image>
+    <match>88.5</match>
+</user>
+<user>
+    <name>SeasideHaven</name>
+    <url>http://www.last.fm/user/SeasideHaven</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/5925114.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/5925114.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/5925114.jpg</image>
+    <match>88.31</match>
+</user>
+<user>
+    <name>Cereth</name>
+    <url>http://www.last.fm/user/Cereth</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1831470.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1831470.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1831470.jpg</image>
+    <match>88.26</match>
+</user>
+<user>
+    <name>Fairliebt</name>
+    <url>http://www.last.fm/user/Fairliebt</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/8422545.png</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/8422545.png</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/8422545.png</image>
+    <match>88.18</match>
+</user>
+<user>
+    <name>Merlin_is_alive</name>
+    <url>http://www.last.fm/user/Merlin_is_alive</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>87.82</match>
+</user>
+<user>
+    <name>fm4hoerer</name>
+    <url>http://www.last.fm/user/fm4hoerer</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>87.81</match>
+</user>
+<user>
+    <name>Feradon</name>
+    <url>http://www.last.fm/user/Feradon</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/4082314.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/4082314.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/4082314.jpg</image>
+    <match>87.78</match>
+</user>
+<user>
+    <name>chlori</name>
+    <url>http://www.last.fm/user/chlori</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/6362451.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/6362451.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/6362451.jpg</image>
+    <match>87.72</match>
+</user>
+<user>
+    <name>Xorx77</name>
+    <url>http://www.last.fm/user/Xorx77</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/667158.gif</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/667158.gif</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/667158.gif</image>
+    <match>87.72</match>
+</user>
+<user>
+    <name>LiteAsh</name>
+    <url>http://www.last.fm/user/LiteAsh</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1388900.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1388900.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1388900.jpg</image>
+    <match>87.69</match>
+</user>
+<user>
+    <name>cordusio</name>
+    <url>http://www.last.fm/user/cordusio</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>87.64</match>
+</user>
+<user>
+    <name>Merlin91</name>
+    <url>http://www.last.fm/user/Merlin91</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/2041476.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/2041476.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/2041476.jpg</image>
+    <match>87.49</match>
+</user>
+<user>
+    <name>elrond1337</name>
+    <url>http://www.last.fm/user/elrond1337</url>
+    <image size="small"></image>
+    <image size="medium"></image>
+    <image size="large"></image>
+    <match>87.37</match>
+</user>
+<user>
+    <name>volker_z</name>
+    <url>http://www.last.fm/user/volker_z</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1963599.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1963599.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1963599.jpg</image>
+    <match>87.34</match>
+</user>
+<user>
+    <name>Katerkind</name>
+    <url>http://www.last.fm/user/Katerkind</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/1204234.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/1204234.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/1204234.jpg</image>
+    <match>87.21</match>
+</user>
+<user>
+    <name>querschlag</name>
+    <url>http://www.last.fm/user/querschlag</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/2991918.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/2991918.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/2991918.jpg</image>
+    <match>87.04</match>
+</user>
+<user>
+    <name>Faustpfand</name>
+    <url>http://www.last.fm/user/Faustpfand</url>
+    <image size="small">http://userserve-ak.last.fm/serve/34/6549057.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/6549057.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/6549057.jpg</image>
+    <match>86.69</match>
+</user>
+</neighbours></lfm>
