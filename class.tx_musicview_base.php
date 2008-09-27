@@ -311,13 +311,13 @@ abstract class tx_musicview_base extends tslib_pibase {
 				'sheet' => 'sheet_group_api',
 				'key' => 'group.getWeeklyAlbumChart_from',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 			'to' => array(
 				'sheet' => 'sheet_group_api',
 				'key' => 'group.getWeeklyAlbumChart_to',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 		),
 		'group.getWeeklyArtistChart' => array(
@@ -325,29 +325,35 @@ abstract class tx_musicview_base extends tslib_pibase {
 				'sheet' => 'sheet_group_api',
 				'key' => 'group.getWeeklyArtistChart_from',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 			'to' => array(
 				'sheet' => 'sheet_group_api',
 				'key' => 'group.getWeeklyArtistChart_to',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 		),
 		'group.getWeeklyChartList' => array(
+			'group' => array(
+				'sheet' => 'sheet_group_api',
+				'key' => 'group_name',
+				'req' => 1,
+				'frmt' => 'user_musicview_setModifyDateFalse->format',
+			),
 		),
 		'group.getWeeklyTrackChart' => array(
 			'from' => array(
 				'sheet' => 'sheet_group_api',
 				'key' => 'group.getWeeklyTrackChart_from',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 			'to' => array(
 				'sheet' => 'sheet_group_api',
 				'key' => 'group.getWeeklyTrackChart_to',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 		),
 		/* ###group.*### end */		
@@ -652,13 +658,13 @@ abstract class tx_musicview_base extends tslib_pibase {
 				'sheet' => 'sheet_user_api',
 				'key' => 'user.getWeeklyAlbumChart_from',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 			'to' => array(
 				'sheet' => 'sheet_user_api',
 				'key' => 'user.getWeeklyAlbumChart_to',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 		),
 		'user.getWeeklyArtistChart' => array(
@@ -666,29 +672,35 @@ abstract class tx_musicview_base extends tslib_pibase {
 				'sheet' => 'sheet_user_api',
 				'key' => 'user.getWeeklyArtistChart_from',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 			'to' => array(
 				'sheet' => 'sheet_user_api',
 				'key' => 'user.getWeeklyArtistChart_to',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 		),
 		'user.getWeeklyChartList' => array(
+			'user' => array(
+				'sheet' => 'sheet_user_api',
+				'key' => 'username_settings',
+				'req' => 1,
+				'frmt' => 'user_musicview_setModifyDateFalse->format',
+			),
 		),
 		'user.getWeeklyTrackChart' => array(
 			'from' => array(
 				'sheet' => 'sheet_user_api',
 				'key' => 'user.getWeeklyTrackChart_from',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 			'to' => array(
 				'sheet' => 'sheet_user_api',
 				'key' => 'user.getWeeklyTrackChart_to',
 				'req' => 0,
-				'frmt' => 'date',
+				'frmt' => 'user_musicview_modifyDate->format',
 			),
 		),
 		/* ###user.*### end */
@@ -871,9 +883,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 	protected function createRequestLink($method, $params) {
 		$defaultParams = $this->getDefaultConf($method);
 		$methodParams = $this->getMethodParams($method);
-		$requestParams = array_merge($defaultParams, $methodParams);
-		$requestParams = $this->overwriteParams($requestParams, $params);
-		#t3lib_div::debug($requestParams);
+		$requestParams = $this->overwriteParams(array_merge($defaultParams, $methodParams), $params);
 		
 		$url = $this->last_fm_req_base . '?method=' . $method;
 		foreach ($requestParams as $key => $value) {
@@ -915,8 +925,8 @@ abstract class tx_musicview_base extends tslib_pibase {
 	 * The method overwrites only values that aren't marked as required 
 	 * in the configuration array.
 	 * 
-	 * @param array $origArr The original array with the values
-	 * @param array $overwriteArr The new values to use
+	 * @param array $methodParams The original array with the values
+	 * @param array $overwriteParams The new values to use
 	 * @return The array with the new method's argument
 	 * @author Christoph Gostner
 	 */ 
@@ -935,10 +945,8 @@ abstract class tx_musicview_base extends tslib_pibase {
 			}
 			
 			if ($flexReq || (!is_null($value) && $value > 0)) {
-				if (!is_null($flexFrmt) && strncmp('date', $flexFrmt, 4) == 0) {
-					if (isset($this->conf['modifyTime'])) {
-						$value += $this->conf['modifyTime'];
-					}
+				if (isset($paramLocation['frmt'])) {
+					$value = t3lib_div::callUserFunction($paramLocation['frmt'], $value, &$this, '');
 				}
 				$arr[$key] = $value;
 			}

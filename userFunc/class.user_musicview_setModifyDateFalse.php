@@ -22,40 +22,28 @@
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
 
-require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_base.php');
-
 /**
- * Plugin 'musicview' for the 'musicview' extension.
+ * UserFunc 'user_musicview_setModifyDateFalse' for the 'musicview' extension.
  *
- * @author      Christoph Gostner <christoph.gostner@gmail.com>
- * @package     TYPO3
- * @subpackage  tx_musicview
+ * @author	Christoph Gostner <christoph.gostner@gmail.com>
+ * @package	TYPO3
+ * @subpackage	tx_musicview
  */
-class xmlel_results extends xmlel_base {
-
+class user_musicview_setModifyDateFalse {
+	
 	/**
-	 * Structure about the <results></results> node
+	 * Modify the class user_musicview_modifyDate so, that it does nothing.
+	 * 
+	 * @param int $value Ignored value
+	 * @param tx_musicview_base $ref The reference to the base class
+	 * @return int The submitted value
+	 * @author Christoph Gostner
 	 */
-	private $tagStruct = array(
-		'results' => array(
-			/* TODO: opensearch:[Query|totalResults|startIndex|itemsPerPage] */
-			array('tag' => 'artistmatches'),
-			array('tag' => 'tagmatches'),
-			array('tag' => 'trackmatches'),
-		),
-	);
-
-	/**
-	 * Constructor.
-	 *
-	 * @param 	DOMNode 	$domNode: Node, should be a '<results></results>' node
-	 */
-	public function __construct($domNode) {
-		parent::__construct($this->tagStruct, $domNode);
+	public function format(&$value, &$ref) {
+		user_musicview_modifyDate::$modifyDate = false;
+		
+		return $value;
 	}
 }
 
-if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_results.php'])    {
-	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/xmlel/class.xmlel_results.php']);
-}
 ?>

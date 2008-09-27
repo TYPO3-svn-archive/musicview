@@ -212,6 +212,7 @@ class tx_musicview_pi2 extends tx_musicview_base {
 			}
 			if (count($pArr) > 0) {
 				$method = $nSelect . '.' . $method;
+				t3lib_div::debug($pArr);
 				$dom = $this->doRequest($method, $pArr);
 				return $this->workOnRequestResult($dom, $method, &$this);
 			}

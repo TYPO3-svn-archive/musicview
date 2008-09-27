@@ -8,6 +8,9 @@ page.includeLibs.xmlel_exttmpl_chart_playcount_weeklyartistchart = EXT:musicview
 page.includeLibs.xmlel_exttmpl_chart_playcount_weeklytrackchart = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_playcount_weeklytrackchart.php
 page.includeLibs.xmlel_exttmpl_chart_match_neighbours = EXT:musicview/xmlel_exttmpl/class.xmlel_exttmpl_chart_match_neighbours.php
 
+page.includeLibs.frmtUserFuncModifyDate = EXT:musicview/userFunc/class.user_musicview_modifyDate.php
+page.includeLibs.frmtUserFuncSetModifyDateFalse = EXT:musicview/userFunc/class.user_musicview_setModifyDateFalse.php
+
 temp.tx_musicview_ts_conf {
 
 	# extension configuration
@@ -505,8 +508,9 @@ plugin.tx_musicview_pi2 {
 		1 = group.getWeeklyChartList
 		2 = geo.getTopTracks
 		3 = playlist.fetch
-		4 = tag.getTopTags
-		5 = tasteometer.compare
+		4 = tag.getSimilar
+		5 = tag.getTopTags
+		6 = tasteometer.compare
 	}
 }
 
