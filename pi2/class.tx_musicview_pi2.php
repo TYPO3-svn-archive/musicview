@@ -52,12 +52,12 @@ class tx_musicview_pi2 extends tx_musicview_base {
 		}
 		
 		$template = $this->getTemplateParts('###TEMPLATE###', array('###TEMPLATE_NAMESPACE_AREA###',
-																'###TEMPLATE_NAMESPACE_METHODS###',
-																'###TEMPLATE_METHOD_AREA_INPUT###',
-																'###TEMPLATE_SEARCH_RESULT###'));
+									'###TEMPLATE_NAMESPACE_METHODS###',
+									'###TEMPLATE_METHOD_AREA_INPUT###',
+									'###TEMPLATE_SEARCH_RESULT###'));
 		$markerArray['###TMPL_URL_ACTION###'] = $this->pi_linkTP_keepPIvars_url();
-		$markerArray['###TMPL_SEARCH_TITLE###'] = 'search'; // TODO
-		$markerArray['###TMPL_NAMESPACE_TITLE###'] = 'namespace: '; // TODO
+		$markerArray['###TMPL_SEARCH_TITLE###'] = $this->pi_getLL('tx_musicview_pi2_tmpl_interface_search_title');
+		$markerArray['###TMPL_NAMESPACE_TITLE###'] = $this->pi_getLL('tx_musicview_pi2_tmpl_interface_search_namespace');
 		
 		$subpartArray['###TEMPLATE_NAMESPACE_AREA###'] = $this->fillNamespace($template['item0']);
 		$subpartArray['###TEMPLATE_NAMESPACE_METHODS###'] = $this->fillMethod($template['item1']);
@@ -85,7 +85,7 @@ class tx_musicview_pi2 extends tx_musicview_base {
 			else 
 				$markerArray['###TMPL_NAMESPACE_SELECTED###'] = '';
 			$markerArray['###TMPL_NAMESPACE###'] = $namespace;
-			$markerArray['###TMPL_NAMESPACE_LL###'] = $namespace; // TODO
+			$markerArray['###TMPL_NAMESPACE_LL###'] = $namespace;
 			
 			$content .= $this->cObj->substituteMarkerArrayCached($template, $markerArray);
 		}
@@ -131,15 +131,21 @@ class tx_musicview_pi2 extends tx_musicview_base {
 				$markerArray['###TMPL_METHOD_SELECTED###'] = '';
 			
 			$markerArray['###TMPL_METHOD###'] = $method;
-			$markerArray['###TMPL_METHOD_LL###'] = $method; // TODO
+			$markerArray['###TMPL_METHOD_LL###'] = $method;
 			
 			$content .= $this->cObj->substituteMarkerArrayCached($subTemplate, $markerArray);
 		}
-		$markerArray['###TMPL_NAMESPACE_METHOD_TITLE###'] = 'methods:'; // TODO
+		$markerArray['###TMPL_NAMESPACE_METHOD_TITLE###'] = $this->pi_getLL('tx_musicview_pi2_tmpl_interface_search_methods');
 		$subpartArray['###TEMPLATE_METHOD_AREA###'] = $content;
 		return $this->cObj->substituteMarkerArrayCached($template, $markerArray, $subpartArray);
 	}
 	
+	/**
+	 * 
+	 * @param $template
+	 * @return unknown_type
+	 * @author Christoph Gostner
+	 */
 	protected function fillMethodArea($template) {
 		$nSelect = $this->getFormParamValue('namespace');
 		$mSelect = $this->getFormParamValue('method');
@@ -150,7 +156,7 @@ class tx_musicview_pi2 extends tx_musicview_base {
 			$subTemplate = $this->getSubTemplate($template, '###TEMPLATE_METHOD_AREA_INPUT_FIELDS###');
 			$subpartArray['###TEMPLATE_METHOD_AREA_INPUT_FIELDS###'] = $this->fillMethodAreaInputFields($subTemplate, $nSelect, $mSelect);
 			
-			$markerArray['###TMPL_SEARCH_SUBMIT###'] = 'Search'; // TODO
+			$markerArray['###TMPL_SEARCH_SUBMIT###'] = $this->pi_getLL('tx_musicview_pi2_tmpl_interface_search_submit');
 			return $this->cObj->substituteMarkerArrayCached($template, $markerArray, $subpartArray);
 		} else {
 			return '';
@@ -176,7 +182,7 @@ class tx_musicview_pi2 extends tx_musicview_base {
 				$paramArr = $this->getPi2MethodParams($namespace, $method);
 			
 				foreach ($paramArr as $param) {
-					$markerArray['###TMPL_SEARCH_TEXT###'] = $param; // TODO
+					$markerArray['###TMPL_SEARCH_TEXT###'] = $param;
 					$markerArray['###TMPL_INPUT_KEY###'] = $param;
 					$markerArray['###TMPL_INPUT_VALUE###'] = $this->getFormParamValue($param);
 					
@@ -212,7 +218,6 @@ class tx_musicview_pi2 extends tx_musicview_base {
 			}
 			if (count($pArr) > 0) {
 				$method = $nSelect . '.' . $method;
-				t3lib_div::debug($pArr);
 				$dom = $this->doRequest($method, $pArr);
 				return $this->workOnRequestResult($dom, $method, &$this);
 			}
@@ -243,8 +248,9 @@ class tx_musicview_pi2 extends tx_musicview_base {
 	/**
 	 * Get the valid methods for a namespace.
 	 * 
-	 * @param 	string	$namespace: The selected namespace
-	 * @return 	The array with valid methods
+	 * @param string $namespace: The selected namespace
+	 * @return The array with valid methods
+	 * @author Christoph Gostner
 	 */
 	public function getFilterMethods($namespace) {
 		$methods = array_keys($this->last_fm_api);
@@ -264,7 +270,8 @@ class tx_musicview_pi2 extends tx_musicview_base {
 	/**
 	 * Get an array with the valid namespaces the user can search.
 	 * 
-	 * @return 	An array with valid namespaces
+	 * @return An array with valid namespaces
+	 * @author Christoph Gostner
 	 */
 	protected function getFilterNamespace() {
 		$namespaces = array_keys($this->last_fm_api['_DEFAULT']);
@@ -329,6 +336,43 @@ class tx_musicview_pi2 extends tx_musicview_base {
 	 */
 	protected function getSubTemplate($template, $subpart) {
 		return $this->cObj->getSubpart($template, $subpart);
+	}
+	
+	/************************************************************************
+	 * overwrite methods
+	 ***********************************************************************/
+	
+	/** 
+	 * Overwrite some values in the method's argument array. 
+	 * The method overwrites the parent's method, because with the search
+	 * interface it should be possible to overwrite all values.
+	 * 
+	 * @param array $methodParams The original array with the values
+	 * @param array $overwriteParams The new values to use
+	 * @return The array with the new method's argument
+	 * @author Christoph Gostner
+	 */ 
+	protected function overwriteParams($methodParams, $overwriteParams) {
+		$arr = array();
+		foreach ($methodParams as $key => $paramLocation) {
+			$flexSheet = $paramLocation['sheet'];
+			$flexKey = $paramLocation['key'];
+			$flexFrmt = $paramLocation['frmt'];
+			
+			if (is_array($overwriteParams) && array_key_exists($key, $overwriteParams)) {
+				$value = $overwriteParams[$key];
+			} else {
+				$value = $this->getFlexFormValue($flexSheet, $flexKey);
+			}
+						
+			if (!is_null($value) && ($value > 0 || (is_string($value) && strlen($value) > 0))) {
+				if (isset($paramLocation['frmt'])) {
+					$value = t3lib_div::callUserFunction($paramLocation['frmt'], $value, &$this, '');
+				}
+				$arr[$key] = $value;
+			}
+		}
+		return $arr;
 	}
 }
 

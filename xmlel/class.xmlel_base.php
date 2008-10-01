@@ -219,43 +219,26 @@ abstract class xmlel_base {
 	 * has set the image.size (small|medium|large) filter the image link and return
 	 * the image tag.
 	 * 
-	 * @param	object	$cObj: Content object 
-	 * @param	array	$conf: The configuration (typoscript)
-	 @ return	The image tag or NULL if not set|found
+	 * @param object $cObj Content object 
+	 * @param array	$conf The configuration (typoscript)
+	 * @return The image tag or NULL if not set|found
+	 * @author Christoph Gostner
 	 */
 	protected function filterImage($cObj, $conf) {
-		static $width = array(
-			'small' => 50,
-			'medium' => 130,
-			'large' => 300,
-		);
-	
+		
 		if ($this->cKeyExists('image') && isset($conf['image.'])) {
 			$size = $conf['image.']['size'];
 			$imageArr = $this->getChild('image');
-
+			
 			foreach ($imageArr as $image) {
 				$s = $image->getAttribute('size');
-				if ($size == $s && strlen($image->getContent()) > 0) {
-					return '<img width="' . $width[$s] . '" src="' . $image->getContent() . '" />';
+				$imgUrl = $image->getContent();
+				
+				
+				if (strcmp($size, $s) == 0) {
+					return $imgUrl;
 				}
 			}
-
-			$img = array();
-			switch ($size) {
-				case 'large':
-					$img['file'] = t3lib_extMgm::extRelPath('musicview') . 'res/img/large.gif';
-					break;
-				case 'medium':
-					$img['file'] = t3lib_extMgm::extRelPath('musicview') . 'res/img/medium.gif';
-					break;
-				case 'small':
-					$img['file'] = t3lib_extMgm::extRelPath('musicview') . 'res/img/small.gif';
-					break;
-			}
-			$img['width'] = $width[$size];
-			return $cObj->IMAGE($img);
-
 		}
 		return '&nbsp;';
 	}

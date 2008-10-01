@@ -732,7 +732,6 @@ abstract class tx_musicview_base extends tslib_pibase {
 		$reqLink = $this->createRequestLink($method, $param);
 		if ($this->conf['debugURL']) {
 			t3lib_div::debug(array($method => $reqLink));
-			t3lib_div::debug(array());
 		}
 		if ($this->conf['localXML']) {
 			$reqLink = t3lib_extMgm::extPath('musicview') . '/examples/'.$method.'.xml';
@@ -944,7 +943,8 @@ abstract class tx_musicview_base extends tslib_pibase {
 				$value = $this->getFlexFormValue($flexSheet, $flexKey);
 			}
 			
-			if ($flexReq || (!is_null($value) && $value > 0)) {
+			if ($flexReq || (!is_null($value) && ($value > 0 || (is_string($value) && strlen($value) > 0)))) {
+			# if ($flexReq || (!is_null($value) && $value > 0)) {
 				if (isset($paramLocation['frmt'])) {
 					$value = t3lib_div::callUserFunction($paramLocation['frmt'], $value, &$this, '');
 				}

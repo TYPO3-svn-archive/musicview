@@ -9,6 +9,11 @@
 			<label index='tx_musicview_pi2_template_not_found'>Error: template file not found</label>
 			<label index='tx_musicview_pi2_tmpl_invalid_method'>Invalid method!</label>
 			
+			<label index='tx_musicview_pi2_tmpl_interface_search_title'>Search last.fm ...</label>
+			<label index='tx_musicview_pi2_tmpl_interface_search_namespace'>Please select</label>
+			<label index='tx_musicview_pi2_tmpl_interface_search_methods'>Select a method: </label>
+			<label index='tx_musicview_pi2_tmpl_interface_search_submit'>Submit search</label>
+			
 			
 			<label index='tx_musicview_pi2_tmpl_method_title_artist'>Search for 'artists'</label>
 			<label index='tx_musicview_pi2_tmpl_method_title_tag'>Search for 'tags'</label>

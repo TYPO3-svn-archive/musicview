@@ -34,6 +34,13 @@ require_once (t3lib_extMgm::extPath('musicview').'xmlel/class.xmlel_base.php');
 class xmlel_image extends xmlel_base {
 
 	/**
+	 * The different image widths for small, medium and large pictures.
+	 * 
+	 * @var array
+	 */
+	protected $width;
+	
+	/**
 	 * Structure about the <image></image> node
 	 * 
 	 * Template marker to set:
@@ -51,6 +58,63 @@ class xmlel_image extends xmlel_base {
 	 */
 	public function __construct($domNode) {
 		parent::__construct($this->tagStruct, $domNode);
+		
+		$this->width = array(
+			'small' => 50,
+			'medium' => 130,
+			'large' => 300,
+		);
+	}
+	
+	/**
+	 * Get the content marker.
+	 *
+	 * @return The content marker
+	 * @author Christoph Gostner
+	 */
+	public function getContentMarker() {
+		$name = strtoupper($this->getName());
+		$name = '###'.$name.'_CONTENT###';
+
+		$markerArray = array();
+		$markerArray[$name] = $this->getContent();
+
+		return $markerArray;
+	}
+	
+	/**
+	 * Get the content of the object.
+	 *
+	 * @return The content of the object
+	 * @author Christoph Gostner
+	 */
+	public function getContent() {
+		$width = $this->getImageWidth();
+		$content = $this->content;
+		
+		if (strlen($content) > 0) {
+			return '<img width="' . $this->width[$width] . '" src="' . $content . '" />';
+		}
+		if (is_file(t3lib_extMgm::extRelPath('musicview') . 'res/img/'. $width .'.gif')) {
+			return '<img width="' . $this->width[$width] . '" src="' . t3lib_extMgm::extRelPath('musicview') . 'res/img/'. $width .'.gif' . '" />';
+		}
+		
+		return '<img width="' . $this->width[$width] . '" src="' . t3lib_extMgm::extRelPath('musicview') . 'res/img/small.gif' . '" />';
+	}
+	
+	/**
+	 * The method returns the image size if it's set.
+	 * It the size isn't set, it returns a 'small' as default value.
+	 * 
+	 * @return The image's size 
+	 * @author Christoph Gostner
+	 */
+	protected function getImageWidth() {
+		$size = $this->getAttribute('size');
+		if (array_key_exists($size, $this->width)) {
+			return $size;
+		}
+		return 'small';
 	}
 }
 
