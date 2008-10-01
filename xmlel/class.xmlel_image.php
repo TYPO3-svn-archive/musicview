@@ -95,11 +95,11 @@ class xmlel_image extends xmlel_base {
 		if (strlen($content) > 0) {
 			return '<img width="' . $this->width[$width] . '" src="' . $content . '" />';
 		}
-		if (is_file(t3lib_extMgm::extRelPath('musicview') . 'res/img/'. $width .'.gif')) {
-			return '<img width="' . $this->width[$width] . '" src="' . t3lib_extMgm::extRelPath('musicview') . 'res/img/'. $width .'.gif' . '" />';
+		if (is_file(t3lib_extMgm::siteRelPath('musicview') . 'res/img/'. $width .'.gif')) {
+			return '<img width="' . $this->width[$width] . '" src="' . t3lib_extMgm::siteRelPath('musicview') . 'res/img/'. $width .'.gif' . '" />';
 		}
 		
-		return '<img width="' . $this->width[$width] . '" src="' . t3lib_extMgm::extRelPath('musicview') . 'res/img/small.gif' . '" />';
+		return '<img width="' . $this->width[$width] . '" src="' . t3lib_extMgm::siteRelPath('musicview') . 'res/img/small.gif' . '" />';
 	}
 	
 	/**
