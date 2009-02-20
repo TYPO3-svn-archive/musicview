@@ -38,17 +38,17 @@ abstract class tx_musicview_base extends tslib_pibase {
 	var $extKey        = 'musicview';	// The extension key.
 	var $pi_checkCHash = true;
 	var $piFlexForm;
-	
+
 	/**
 	 * The base URL for the requests
-	 * 
+	 *
 	 * @var string
 	 */
 	private $last_fm_req_base = 'http://ws.audioscrobbler.com/2.0/';
 	/**
 	 * This array configurates all the methods and it's parameters for
-	 * the last.fm API. 
-	 * 
+	 * the last.fm API.
+	 *
 	 * @var array
 	 */
 	protected $last_fm_api = array(
@@ -62,7 +62,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###album.*### end */
-			
+
 			/* ###artist.*### begin */
 			'artist' => array(
 				'artist' => array(
@@ -77,7 +77,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###artist.*### end */
-			
+
 			/* ###event.*### begin */
 			'event' => array(
 				'api_key' => array(
@@ -92,7 +92,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###event.*### end */
-			
+
 			/* ###geo.*### begin */
 			'geo' => array(
 				'api_key' => array(
@@ -102,7 +102,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###geo.*### end */
-			
+
 			/* ###group.*### begin */
 			'group' => array(
 				'group' => array(
@@ -117,7 +117,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###group.*### end */
-			
+
 			/* ###library.*### begin */
 			'library' => array(
 				'user' => array(
@@ -132,7 +132,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###library.*### end */
-			
+
 			/* ###playlist.*### begin */
 			'playlist' => array(
 				'api_key' => array(
@@ -142,7 +142,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###playlist.*### end */
-			
+
 			/* ###tag.*### begin */
 			'tag' => array(
 				'api_key' => array(
@@ -152,7 +152,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###tag.*### end */
-			
+
 			/* ###tasteometer.*### begin */
 			'tasteometer' => array(
 				'api_key' => array(
@@ -162,7 +162,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###tasteometer.*### end */
-			
+
 			/* ###track.*### begin */
 			'track' => array(
 				'api_key' => array(
@@ -172,7 +172,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 				),
 			),
 			/* ###track.*### end */
-			
+
 			/* ###user.*### begin */
 			'user' => array(
 				'user' => array(
@@ -208,7 +208,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 			),
 		),
 		/* ###album.*### end */
-				
+
 		/* ###artist.*### start */
 		'artist.getEvents' => array(
 		),
@@ -247,15 +247,15 @@ abstract class tx_musicview_base extends tslib_pibase {
 			),
 		),
 		/* ###artist.*### end */
-		
+
 		/* ###auth.*### start */
 		/* ###auth.*### end */
-				
+
 		/* ###event.*### start */
 		'event.getInfo' => array(
 		),
 		/* ###event.*### end */
-				
+
 		/* ###geo.*### start */
 		'geo.getEvents' => array(
 			'location' => array(
@@ -304,7 +304,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 			),
 		),
 		/* ###geo.*### end */
-				
+
 		/* ###group.*### start */
 		'group.getWeeklyAlbumChart' => array(
 			'from' => array(
@@ -356,8 +356,8 @@ abstract class tx_musicview_base extends tslib_pibase {
 				'frmt' => 'user_musicview_modifyDate->format',
 			),
 		),
-		/* ###group.*### end */		
-				
+		/* ###group.*### end */
+
 		/* ###library.*### start */
 		'library.getAlbums' => array(
 			'limit' => array(
@@ -396,7 +396,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 			),
 		),
 		/* ###library.*### end */
-		
+
 		/* ###playlist.*### start */
 		'playlist.fetch' => array(
 			'playlistURL' => array(
@@ -406,7 +406,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 			),
 		),
 		/* ###playlist.*### end */
-		
+
 		/* ###tag.*### start */
 		'tag.getSimilar' => array(
 			'tag' => array(
@@ -456,7 +456,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 			),
 		),
 		/* ###tag.*### end */
-				
+
 		/* ###tasteometer.*### start */
 		'tasteometer.compare' => array(
 			'type1' => array(
@@ -486,7 +486,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 			),
 		),
 		/* ###tasteometer.*### end */
-				
+
 		/* ###track.*### start */
 		'track.getInfo' => array(
 			'track' => array(
@@ -579,7 +579,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 			),
 		),
 		/* ###track.*### end */
-		
+
 		/* ###user.*### start */
 		'user.getEvents' => array(
 		),
@@ -705,7 +705,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 		),
 		/* ###user.*### end */
 	);
-	
+
 	/**
 	 * Set the flexform object.
 	 */
@@ -714,10 +714,10 @@ abstract class tx_musicview_base extends tslib_pibase {
 		$this->pi_setPiVarDefaults();
 		$this->pi_loadLL();
 		$this->pi_initPIflexForm();
-		
+
 		$this->piFlexForm = $this->cObj->data['pi_flexform'];
 	}
-	
+
 	/**
 	 * Create the request url and do the request. Return the
 	 * dom document with the result.
@@ -731,7 +731,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 	public function doRequest($method, $param = array()) {
 		$reqLink = $this->createRequestLink($method, $param);
 		if ($this->conf['debugURL']) {
-			t3lib_div::debug(array($method => $reqLink));
+			t3lib_div::debug(array($method => $reqLink), 'Request URL');
 		}
 		if ($this->conf['localXML']) {
 			$reqLink = t3lib_extMgm::extPath('musicview') . '/examples/'.$method.'.xml';
@@ -741,7 +741,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 
 		return $dom;
 	}
-	
+
 	/**
 	 * Work on the request result.
 	 * First read the result in the xmlel data structure, then call the userFunc
@@ -755,7 +755,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 	 */
 	public function workOnRequestResult($dom, $method) {
 		/*DOMNodeList*/$domNodeList = $dom->getElementsByTagName(xmlel_lfm::XMLEL_NAME);
-		
+
 		if ($domNodeList->length == 1) {
 			$content = '';
 			$xmlel_lfm = xmlel_lfm::lfmFactory($domNodeList);
@@ -763,7 +763,7 @@ abstract class tx_musicview_base extends tslib_pibase {
 			if ($xmlel_lfm->checkStatus()) { // ok
 				$lConf = $this->getRequestConf($method);
 				$childKeys = $xmlel_lfm->getChildKeys();
-				
+
 				foreach ($childKeys as $childKey) {
 					$childArr = $xmlel_lfm->getChild($childKey);
 					foreach ($childArr as $childObj) {
@@ -845,10 +845,10 @@ abstract class tx_musicview_base extends tslib_pibase {
 		);
 		return $markerArray;
 	}
-	
+
 	/**
 	 * Check if the parameters for the method are valid.
-	 * 
+	 *
 	 * @param	string	$method: The method to check
 	 * @param 	array	$params: The parameters to check
 	 * @return If method and parameters match an entry in the $last_fm_api array
@@ -856,22 +856,22 @@ abstract class tx_musicview_base extends tslib_pibase {
 	public function checkMethodParams($method, $params) {
 		$m_params = $this->getMethodParams($method);
 		if (!is_null($m_params) && is_array($params)) {
-			
+
 			foreach ($params as $key => $value) {
 				if (!array_key_exists($key, $m_params) || is_null($value) || strlen($value) == 0) {
-					return false; 
+					return false;
 				}
 			}
 			return true;
 		}
 		return false;
 	}
-	
+
 	/************************* ###USERFUNC_HELP### end ****************************/
-	
+
 	/************************* ###USERFUNC### begin *******************************/
 
-	
+
 	/**
 	 * Create the request url to get the information from last.fm.
 	 *
@@ -883,14 +883,14 @@ abstract class tx_musicview_base extends tslib_pibase {
 		$defaultParams = $this->getDefaultConf($method);
 		$methodParams = $this->getMethodParams($method);
 		$requestParams = $this->overwriteParams(array_merge($defaultParams, $methodParams), $params);
-		
+
 		$url = $this->last_fm_req_base . '?method=' . $method;
 		foreach ($requestParams as $key => $value) {
 			$url .= '&' . $key . '=' . $value;
 		}
 		return $url;
 	}
-	
+
 	/**
 	 * Method to extract the required arguments for a certain method.
 	 *
@@ -900,13 +900,13 @@ abstract class tx_musicview_base extends tslib_pibase {
 	protected function getDefaultConf($method) {
 		$key = substr($method, 0, strpos($method, '.'));
 		$a = $this->last_fm_api['_DEFAULT'][$key];
-		
+
 		return $a;
 	}
-	
+
 	/**
 	 * Get the parameters for the method.
-	 * 
+	 *
 	 * @param string $method The name of the method to build
 	 * @return The parameters for the request url
 	 * @author Christoph Gostner
@@ -918,17 +918,17 @@ abstract class tx_musicview_base extends tslib_pibase {
 		/* we return an empty array to prevent errors */
 		return array();
 	}
-	
-	/** 
-	 * Overwrite some values in the method's argument array. 
-	 * The method overwrites only values that aren't marked as required 
+
+	/**
+	 * Overwrite some values in the method's argument array.
+	 * The method overwrites only values that aren't marked as required
 	 * in the configuration array.
-	 * 
+	 *
 	 * @param array $methodParams The original array with the values
 	 * @param array $overwriteParams The new values to use
 	 * @return The array with the new method's argument
 	 * @author Christoph Gostner
-	 */ 
+	 */
 	protected function overwriteParams($methodParams, $overwriteParams) {
 		$arr = array();
 		foreach ($methodParams as $key => $paramLocation) {
@@ -936,13 +936,13 @@ abstract class tx_musicview_base extends tslib_pibase {
 			$flexKey = $paramLocation['key'];
 			$flexReq = $paramLocation['req'];
 			$flexFrmt = $paramLocation['frmt'];
-			
+
 			if (!$flexReq && (is_array($overwriteParams) && array_key_exists($key, $overwriteParams))) {
 				$value = $overwriteParams[$key];
 			} else {
 				$value = $this->getFlexFormValue($flexSheet, $flexKey);
 			}
-			
+
 			if ($flexReq || (!is_null($value) && ($value > 0 || (is_string($value) && strlen($value) > 0)))) {
 			# if ($flexReq || (!is_null($value) && $value > 0)) {
 				if (isset($paramLocation['frmt'])) {
@@ -967,9 +967,9 @@ abstract class tx_musicview_base extends tslib_pibase {
 		return $this->pi_getFFvalue($this->piFlexForm, $key, $sheet);
 	}
 }
- 
+
 if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/class.tx_musicview_base.php'])    {
 	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/musicview/class.tx_musicview_base.php']);
 }
- 
+
 ?>

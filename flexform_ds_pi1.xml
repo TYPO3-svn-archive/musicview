@@ -313,6 +313,7 @@
 							</config>
 						</TCEforms>
 					</album.getInfo_mbid>
+					<!-- TODO: property=lang -->
 				</el>
 			</ROOT>
 		</sheet_album_api>
